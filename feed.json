@@ -1,0 +1,26 @@
+{
+	"version": "https://jsonfeed.org/version/1",
+	"title": "Marcantonio Rendino",
+	"icon": "https://micro.blog/mvr/avatar.jpg",
+	"home_page_url": "https://mvr.micro.blog/",
+	"feed_url": "https://mvr.micro.blog/feed.json",
+	"items": [
+		
+			{
+				"id": "http://mvr.micro.blog/2021/10/29/rodger-malcolm-mitchell.html",
+				
+				"content_html": "<p>Rodger Malcolm Mitchell writes about several things - eloquently - including the recent passing of his wife:</p>\n\n<p><a href=\"https://mythfighter.com/2021/10/28/how-to-recover-from-loss-and-the-unforgivable-waste-of-performance-mourning/\">mythfighter.com/2021/10/2&hellip;</a></p>\n",
+				"content_text": "Rodger Malcolm Mitchell writes about several things - eloquently - including the recent passing of his wife:\r\n\r\n[mythfighter.com/2021/10/2...](https://mythfighter.com/2021/10/28/how-to-recover-from-loss-and-the-unforgivable-waste-of-performance-mourning/)\n",
+				"date_published": "2021-10-29T18:33:59-04:00",
+				"url": "https://mvr.micro.blog/2021/10/29/rodger-malcolm-mitchell.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2021/10/18/oh-it-actually.html",
+				"title": "blogging redux",
+				"content_html": "<p>Oh… It actually feels good to pay for blogging services with a few bucks - rather than my immortal soul.</p>\n",
+				"content_text": "Oh… It actually feels good to pay for blogging services with a few bucks - rather than my immortal soul.\n",
+				"date_published": "2021-10-18T17:07:00-04:00",
+				"url": "https://mvr.micro.blog/2021/10/18/oh-it-actually.html"
+			}
+	]
+}
