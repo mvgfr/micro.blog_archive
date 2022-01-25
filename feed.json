@@ -7,6 +7,48 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/01/25/maitri.html",
+				
+				"content_html": "<p>maitri</p>\n",
+				"content_text": "maitri\n",
+				"date_published": "2022-01-25T08:44:18-05:00",
+				"url": "https://mvr.micro.blog/2022/01/25/maitri.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/01/18/spare-a-thought.html",
+				
+				"content_html": "<p>spare a thought - or $ if you can - for some good folks who need help: <a href=\"https://www.gofundme.com/f/help-baby-adrian-while-so-far-from-home\">www.gofundme.com/f/help-ba&hellip;</a></p>\n",
+				"content_text": "spare a thought - or $ if you can - for some good folks who need help: [www.gofundme.com/f/help-ba...](https://www.gofundme.com/f/help-baby-adrian-while-so-far-from-home)\n",
+				"date_published": "2022-01-18T13:21:29-05:00",
+				"url": "https://mvr.micro.blog/2022/01/18/spare-a-thought.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/01/18/my-black-mug.html",
+				
+				"content_html": "<p>my black mug shot #blackmugshots #blackmugshot</p>\n\n<ul>\n<li><a href=\"https://duckduckgo.com/?q=black+mug+shots\">WTF</a></li>\n<li><a href=\"http://www.blackmugshots.com/\">change the conversation</a></li>\n</ul>\n\n<p><img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" /></p>\n",
+				"content_text": "my black mug shot #blackmugshots #blackmugshot\r\n\r\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\r\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
+				"date_published": "2022-01-18T13:13:44-05:00",
+				"url": "https://mvr.micro.blog/2022/01/18/my-black-mug.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/01/17/quick-way-to.html",
+				
+				"content_html": "<p>quick way to get notified that your <em>other</em> Mac (maybe a server?) has some software updates available: <a href=\"https://github.com/mvgfr/utils_mvr/blob/main/swupd_remote_check.sh\">swupd_remote_check.sh</a></p>\n",
+				"content_text": "quick way to get notified that your _other_ Mac (maybe a server?) has some software updates available: [swupd\\_remote\\_check.sh](https://github.com/mvgfr/utils_mvr/blob/main/swupd_remote_check.sh)\n",
+				"date_published": "2022-01-17T17:32:00-05:00",
+				"url": "https://mvr.micro.blog/2022/01/17/quick-way-to.html",
+				"tags": ["tech","Mac","UNIX  Linux"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/01/17/safety-tip-for.html",
+				
+				"content_html": "<p>safety tip, for whenever you pull out your computer to do &lt;whatever&gt;:\nALWAYS do that FIRST - the other stuff clamoring for your attention will happily continue reminding you, AFTER you’re done.\nYOUR intentions are more important - especially since there’s nothing reminding you about that.</p>\n",
+				"content_text": "safety tip, for whenever you pull out your computer to do \\<whatever\\>:\nALWAYS do that FIRST - the other stuff clamoring for your attention will happily continue reminding you, AFTER you’re done.\nYOUR intentions are more important - especially since there’s nothing reminding you about that.\n",
+				"date_published": "2022-01-17T08:43:00-05:00",
+				"url": "https://mvr.micro.blog/2022/01/17/safety-tip-for.html",
+				"tags": ["tech"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/01/15/a-hack-to.html",
 				"title": "A Hack to Index Notes, for Quicksilver",
 				"content_html": "\n\n<p>First: A few presumptions; <em>this is a hack</em>:</p>\n\n<ul>\n<li>You have at least some grasp of operating at the (Mac) command-line; ex: in <a href=\"https://en.wikipedia.org/wiki/Terminal_(macOS)\">Terminal</a>.\n\n<ul>\n<li>For instance: <code>~</code> (tilde) is an abbreviation is for <em>your</em> homedir.</li>\n</ul></li>\n<li>You know what <a href=\"https://qsapp.com/\">Quicksilver</a> is.\n\n<ul>\n<li>(Yes; Far as I know, it&rsquo;s Mac only.)</li>\n</ul></li>\n<li>Debugging your setup is up to you; at the moment, I have <em>extremely</em> limited availability to help.\n\n<ul>\n<li>Feel free to drop a note; on the off chance it&rsquo;s possible, I will try to help.</li>\n</ul></li>\n</ul>\n\n<h2 id=\"how-to-set-it-up\">How to set it up</h2>\n\n<ol>\n<li>A (bash) script to list the Titles of your Notes:\n\n<ul>\n<li>The code is in separate section below.</li>\n<li>Save the script to <code>~/dump-note-titles.sh</code>.</li>\n\n<li><p><a href=\"https://en.wikipedia.org/wiki/Chmod\"><code>chmod</code></a> it, to be executable:</p>\n\n<pre><code>chmod u+x ~/dump-note-titles.sh\n</code></pre></li>\n\n<li><p>Run it once, to seed the output file:</p>\n\n<pre><code>~/dump-note-titles.sh\n</code></pre></li>\n\n<li><p>Open the <code>~/titles-from-notes-app.txt</code> file which it generated.</p>\n\n<ul>\n<li>It should have a list of the Titles of your Notes.</li>\n</ul></li>\n</ul></li>\n<li>Keep this <em>up-to-date</em>, via <a href=\"https://en.wikipedia.org/wiki/Cron\">cron</a>:\n\n<ul>\n<li><p>Edit your crontab:</p>\n\n<pre><code>crontab -e\n</code></pre></li>\n\n<li><p>Add a line like this:</p>\n\n<pre><code>48  *  *  *  *   ~/dump-note-titles.sh\n</code></pre></li>\n\n<li><p>Yes; <a href=\"https://duckduckgo.com/?q=how+to+debug+a+cron+job&amp;ia=web\">cron can be a bear to debug</a>. :/</p></li>\n</ul></li>\n<li>Config QuickSilver to use this new &ldquo;index&rdquo;:\n\n<ul>\n<li>Add a Catalog entry, using <code>File &amp; Folder Scanner</code>.</li>\n<li>For the Path, select the <code>~/titles-from-notes-app.txt</code> file generated by the script above.</li>\n<li>For the Include Contents setting, select <code>Text Lines</code>.</li>\n</ul></li>\n<li>Config a new Quicksilver Action, to open Notes by title:\n\n<ul>\n<li>Open <a href=\"https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/GettoKnowScriptEditor.html#//apple_ref/doc/uid/TP40016239-CH5-SW1\"><code>Script Editor.app</code></a>.</li>\n<li>Paste the code in - see the separate section below.</li>\n<li>Save it, as <code>open note by title.scpt</code> (<code>File format: Script</code>), to your Quicksilver Actions directory.\n\n<ul>\n<li>Which is usually here: <code>~/Library/Application Support/Quicksilver/Actions/</code>.</li>\n</ul></li>\n</ul></li>\n</ol>\n\n<h2 id=\"how-to-use\">How to use</h2>\n\n<ul>\n<li>Fire up Quicksilver.</li>\n<li>Start typing some substring of a Note Title.</li>\n<li>Select the Title you want from the results.</li>\n<li>Select <code>open note by title</code> as the action.</li>\n</ul>\n\n<h3 id=\"bash-script-dump-note-titles-sh\">bash Script <code>~/dump-note-titles.sh</code></h3>\n\n<pre><code>#!/bin/bash\nosascript \\\n    -e 'set outFilePath to (((path to home folder) as text) &amp; &quot;titles-from-notes-app.txt&quot;)' \\\n    -e 'tell application &quot;Notes&quot;' \\\n    -e     'set nameList to name of every note' \\\n    -e 'end tell' \\\n    -e 'set outFile to open for access file outFilePath with write permission' \\\n    -e 'repeat with theName in nameList' \\\n    -e     'write theName &amp; return to outFile as «class utf8»' \\\n    -e 'end repeat' \\\n    -e 'close access outFile' \\\n</code></pre>\n\n<h3 id=\"applescript-open-note-by-title-scpt\">Applescript <code>open note by title.scpt</code></h3>\n\n<pre><code>using terms from application &quot;Quicksilver&quot;\n    on process text ThisClipping\n        tell application &quot;Notes&quot;\n            show note ThisClipping\n    end process text\nend using terms from\n</code></pre>\n\n<p>(Yes; I do intend to put this in a repo, where it belongs.)</p>\n",
@@ -67,7 +109,7 @@
 				"content_text": "Some of my favorite authors:\n\n- [Vonda N. McIntyre](https://vondanmcintyre.net/bibliography/) - `Dreamsnake` is simply beautiful; such a joy to read something from a woman's point of view - and so powerful.\n- [Roger Zelazny](https://en.wikipedia.org/wiki/Roger_Zelazny_bibliography) - thanks to my sister, for introducing me to `Lord of Light`, which is right up my alley.\n- [KB Spangler](https://kbspangler.com/) - if you haven't read the webcomic [A Girl and Her Fed](http://www.agirlandherfed.com/), go read it now, from the begining - terrific writing (and I love her early, simple art).\n- [Michael Flynn](https://en.wikipedia.org/wiki/Michael_Flynn_bibliography) - `The Wreck of the River of Stars` is such a great read, and so _very_ well crafted.\n- [Richard Kadrey](https://www.richardkadrey.com/) - `Butcher Bird` is my favorite - so far. Fun, funny, touching - and skilled writing.\n- [Jeff VanDerMeer](https://www.jeffvandermeer.com/) - `Dead Astronauts` was… astounding; what a trip!\n- [Robert Reed](https://en.wikipedia.org/wiki/Robert_Reed_(author)) - what grabbed me was `Baby’s Fire` from an old Asimov's: hard sci-fi and _well_ worth the effort to try to keep up. It later became `Sister Alice`, which took the characters - and the reader - even farther.\n- [N. K. Jemisin](https://nkjemisin.com) - it all started from a tweet where I made an incorrect guess as to who wrote a quote I'd appreciated. It was N. K. Jemisin, so I started with `The Inheritance Trilogy Omnibus`: brilliant - and again: terrific, strong female characters. (BTW: It's 1,442 pages - and I _love_ a book where I get to live with the characters a decent while.)\n",
 				"date_published": "2022-01-13T15:24:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/some-of-my.html",
-				"tags": ["fiction"]
+				"tags": ["books"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/gtd-my-intro.html",
@@ -90,8 +132,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				
-				"content_html": "<p>in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms</p>\n\n<p>(photo credit to my amazing wife :)</p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" /></p>\n",
-				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"https://mvr.micro.blog/uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
+				"content_html": "<p>in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms</p>\n\n<p>(photo credit to my amazing wife :)</p>\n\n<p><img src=\"uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" /></p>\n",
+				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
 				"date_published": "2022-01-13T14:06:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				"tags": ["natural world"]
@@ -139,7 +181,7 @@
 				"content_text": "Here's a shocker (not):  \nJohn McClaughry is completely wrong - again:  \n\"Who pays for these expensive liberal pipe dreams\"  \nshould instead be: \"We're ALL (\\*) paying, every single day - when will we invest in actual solutions?\"  \n\n(\\* \"ALL\" of course refers to everyone excepy McLaughry and other \"conervatives\" and \"libertarians\", who manage to foist most of the cost of their privilege, on the rest of us.)\n\n[vtdigger.org/2022/01/0...](https://vtdigger.org/2022/01/02/john-mcclaughry-a-big-question-about-tomorrows-energy-plan-who-pays/)\n",
 				"date_published": "2022-01-03T17:44:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/03/heres-a-shocker.html",
-				"tags": ["vermont","climate change"]
+				"tags": ["Vermont","climate change"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2021/12/31/btw-here-are.html",
