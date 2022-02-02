@@ -7,12 +7,31 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/01/29/as-usual-wiley.html",
+				
+				"content_html": "<p>as usual, <a href=\"https://www.gocomics.com/nonsequitur/2022/01/28\">Wiley nails it</a></p>\n\n<p>btw, and not sure if it&rsquo;s intentional: some of us, are just &ldquo;them&rdquo; :/</p>\n",
+				"content_text": "as usual, [Wiley nails it](https://www.gocomics.com/nonsequitur/2022/01/28)\n\nbtw, and not sure if it's intentional: some of us, are just \"them\" :/\n",
+				"date_published": "2022-01-29T16:37:00-05:00",
+				"url": "https://mvr.micro.blog/2022/01/29/as-usual-wiley.html",
+				"tags": ["politics"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/01/29/of-course-it.html",
+				
+				"content_html": "<p><a href=\"https://www.smbc-comics.com/comic/uncertainty\">of course it is ;)</a></p>\n",
+				"content_text": "[of course it is ;)](https://www.smbc-comics.com/comic/uncertainty)\n",
+				"date_published": "2022-01-29T16:35:00-05:00",
+				"url": "https://mvr.micro.blog/2022/01/29/of-course-it.html",
+				"tags": ["tech"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/01/25/maitri.html",
 				
 				"content_html": "<p>maitri</p>\n",
 				"content_text": "maitri\n",
-				"date_published": "2022-01-25T08:44:18-05:00",
-				"url": "https://mvr.micro.blog/2022/01/25/maitri.html"
+				"date_published": "2022-01-25T08:44:00-05:00",
+				"url": "https://mvr.micro.blog/2022/01/25/maitri.html",
+				"tags": ["health"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/18/spare-a-thought.html",
@@ -26,9 +45,10 @@
 				"id": "http://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				
 				"content_html": "<p>my black mug shot #blackmugshots #blackmugshot</p>\n\n<ul>\n<li><a href=\"https://duckduckgo.com/?q=black+mug+shots\">WTF</a></li>\n<li><a href=\"http://www.blackmugshots.com/\">change the conversation</a></li>\n</ul>\n\n<p><img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" /></p>\n",
-				"content_text": "my black mug shot #blackmugshots #blackmugshot\r\n\r\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\r\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
-				"date_published": "2022-01-18T13:13:44-05:00",
-				"url": "https://mvr.micro.blog/2022/01/18/my-black-mug.html"
+				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
+				"date_published": "2022-01-18T13:13:00-05:00",
+				"url": "https://mvr.micro.blog/2022/01/18/my-black-mug.html",
+				"tags": ["politics"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/17/quick-way-to.html",
