@@ -7,12 +7,49 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/02/18/oh-for-the.html",
+				
+				"content_html": "<p>Oh for the love of… <a href=\"https://www.techradar.com/news/zoom-on-mac-may-be-recording-you-even-when-youre-not-using-it\">Zoom on Mac may be recording you even when you&rsquo;re not using it</a>. How many &ldquo;oops&rdquo; does one org get?!</p>\n",
+				"content_text": "Oh for the love of… [Zoom on Mac may be recording you even when you're not using it](https://www.techradar.com/news/zoom-on-mac-may-be-recording-you-even-when-youre-not-using-it). How many \"oops\" does one org get?!\n",
+				"date_published": "2022-02-18T17:36:06-05:00",
+				"url": "https://mvr.micro.blog/2022/02/18/oh-for-the.html",
+				"tags": ["tech","Mac"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/02/16/poor-form-folks.html",
+				
+				"content_html": "<p>Poor form, folks - from the <a href=\"https://www.theladders.com/corporate/privacy\">Ladders Privacy Policy</a></p>\n\n<blockquote>\n<p>Our Services do not respond to Do Not Track signals.</p>\n</blockquote>\n\n<p>Sure; thanks for being honest - even better, to actually show some respect.</p>\n",
+				"content_text": "Poor form, folks - from the [Ladders Privacy Policy](https://www.theladders.com/corporate/privacy) \n\n> Our Services do not respond to Do Not Track signals.\n\nSure; thanks for being honest - even better, to actually show some respect.\n",
+				"date_published": "2022-02-16T09:41:00-05:00",
+				"url": "https://mvr.micro.blog/2022/02/16/poor-form-folks.html",
+				"tags": ["tech","security"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/02/16/a-terribly-trenchant.html",
+				
+				"content_html": "<p><a href=\"https://www.creators.com/read/mike-luckovich/02/22/320030\">a terribly trenchant summation of Trump and the Trump GOP</a></p>\n",
+				"content_text": "[a terribly trenchant summation of Trump and the Trump GOP](https://www.creators.com/read/mike-luckovich/02/22/320030)\n",
+				"date_published": "2022-02-16T08:34:00-05:00",
+				"url": "https://mvr.micro.blog/2022/02/16/a-terribly-trenchant.html",
+				"tags": ["politics"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/02/11/brava-gailcom-well.html",
+				
+				"content_html": "<p>brava, <a href=\"https://gail.com\">gail.com</a> - well done indeed</p>\n",
+				"content_text": "brava, [gail.com](https://gail.com) - well done indeed\n",
+				"date_published": "2022-02-11T11:46:00-05:00",
+				"url": "https://mvr.micro.blog/2022/02/11/brava-gailcom-well.html",
+				"tags": ["tech"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/02/09/finally-reading-dfws.html",
 				
-				"content_html": "<p>finally reading DFW’s “Infinite Jest” - and have had to employ a third bookmark — so far. lordy!</p>\n",
-				"content_text": "finally reading DFW’s “Infinite Jest” - and have had to employ a third bookmark — so far. lordy!\n",
-				"date_published": "2022-02-09T18:09:10-05:00",
-				"url": "https://mvr.micro.blog/2022/02/09/finally-reading-dfws.html"
+				"content_html": "<p>finally reading DFW’s (<a href=\"https://en.wikipedia.org/wiki/David_Foster_Wallace\">David Foster Wallce</a>) “<a href=\"https://en.wikipedia.org/wiki/Infinite_Jest\">Infinite Jest</a>” - and have had to employ a <em>third</em> bookmark — <em>so far</em>. lordy!</p>\n",
+				"content_text": "finally reading DFW’s ([David Foster Wallce](https://en.wikipedia.org/wiki/David_Foster_Wallace)) “[Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest)” - and have had to employ a _third_ bookmark — _so far_. lordy!\n",
+				"date_published": "2022-02-09T18:09:00-05:00",
+				"url": "https://mvr.micro.blog/2022/02/09/finally-reading-dfws.html",
+				"tags": ["books"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/29/as-usual-wiley.html",
@@ -21,7 +58,7 @@
 				"content_text": "as usual, [Wiley nails it](https://www.gocomics.com/nonsequitur/2022/01/28)\n\nbtw, and not sure if it's intentional: some of us, are just \"them\" :/\n",
 				"date_published": "2022-01-29T16:37:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/29/as-usual-wiley.html",
-				"tags": ["politics"]
+				"tags": ["politics","comics"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/29/of-course-it.html",
@@ -30,7 +67,7 @@
 				"content_text": "[of course it is ;)](https://www.smbc-comics.com/comic/uncertainty)\n",
 				"date_published": "2022-01-29T16:35:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/29/of-course-it.html",
-				"tags": ["tech"]
+				"tags": ["tech","comics"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/25/maitri.html",
@@ -52,8 +89,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				
-				"content_html": "<p>my black mug shot #blackmugshots #blackmugshot</p>\n\n<ul>\n<li><a href=\"https://duckduckgo.com/?q=black+mug+shots\">WTF</a></li>\n<li><a href=\"http://www.blackmugshots.com/\">change the conversation</a></li>\n</ul>\n\n<p><img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" /></p>\n",
-				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
+				"content_html": "<p>my black mug shot #blackmugshots #blackmugshot</p>\n\n<ul>\n<li><a href=\"https://duckduckgo.com/?q=black+mug+shots\">WTF</a></li>\n<li><a href=\"http://www.blackmugshots.com/\">change the conversation</a></li>\n</ul>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" /></p>\n",
+				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"https://mvr.micro.blog/uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
 				"date_published": "2022-01-18T13:13:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				"tags": ["politics"]
@@ -97,8 +134,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/good-illustration-of.html",
 				
-				"content_html": "<p>good illustration of the idea of &ldquo;security theater&rdquo; - all that counts, is the weakest link; and so many to choose from…</p>\n\n<p>(entry to &ldquo;reservoir&rdquo; near top of Main St in Burlington (VT) near UVM&rsquo;s Davis Ctr)</p>\n\n<p><img src=\"uploads/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" /></p>\n",
-				"content_text": "good illustration of the idea of \"security theater\" - all that counts, is the weakest link; and so many to choose from…\n\n(entry to \"reservoir\" near top of Main St in Burlington (VT) near UVM's Davis Ctr)\n\n<img src=\"uploads/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" />\n",
+				"content_html": "<p>good illustration of the idea of &ldquo;security theater&rdquo; - all that counts, is the weakest link; and so many to choose from…</p>\n\n<p>(entry to &ldquo;reservoir&rdquo; near top of Main St in Burlington (VT) near UVM&rsquo;s Davis Ctr)</p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" /></p>\n",
+				"content_text": "good illustration of the idea of \"security theater\" - all that counts, is the weakest link; and so many to choose from…\n\n(entry to \"reservoir\" near top of Main St in Burlington (VT) near UVM's Davis Ctr)\n\n<img src=\"https://mvr.micro.blog/uploads/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" />\n",
 				"date_published": "2022-01-13T17:29:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/good-illustration-of.html",
 				"tags": ["security"]
@@ -106,8 +143,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/such-a-bane.html",
 				
-				"content_html": "<p>burdock: such a bane - and such a beauty</p>\n\n<p><img src=\"uploads/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" /></p>\n",
-				"content_text": "burdock: such a bane - and such a beauty\n\n<img src=\"uploads/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" />\n",
+				"content_html": "<p>burdock: such a bane - and such a beauty</p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" /></p>\n",
+				"content_text": "burdock: such a bane - and such a beauty\n\n<img src=\"https://mvr.micro.blog/uploads/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" />\n",
 				"date_published": "2022-01-13T17:28:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/such-a-bane.html",
 				"tags": ["natural world","beauty"]
@@ -115,8 +152,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/thankful-to-be.html",
 				
-				"content_html": "<p>thankful to carry on some family history - and some of this equipment has been in use, <em>since the late 1800&rsquo;s</em></p>\n\n<p><img src=\"uploads/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" /></p>\n",
-				"content_text": "thankful to carry on some family history - and some of this equipment has been in use, _since the late 1800's_\n\n<img src=\"uploads/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" />\n",
+				"content_html": "<p>thankful to carry on some family history - and some of this equipment has been in use, <em>since the late 1800&rsquo;s</em></p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" /></p>\n",
+				"content_text": "thankful to carry on some family history - and some of this equipment has been in use, _since the late 1800's_\n\n<img src=\"https://mvr.micro.blog/uploads/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" />\n",
 				"date_published": "2022-01-13T17:28:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/thankful-to-be.html",
 				"tags": ["beauty","Italian","wine"]
@@ -124,8 +161,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/anybody-know-how.html",
 				
-				"content_html": "<p>anybody know <em>how</em> to ID if this is really &ldquo;lion&rsquo;s mane&rdquo;?</p>\n\n<p><img src=\"uploads/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" /></p>\n",
-				"content_text": "anybody know _how_ to ID if this is really \"lion's mane\"?\n\n<img src=\"uploads/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" />\n",
+				"content_html": "<p>anybody know <em>how</em> to ID if this is really &ldquo;lion&rsquo;s mane&rdquo;?</p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" /></p>\n",
+				"content_text": "anybody know _how_ to ID if this is really \"lion's mane\"?\n\n<img src=\"https://mvr.micro.blog/uploads/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" />\n",
 				"date_published": "2022-01-13T17:27:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/anybody-know-how.html",
 				"tags": ["natural world"]
@@ -160,8 +197,8 @@
 			{
 				"id": "http://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				
-				"content_html": "<p>in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms</p>\n\n<p>(photo credit to my amazing wife :)</p>\n\n<p><img src=\"uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" /></p>\n",
-				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
+				"content_html": "<p>in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms</p>\n\n<p>(photo credit to my amazing wife :)</p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" /></p>\n",
+				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"https://mvr.micro.blog/uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
 				"date_published": "2022-01-13T14:06:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				"tags": ["natural world"]
