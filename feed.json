@@ -7,12 +7,55 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/03/30/more-painful-evidence.html",
+				
+				"content_html": "<p>more painful evidence that many officials - yes; &ldquo;even&rdquo; in VT - are making decisions heavily weighted on political considerations vs. science (but ham-handedly abusing science, to justify): <a href=\"https://vtdigger.org/2022/03/30/a-vermont-school-district-reimposed-a-mask-mandate-the-states-top-education-official-urged-it-not-to/\">vtdigger.org/2022/03/3&hellip;</a></p>\n",
+				"content_text": "more painful evidence that many officials - yes; \"even\" in VT - are making decisions heavily weighted on political considerations vs. science (but ham-handedly abusing science, to justify): [vtdigger.org/2022/03/3...](https://vtdigger.org/2022/03/30/a-vermont-school-district-reimposed-a-mask-mandate-the-states-top-education-official-urged-it-not-to/)\n",
+				"date_published": "2022-03-30T20:57:18-04:00",
+				"url": "https://mvr.micro.blog/2022/03/30/more-painful-evidence.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/03/28/one-of-the.html",
+				
+				"content_html": "<p>One of the most reliably <em>wrong</em> voices in VT (yes; more than McClaughry) - full of short-sightedness &amp; GOP / Libertarian &ldquo;values&rdquo;</p>\n\n<p><a href=\"https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/\">vtdigger.org/2022/03/2&hellip;</a></p>\n",
+				"content_text": "One of the most reliably _wrong_ voices in VT (yes; more than McClaughry) - full of short-sightedness & GOP / Libertarian \"values\"\r\n\r\n[vtdigger.org/2022/03/2...](https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/)\n",
+				"date_published": "2022-03-28T07:52:53-04:00",
+				"url": "https://mvr.micro.blog/2022/03/28/one-of-the.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/03/27/spare-a-thought.html",
+				
+				"content_html": "<p>spare a thought for my family: our fourth hospice, and death, in the past six years</p>\n\n<p><a href=\"https://www.maharandsonfuneralhome.net/memorials/tommaso-rendino/4878181/index.php\">www.maharandsonfuneralhome.net/memorials&hellip;</a></p>\n",
+				"content_text": "spare a thought for my family: our fourth hospice, and death, in the past six years\r\n\r\n[www.maharandsonfuneralhome.net/memorials...](https://www.maharandsonfuneralhome.net/memorials/tommaso-rendino/4878181/index.php)\n",
+				"date_published": "2022-03-27T18:04:05-04:00",
+				"url": "https://mvr.micro.blog/2022/03/27/spare-a-thought.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/03/27/thus-far-only.html",
+				
+				"content_html": "<p>&ldquo;Thus far, only the state’s larger hospitals… have filed rate adjustment requests&rdquo;</p>\n\n<p>Oh; but &ldquo;economies of scale&rdquo;!</p>\n\n<p><a href=\"https://vtdigger.org/2022/03/27/smaller-vermont-hospitals-forgo-requests-for-service-rate-hikes%EF%BF%BC/\">vtdigger.org/2022/03/2&hellip;</a></p>\n",
+				"content_text": "\"Thus far, only the state’s larger hospitals… have filed rate adjustment requests\"\n\nOh; but \"economies of scale\"!\n\n[vtdigger.org/2022/03/2...](https://vtdigger.org/2022/03/27/smaller-vermont-hospitals-forgo-requests-for-service-rate-hikes%EF%BF%BC/)\n",
+				"date_published": "2022-03-27T18:01:00-04:00",
+				"url": "https://mvr.micro.blog/2022/03/27/thus-far-only.html",
+				"tags": ["Vermont","health"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/03/23/brilliant-explanation-of.html",
+				
+				"content_html": "<p>brilliant explanation of why - especially for some of us - it&rsquo;s hard to switch tasks: <a href=\"https://eisforerin.com/tag/adhd/\">eisforerin.com/tag/adhd/</a></p>\n",
+				"content_text": "brilliant explanation of why - especially for some of us - it's hard to switch tasks: [eisforerin.com/tag/adhd/](https://eisforerin.com/tag/adhd/)\n",
+				"date_published": "2022-03-23T08:56:00-04:00",
+				"url": "https://mvr.micro.blog/2022/03/23/brilliant-explanation-of.html",
+				"tags": ["health","comics"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/03/22/wow-the-new.html",
 				
 				"content_html": "<p>Wow; the new Spatial Audio feature (AirPods) is cool - though rather disorienting in some situations; here&rsquo;s how to control it: <a href=\"https://support.apple.com/guide/airpods/control-spatial-audio-and-head-tracking-dev00eb7e0a3/web\">support.apple.com/guide/air&hellip;</a></p>\n",
 				"content_text": "Wow; the new Spatial Audio feature (AirPods) is cool - though rather disorienting in some situations; here's how to control it: [support.apple.com/guide/air...](https://support.apple.com/guide/airpods/control-spatial-audio-and-head-tracking-dev00eb7e0a3/web)\n",
-				"date_published": "2022-03-22T15:44:06-04:00",
-				"url": "https://mvr.micro.blog/2022/03/22/wow-the-new.html"
+				"date_published": "2022-03-22T15:44:00-04:00",
+				"url": "https://mvr.micro.blog/2022/03/22/wow-the-new.html",
+				"tags": ["tech","Mac","iOS"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/03/11/bollings-brilliant-take.html",
