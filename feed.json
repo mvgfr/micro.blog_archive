@@ -7,20 +7,39 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html",
+				
+				"content_html": "<p>gods bless danzinger <a href=\"http://www.danzigercartoons.com/cartoons/spring-seed-catalogues\">www.danzigercartoons.com/cartoons/&hellip;</a></p>\n",
+				"content_text": "gods bless danzinger [www.danzigercartoons.com/cartoons/...](http://www.danzigercartoons.com/cartoons/spring-seed-catalogues)\n",
+				"date_published": "2022-04-12T17:44:10-04:00",
+				"url": "https://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/04/04/whoever-made-this.html",
+				
+				"content_html": "<p>whoever made this, gets 1,000 internet points</p>\n\n<p><img src=\"uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" /></p>\n",
+				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
+				"date_published": "2022-04-04T17:25:00-04:00",
+				"url": "https://mvr.micro.blog/2022/04/04/whoever-made-this.html",
+				"tags": ["health"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/03/30/more-painful-evidence.html",
 				
 				"content_html": "<p>more painful evidence that many officials - yes; &ldquo;even&rdquo; in VT - are making decisions heavily weighted on political considerations vs. science (but ham-handedly abusing science, to justify): <a href=\"https://vtdigger.org/2022/03/30/a-vermont-school-district-reimposed-a-mask-mandate-the-states-top-education-official-urged-it-not-to/\">vtdigger.org/2022/03/3&hellip;</a></p>\n",
 				"content_text": "more painful evidence that many officials - yes; \"even\" in VT - are making decisions heavily weighted on political considerations vs. science (but ham-handedly abusing science, to justify): [vtdigger.org/2022/03/3...](https://vtdigger.org/2022/03/30/a-vermont-school-district-reimposed-a-mask-mandate-the-states-top-education-official-urged-it-not-to/)\n",
-				"date_published": "2022-03-30T20:57:18-04:00",
-				"url": "https://mvr.micro.blog/2022/03/30/more-painful-evidence.html"
+				"date_published": "2022-03-30T20:57:00-04:00",
+				"url": "https://mvr.micro.blog/2022/03/30/more-painful-evidence.html",
+				"tags": ["politics","Vermont","health"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/03/28/one-of-the.html",
 				
 				"content_html": "<p>One of the most reliably <em>wrong</em> voices in VT (yes; more than McClaughry) - full of short-sightedness &amp; GOP / Libertarian &ldquo;values&rdquo;</p>\n\n<p><a href=\"https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/\">vtdigger.org/2022/03/2&hellip;</a></p>\n",
-				"content_text": "One of the most reliably _wrong_ voices in VT (yes; more than McClaughry) - full of short-sightedness & GOP / Libertarian \"values\"\r\n\r\n[vtdigger.org/2022/03/2...](https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/)\n",
-				"date_published": "2022-03-28T07:52:53-04:00",
-				"url": "https://mvr.micro.blog/2022/03/28/one-of-the.html"
+				"content_text": "One of the most reliably _wrong_ voices in VT (yes; more than McClaughry) - full of short-sightedness & GOP / Libertarian \"values\"\n\n[vtdigger.org/2022/03/2...](https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/)\n",
+				"date_published": "2022-03-28T07:52:00-04:00",
+				"url": "https://mvr.micro.blog/2022/03/28/one-of-the.html",
+				"tags": ["politics","Vermont","climate change"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/03/27/spare-a-thought.html",
