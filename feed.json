@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/04/18/timely-warning-from.html",
+				
+				"content_html": "<p>timely warning from Leah Elliot [a remix of a 2008 Scott McCloud] - what are you going to <em>do</em> about it?\n<a href=\"https://contrachrome.com\">contrachrome.com</a></p>\n",
+				"content_text": "timely warning from Leah Elliot [a remix of a 2008 Scott McCloud] - what are you going to _do_ about it?\n[contrachrome.com](https://contrachrome.com)\n",
+				"date_published": "2022-04-18T14:19:00-04:00",
+				"url": "https://mvr.micro.blog/2022/04/18/timely-warning-from.html",
+				"tags": ["tech","security","comics"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html",
 				
 				"content_html": "<p>gods bless danzinger <a href=\"http://www.danzigercartoons.com/cartoons/spring-seed-catalogues\">www.danzigercartoons.com/cartoons/&hellip;</a></p>\n",
