@@ -7,27 +7,55 @@
 	"items": [
 		
 			{
-				"id": "http://mvr.micro.blog/2022/04/18/timely-warning-from.html",
+				"id": "http://mvr.micro.blog/2022/05/14/we-will-not.html",
 				
-				"content_html": "<p>timely warning from Leah Elliot [a remix of a 2008 Scott McCloud] - what are you going to <em>do</em> about it?\n<a href=\"https://contrachrome.com\">contrachrome.com</a></p>\n",
-				"content_text": "timely warning from Leah Elliot [a remix of a 2008 Scott McCloud] - what are you going to _do_ about it?\n[contrachrome.com](https://contrachrome.com)\n",
-				"date_published": "2022-04-18T14:19:00-04:00",
-				"url": "https://mvr.micro.blog/2022/04/18/timely-warning-from.html",
-				"tags": ["tech","security","comics"]
+				"content_html": "<p>we will not be deterred! 😉<br />\n<a href=\"https://www.rutlandherald.com/opinion/commentary/danziger/image_9886f7aa-50e7-57b0-a54e-89bd28117873.html\">www.rutlandherald.com/opinion/c&hellip;</a><br />\n❤️</p>\n",
+				"content_text": "we will not be deterred! 😉  \n[www.rutlandherald.com/opinion/c...](https://www.rutlandherald.com/opinion/commentary/danziger/image_9886f7aa-50e7-57b0-a54e-89bd28117873.html)  \n❤️\n",
+				"date_published": "2022-05-14T07:57:00-04:00",
+				"url": "https://mvr.micro.blog/2022/05/14/we-will-not.html",
+				"tags": ["natural world","Vermont","health","comics"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/04/29/wiley-nails-it.html",
+				
+				"content_html": "<p>Wiley nails it<br />\n<a href=\"https://www.gocomics.com/nonsequitur/2022/04/29\">www.gocomics.com/nonsequit&hellip;</a></p>\n",
+				"content_text": "Wiley nails it  \n[www.gocomics.com/nonsequit...](https://www.gocomics.com/nonsequitur/2022/04/29)\n",
+				"date_published": "2022-04-29T08:00:00-04:00",
+				"url": "https://mvr.micro.blog/2022/04/29/wiley-nails-it.html",
+				"tags": ["politics","security","comics"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/04/25/leah-elliots-remix.html",
+				
+				"content_html": "<p>Leah Elliot&rsquo;s remix of Scott McCloud&rsquo;s 2008 discussion of Google Chrome - should be required reading for anyone using it. And the rest of us, too.<br />\n&ldquo;What are you going to <em>do</em> about it?&rdquo;\n<a href=\"https://contrachrome.com/comic/page01/\">contrachrome.com/comic/pag&hellip;</a></p>\n",
+				"content_text": "Leah Elliot's remix of Scott McCloud's 2008 discussion of Google Chrome - should be required reading for anyone using it. And the rest of us, too.  \n\"What are you going to _do_ about it?\"\n[contrachrome.com/comic/pag...](https://contrachrome.com/comic/page01/)\n",
+				"date_published": "2022-04-25T07:12:00-04:00",
+				"url": "https://mvr.micro.blog/2022/04/25/leah-elliots-remix.html",
+				"tags": ["politics","tech","security","comics"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/04/24/books-unbanned-thanks.html",
+				
+				"content_html": "<p>Books Unbanned - thanks to the Brooklyn Public Library 👏🏽</p>\n\n<p><a href=\"https://www.bklynlibrary.org/books-unbanned\">www.bklynlibrary.org/books-unb&hellip;</a></p>\n",
+				"content_text": "Books Unbanned - thanks to the Brooklyn Public Library 👏🏽\n\n[www.bklynlibrary.org/books-unb...](https://www.bklynlibrary.org/books-unbanned)\n",
+				"date_published": "2022-04-24T09:16:00-04:00",
+				"url": "https://mvr.micro.blog/2022/04/24/books-unbanned-thanks.html",
+				"tags": ["politics","books"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html",
 				
 				"content_html": "<p>gods bless danzinger <a href=\"http://www.danzigercartoons.com/cartoons/spring-seed-catalogues\">www.danzigercartoons.com/cartoons/&hellip;</a></p>\n",
 				"content_text": "gods bless danzinger [www.danzigercartoons.com/cartoons/...](http://www.danzigercartoons.com/cartoons/spring-seed-catalogues)\n",
-				"date_published": "2022-04-12T17:44:10-04:00",
-				"url": "https://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html"
+				"date_published": "2022-04-12T17:44:00-04:00",
+				"url": "https://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html",
+				"tags": ["natural world","Vermont","comics"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/04/04/whoever-made-this.html",
 				
-				"content_html": "<p>whoever made this, gets 1,000 internet points</p>\n\n<p><img src=\"uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" /></p>\n",
-				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
+				"content_html": "<p>whoever made this, gets 1,000 internet points</p>\n\n<p><img src=\"https://mvr.micro.blog/uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" /></p>\n",
+				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"https://mvr.micro.blog/uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
 				"date_published": "2022-04-04T17:25:00-04:00",
 				"url": "https://mvr.micro.blog/2022/04/04/whoever-made-this.html",
 				"tags": ["health"]
