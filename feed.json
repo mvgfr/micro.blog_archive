@@ -7,12 +7,31 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/06/05/well-said-and.html",
+				
+				"content_html": "<p>Well said - and they would know<br />\n<a href=\"https://vvfnd.org/wp-content/uploads/2022/06/VVF_NYT_20220602_2.pdf\">https://vvfnd.org/wp-content/uploads/2022/06/VVF_NYT_20220602_2.pdf</a></p>\n",
+				"content_text": "Well said - and they would know  \nhttps://vvfnd.org/wp-content/uploads/2022/06/VVF_NYT_20220602_2.pdf\n",
+				"date_published": "2022-06-05T12:37:50-04:00",
+				"url": "https://mvr.micro.blog/2022/06/05/well-said-and.html",
+				"tags": ["politics","security"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/06/05/russian-missiles-strike.html",
+				
+				"content_html": "<p>&ldquo;Russian missiles strike Kyiv, shattering sense of calm&rdquo;<br />\nBullshit - the only sense of calm, was for people with their heads in the sand, hoping that appeasement would spare any cost to them. Which - and we have overwhelming evidence - simply makes things worse.<br />\nThere is one way - only - to stop Putin. And that is to - wait for it - stop Putin.<br />\nThere&rsquo;s no way out by dialog only - the rest of the world must step up, and take <em>direct</em> ACTION.\n<a href=\"https://www.rutlandherald.com/news/business/russian-missiles-strike-kyiv-shattering-sense-of-calm/article_af7109a8-fba0-5101-96ac-c372186a74a2.html\">www.rutlandherald.com/news/busi&hellip;</a></p>\n",
+				"content_text": "\"Russian missiles strike Kyiv, shattering sense of calm\"  \nBullshit - the only sense of calm, was for people with their heads in the sand, hoping that appeasement would spare any cost to them. Which - and we have overwhelming evidence - simply makes things worse.  \nThere is one way - only - to stop Putin. And that is to - wait for it - stop Putin.  \nThere's no way out by dialog only - the rest of the world must step up, and take _direct_ ACTION.\n[www.rutlandherald.com/news/busi...](https://www.rutlandherald.com/news/business/russian-missiles-strike-kyiv-shattering-sense-of-calm/article_af7109a8-fba0-5101-96ac-c372186a74a2.html)\n",
+				"date_published": "2022-06-05T09:05:33-04:00",
+				"url": "https://mvr.micro.blog/2022/06/05/russian-missiles-strike.html",
+				"tags": ["politics","security"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/06/03/did-we-really.html",
 				
 				"content_html": "<p>did we really need more evidence that Elon is a terrible human being? really??\n&ldquo;demanding workers show up for at least 40 hours a week in the office or find another employer”<br />\n<a href=\"https://www.ft.com/content/f8da2592-ed67-4b87-b6d5-a0e1e4ac5a8f\">www.ft.com/content/f&hellip;</a></p>\n",
-				"content_text": "did we really need more evidence that Elon is a terrible human being? really?? \r\n\"demanding workers show up for at least 40 hours a week in the office or find another employer”  \r\n[www.ft.com/content/f...](https://www.ft.com/content/f8da2592-ed67-4b87-b6d5-a0e1e4ac5a8f)\n",
+				"content_text": "did we really need more evidence that Elon is a terrible human being? really?? \n\"demanding workers show up for at least 40 hours a week in the office or find another employer”  \n[www.ft.com/content/f...](https://www.ft.com/content/f8da2592-ed67-4b87-b6d5-a0e1e4ac5a8f)\n",
 				"date_published": "2022-06-03T17:34:43-04:00",
-				"url": "https://mvr.micro.blog/2022/06/03/did-we-really.html"
+				"url": "https://mvr.micro.blog/2022/06/03/did-we-really.html",
+				"tags": ["politics","tech","health"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/05/22/covid-tips.html",
