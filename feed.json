@@ -7,6 +7,23 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/09/28/wow-if-you.html",
+				
+				"content_html": "<p>Wow; if you haven&rsquo;t yet seen Lucky (with Harry Dean Stanton), it is a beautiful thing: <a href=\"https://www.imdb.com/title/tt5859238/\">www.imdb.com/title/tt5&hellip;</a></p>\n",
+				"content_text": "Wow; if you haven't yet seen Lucky (with Harry Dean Stanton), it is a beautiful thing: [www.imdb.com/title/tt5...](https://www.imdb.com/title/tt5859238/)\n",
+				"date_published": "2022-09-28T09:25:29-04:00",
+				"url": "https://mvr.micro.blog/2022/09/28/wow-if-you.html"
+			},
+			{
+				"id": "http://mvr.micro.blog/2022/09/14/alcaraz-insightful-as.html",
+				
+				"content_html": "<p>Alcaraz, on Lindsey Graham - insightful as ever: <a href=\"https://www.dailykos.com/stories/2022/9/8/2121616/-Cartoon-Special-master\">www.dailykos.com/stories/2&hellip;</a></p>\n",
+				"content_text": "Alcaraz, on Lindsey Graham - insightful as ever: [www.dailykos.com/stories/2...](https://www.dailykos.com/stories/2022/9/8/2121616/-Cartoon-Special-master)\n",
+				"date_published": "2022-09-14T11:47:03-04:00",
+				"url": "https://mvr.micro.blog/2022/09/14/alcaraz-insightful-as.html",
+				"tags": ["politics","comics"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/09/10/how-strange-i.html",
 				
 				"content_html": "<p>How strange: I just got a &ldquo;Magic Keyboard&rdquo; for my M1 MacBook Air - and its Globe key works (to show Character Viewer) &ndash; only when not in clamshell mode. It works in either mode, for other things like Dictation.</p>\n",
