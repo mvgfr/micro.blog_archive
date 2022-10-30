@@ -7,12 +7,21 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/10/30/wow-i-had.html",
+				
+				"content_html": "<p>wow; i had no idea how challenging it would be, to get <em>off</em> the treadmill. yet another learning experience.</p>\n",
+				"content_text": "wow; i had no idea how challenging it would be, to get _off_ the treadmill. yet another learning experience. \n",
+				"date_published": "2022-10-30T16:58:34-04:00",
+				"url": "https://mvr.micro.blog/2022/10/30/wow-i-had.html"
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/09/28/wow-if-you.html",
 				
 				"content_html": "<p>Wow; if you haven&rsquo;t yet seen Lucky (with Harry Dean Stanton), it is a beautiful thing: <a href=\"https://www.imdb.com/title/tt5859238/\">www.imdb.com/title/tt5&hellip;</a></p>\n",
 				"content_text": "Wow; if you haven't yet seen Lucky (with Harry Dean Stanton), it is a beautiful thing: [www.imdb.com/title/tt5...](https://www.imdb.com/title/tt5859238/)\n",
 				"date_published": "2022-09-28T09:25:29-04:00",
-				"url": "https://mvr.micro.blog/2022/09/28/wow-if-you.html"
+				"url": "https://mvr.micro.blog/2022/09/28/wow-if-you.html",
+				"tags": ["beauty"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/09/14/alcaraz-insightful-as.html",
