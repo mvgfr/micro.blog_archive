@@ -7,10 +7,18 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2022/12/16/i-started-a.html",
+				
+				"content_html": "<p>I started a Note, with lists of of word / term associations - <em>which make sense to <strong>me</strong></em>. Since Spotlight indexes Notes.app, the results come up in that context with everything else, so it&rsquo;s already started to help me find things more quickly. Might try to integrate with Quicksilver…</p>\n",
+				"content_text": "I started a Note, with lists of of word / term associations - _which make sense to **me**_. Since Spotlight indexes Notes.app, the results come up in that context with everything else, so it's already started to help me find things more quickly. Might try to integrate with Quicksilver…\n",
+				"date_published": "2022-12-16T12:08:31-05:00",
+				"url": "https://mvr.micro.blog/2022/12/16/i-started-a.html"
+			},
+			{
 				"id": "http://mvr.micro.blog/2022/11/10/covid-and-elevated.html",
 				"title": "COVID and elevated risk of blood clots, strokes or heart attacks",
-				"content_html": "<p>“If you’ve had covid, watch out for stroke symptoms: Given that most people have had Covid by now, everyone should be more vigilant about the early warning signs such as chest pain, unusual swelling, numbness or weakness, or sudden changes in balance, speech or vision.” [Washington Post] (with hat-tip to Violet Blue)</p>\n<p>I can tell you from <em>direct</em> experience: Do not waste a moment second-guessing; get to the hospital <strong>ASAP</strong>.</p>\n",
-				"content_text": "“If you’ve had covid, watch out for stroke symptoms: Given that most people have had Covid by now, everyone should be more vigilant about the early warning signs such as chest pain, unusual swelling, numbness or weakness, or sudden changes in balance, speech or vision.” [Washington Post] (with hat-tip to Violet Blue)\r\n\r\nI can tell you from _direct_ experience: Do not waste a moment second-guessing; get to the hospital **ASAP**.\n",
+				"content_html": "<p>“If you’ve had covid, watch out for stroke symptoms: Given that most people have had Covid by now, everyone should be more vigilant about the early warning signs such as chest pain, unusual swelling, numbness or weakness, or sudden changes in balance, speech or vision.” [Washington Post] (with hat-tip to Violet Blue)</p>\n<p>I can tell you from <em>direct</em> experience: Do not waste a moment second-guessing; if someone shows signs of stroke (memomnic acronym is FAST; look it up), get to the hospital <strong>ASAP</strong>.</p>\n",
+				"content_text": "“If you’ve had covid, watch out for stroke symptoms: Given that most people have had Covid by now, everyone should be more vigilant about the early warning signs such as chest pain, unusual swelling, numbness or weakness, or sudden changes in balance, speech or vision.” [Washington Post] (with hat-tip to Violet Blue)\n\nI can tell you from _direct_ experience: Do not waste a moment second-guessing; if someone shows signs of stroke (memomnic acronym is FAST; look it up), get to the hospital **ASAP**.\n",
 				"date_published": "2022-11-10T17:01:19-05:00",
 				"url": "https://mvr.micro.blog/2022/11/10/covid-and-elevated.html",
 				"tags": ["health"]
@@ -18,10 +26,11 @@
 			{
 				"id": "http://mvr.micro.blog/2022/11/07/vote-httpspbstwimgcommediafhauwnuucaarmiyjpg.html",
 				
-				"content_html": "<p>vote \n<a href=\"https://pbs.twimg.com/media/FhAUWnuUcAARmiy.jpg\">pbs.twimg.com/media/FhA&hellip;</a></p>\n",
-				"content_text": "vote \r\n[pbs.twimg.com/media/FhA...](https://pbs.twimg.com/media/FhAUWnuUcAARmiy.jpg)\r\n",
+				"content_html": "<p>vote\n<a href=\"https://pbs.twimg.com/media/FhAUWnuUcAARmiy.jpg\">pbs.twimg.com/media/FhA&hellip;</a></p>\n",
+				"content_text": "vote \n[pbs.twimg.com/media/FhA...](https://pbs.twimg.com/media/FhAUWnuUcAARmiy.jpg)\n",
 				"date_published": "2022-11-07T21:07:44-05:00",
-				"url": "https://mvr.micro.blog/2022/11/07/vote-httpspbstwimgcommediafhauwnuucaarmiyjpg.html"
+				"url": "https://mvr.micro.blog/2022/11/07/vote-httpspbstwimgcommediafhauwnuucaarmiyjpg.html",
+				"tags": ["politics"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/11/07/voting-as-fire.html",
@@ -29,7 +38,8 @@
 				"content_html": "<p>&ldquo;voting as fire extinguisher&rdquo;\n<a href=\"https://www.reddit.com/r/Poetry/comments/ynzdrd/poem_voting_as_fire_extinguisher_by_kyle_tran/\">https://www.reddit.com/r/Poetry/comments/ynzdrd/poem_voting_as_fire_extinguisher_by_kyle_tran/</a>\nfull poem, by kyle tran myhre: <a href=\"https://guante.info/2020/10/14/trickortreat/\">guante.info/2020/10/1&hellip;</a></p>\n",
 				"content_text": "\"voting as fire extinguisher\"\nhttps://www.reddit.com/r/Poetry/comments/ynzdrd/poem_voting_as_fire_extinguisher_by_kyle_tran/\nfull poem, by kyle tran myhre: [guante.info/2020/10/1...](https://guante.info/2020/10/14/trickortreat/)\n",
 				"date_published": "2022-11-07T12:12:02-05:00",
-				"url": "https://mvr.micro.blog/2022/11/07/voting-as-fire.html"
+				"url": "https://mvr.micro.blog/2022/11/07/voting-as-fire.html",
+				"tags": ["politics","beauty"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/11/05/if-youre-able.html",
