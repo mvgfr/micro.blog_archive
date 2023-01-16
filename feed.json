@@ -7,12 +7,40 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2023/01/16/the-macos-weather.html",
+				
+				"content_html": "<p>The macOS <em>Weather</em> app can notify for severe weather - it&rsquo;s Settings window, directed me to Settings &gt; Notifications &ndash; but Weather was mising. I stumbled on a solution: Open Notification Center &amp; open Weather from <em>there</em> - it immediately prompted to enable. (C&rsquo;mon Apple :/ .)</p>\n",
+				"content_text": "The macOS _Weather_ app can notify for severe weather - it's Settings window, directed me to Settings > Notifications -- but Weather was mising. I stumbled on a solution: Open Notification Center & open Weather from _there_ - it immediately prompted to enable. (C'mon Apple :/ .)\n",
+				"date_published": "2023-01-16T06:44:33-05:00",
+				"url": "https://mvr.micro.blog/2023/01/16/the-macos-weather.html",
+				"tags": ["tech","natural world","Mac","climate change"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/01/10/the-opmi-survey.html",
+				
+				"content_html": "<p>the OPMI survey is well worth a few minutes of your time - it might help you understand a bit about yourself &ndash; and others\n<a href=\"https://drj.virtualave.net/OMPI/\">drj.virtualave.net/OMPI/</a></p>\n",
+				"content_text": "the OPMI survey is well worth a few minutes of your time - it might help you understand a bit about yourself -- and others\n[drj.virtualave.net/OMPI/](https://drj.virtualave.net/OMPI/)\n",
+				"date_published": "2023-01-10T08:35:05-05:00",
+				"url": "https://mvr.micro.blog/2023/01/10/the-opmi-survey.html",
+				"tags": ["politics","people"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/01/10/check-out-the.html",
+				
+				"content_html": "<p>check out the &ldquo;Big Five&rdquo; (personality) survey - well worth a half hour\n<a href=\"https://www.personal.psu.edu/%7Ej5j/IPIP/\">www.personal.psu.edu/%7Ej5j/IP&hellip;</a></p>\n",
+				"content_text": "check out the \"Big Five\" (personality) survey - well worth a half hour\n[www.personal.psu.edu/%7Ej5j/IP...](https://www.personal.psu.edu/%7Ej5j/IPIP/)\n",
+				"date_published": "2023-01-10T08:30:50-05:00",
+				"url": "https://mvr.micro.blog/2023/01/10/check-out-the.html",
+				"tags": ["people"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2023/01/08/heres-to-all.html",
 				
 				"content_html": "<p>Here&rsquo;s to all of us, who&rsquo;ve been fighting for truth, justice, peace, … for so very, very long now: <a href=\"https://music.apple.com/us/album/heres-to-us/629912461?i=629913373\">music.apple.com/us/album/&hellip;</a></p>\n",
 				"content_text": "Here's to all of us, who've been fighting for truth, justice, peace, … for so very, very long now: [music.apple.com/us/album/...](https://music.apple.com/us/album/heres-to-us/629912461?i=629913373)\n",
 				"date_published": "2023-01-08T09:28:15-05:00",
-				"url": "https://mvr.micro.blog/2023/01/08/heres-to-all.html"
+				"url": "https://mvr.micro.blog/2023/01/08/heres-to-all.html",
+				"tags": ["politics","beauty","music"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/12/16/i-started-a.html",
