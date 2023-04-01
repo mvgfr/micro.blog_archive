@@ -25,6 +25,17 @@
 	  <div class="h-entry">
 		
 
+		<a href="https://mvr.micro.blog/2023/04/01/how-to-convert.html" class="u-url"><time class="dt-published" datetime="2023-04-01 08:43:00 -0400">Apr 1, 2023</time></a>
+
+		<div class="e-content">
+			 <p>how to convert macOS clipboard RTF (ex: from Notes.app), to Markdown? this&rsquo;ll get you 95% of the way there: <code>osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown</code></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
 		<a href="https://mvr.micro.blog/2023/03/23/the-new-legit.html" class="u-url"><time class="dt-published" datetime="2023-03-23 13:15:45 -0400">Mar 23, 2023</time></a>
 
 		<div class="e-content">
