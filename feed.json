@@ -7,13 +7,31 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2023/04/12/wow-the-murad.html",
+				
+				"content_html": "<p>wow; the Murad situation just looks worse and worse - and why indeed, is it so very important, for some of us, to keep pushing him as police chief?! <a href=\"https://thevpo.org/2023/04/12/is-jon-murad-really-worth-all-of-this\">thevpo.org/2023/04/1&hellip;</a></p>\n",
+				"content_text": "wow; the Murad situation just looks worse and worse - and why indeed, is it so very important, for some of us, to keep pushing him as police chief?! [thevpo.org/2023/04/1...](https://thevpo.org/2023/04/12/is-jon-murad-really-worth-all-of-this)\n",
+				"date_published": "2023-04-12T08:09:24-04:00",
+				"url": "https://mvr.micro.blog/2023/04/12/wow-the-murad.html",
+				"tags": ["politics","Vermont"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/04/01/macos-login-items.html",
+				"title": "macOS Login Items, and other \"Allow in Background\"",
+				"content_html": "<p>There are lots of Login Items and other &ldquo;Allow in Background&rdquo; items in macOS these days (especially if the Mac is managed…) so it can be useful to get a list of them all - especially when names shown in the GUI, are not clear. The <code>dumpbtm</code> tool is verbose - though generally all you need is this abbreviated list:</p>\n<p><code>sfltool dumpbtm | grep -E '^([[:blank:]]{0,1}[^[:blank:]]|[[:blank:]]*(Name|URL):)'</code></p>\n",
+				"content_text": "There are lots of Login Items and other \"Allow in Background\" items in macOS these days (especially if the Mac is managed…) so it can be useful to get a list of them all - especially when names shown in the GUI, are not clear. The `dumpbtm` tool is verbose - though generally all you need is this abbreviated list:\r\n\r\n`sfltool dumpbtm | grep -E '^([[:blank:]]{0,1}[^[:blank:]]|[[:blank:]]*(Name|URL):)'`\n",
+				"date_published": "2023-04-01T08:54:55-04:00",
+				"url": "https://mvr.micro.blog/2023/04/01/macos-login-items.html",
+				"tags": ["tech","Mac","UNIX  Linux"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2023/04/01/how-to-convert.html",
 				
 				"content_html": "<p>how to convert macOS clipboard RTF (ex: from Notes.app), to Markdown? this&rsquo;ll get you 95% of the way there: <code>osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown</code></p>\n",
-				"content_text": "how to convert macOS clipboard RTF (ex: from Notes.app), to Markdown? this'll get you 95% of the way there: `osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown`\r\n",
+				"content_text": "how to convert macOS clipboard RTF (ex: from Notes.app), to Markdown? this'll get you 95% of the way there: `osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown`\n",
 				"date_published": "2023-04-01T08:43:00-04:00",
 				"url": "https://mvr.micro.blog/2023/04/01/how-to-convert.html",
-				"tags": ["tech","Mac"]
+				"tags": ["tech","Mac","UNIX  Linux"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2023/03/23/the-new-legit.html",
