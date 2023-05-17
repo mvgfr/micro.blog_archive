@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2023/05/17/ugh-in-a.html",
+				
+				"content_html": "<p>ugh: in a dir within <code>iCloud Drive</code>, replacing a regular file, with a symlink of the same name, apparently breaks sync&rsquo;ing 😟 - and good luck trying to find that via <code>brctl log -w</code>. (only reason I knew it broke: a periodic check of sync status)</p>\n",
+				"content_text": "ugh: in a dir within `iCloud Drive`, replacing a regular file, with a symlink of the same name, apparently breaks sync'ing 😟 - and good luck trying to find that via `brctl log -w`. (only reason I knew it broke: a periodic check of sync status)\n",
+				"date_published": "2023-05-17T13:52:23-04:00",
+				"url": "https://mvr.micro.blog/2023/05/17/ugh-in-a.html",
+				"tags": ["tech","Mac","UNIX  Linux"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/05/12/oh-weird-if.html",
+				
+				"content_html": "<p>oh; weird: if you <em>happen</em> to have <code>/tmp</code> open in a Finder window, <code>brew install wget</code> fails with <code>dir_s_rmdir</code> - apparently due to a &ldquo;.DS_Store&rdquo; file, a few levels below <code>/tmp</code></p>\n",
+				"content_text": "oh; weird: if you _happen_ to have `/tmp` open in a Finder window, `brew install wget` fails with `dir_s_rmdir` - apparently due to a \".DS_Store\" file, a few levels below `/tmp`\n",
+				"date_published": "2023-05-12T14:55:28-04:00",
+				"url": "https://mvr.micro.blog/2023/05/12/oh-weird-if.html",
+				"tags": ["tech","Mac","UNIX  Linux"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2023/04/24/203424.html",
 				
 				"content_html": "<p><a href=\"https://vtdigger.org/2023/04/24/vermont-state-university-reverses-course-on-libraries-athletics/\">vtdigger.org/2023/04/2&hellip;</a></p>\n<blockquote>\n<p>these are distractions</p>\n</blockquote>\n<ul>\n<li>interim president Mike Smith - confirming he’s all in, on continuing to gut VSU, as soon as the outrage dies down</li>\n</ul>\n",
@@ -39,7 +57,8 @@
 				"content_html": "<p>Apple Savings: % ain&rsquo;t bad &amp; it looks like xfer between a linked external account, is much more pleasant (fee-free) than with most others: <a href=\"https://www.apple.com/newsroom/2023/04/apple-cards-new-high-yield-savings-account-is-now-available-offering-a-4-point-15-percent-apy/\">www.apple.com/newsroom/&hellip;</a></p>\n",
 				"content_text": "Apple Savings: % ain't bad & it looks like xfer between a linked external account, is much more pleasant (fee-free) than with most others: [www.apple.com/newsroom/...](https://www.apple.com/newsroom/2023/04/apple-cards-new-high-yield-savings-account-is-now-available-offering-a-4-point-15-percent-apy/)\n",
 				"date_published": "2023-04-17T13:11:56-04:00",
-				"url": "https://mvr.micro.blog/2023/04/17/apple-savings-aint.html"
+				"url": "https://mvr.micro.blog/2023/04/17/apple-savings-aint.html",
+				"tags": ["tech"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2023/04/15/another-sign-that.html",
