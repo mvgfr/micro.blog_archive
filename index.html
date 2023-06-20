@@ -24,6 +24,30 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://mvr.micro.blog/2023/06/20/uninstall-is-sometimes.html">Uninstall is sometimes not so simple</a></h1>
+		
+
+		<a href="https://mvr.micro.blog/2023/06/20/uninstall-is-sometimes.html" class="u-url"><time class="dt-published" datetime="2023-06-20 12:07:09 -0400">Jun 20, 2023</time></a>
+
+		<div class="e-content">
+			 <p>Drat; I&rsquo;ve been meaning to try the <a href="http://www.satimage.fr/software/en/smile/">Smile</a> AppleScript editor, but waited too long, and it&rsquo;s incompatible with modern macOS - HOWEVER:</p>
+<p>I trashed the <code>/Applications/Smile</code> directory (no uninstaller in there), and then re-opened Script Editor to get back to work - but it never completed startup and showed no error messages. Strange.</p>
+<p>After a bit of debugging, I recalled that when I&rsquo;d installed Smile - since I luckily already had Apple&rsquo;s built-in Script Editor app open - the Installer told me it had to quit that first. Interesting - and seemed maybe relevant now.</p>
+<p>So I started hunting for evidence of just what had been installed - likely something conflicting with Script Editor (at least).</p>
+<p><code>/var/log/install.log</code> did have some info, and so did <code>/private/var/db/receipts</code> - which led to the solution (in my case anyway), which was <em>also</em> deleting these directories:</p>
+<pre><code>/Library/Application Support/Smile
+/Library/ScriptingAdditions/FITS.osax
+/Library/ScriptingAdditions/Numerics.osax
+/Library/ScriptingAdditions/Satimage.osax
+/Library/ScriptingAdditions/XMLLib.osax
+</code></pre>
+<p>After which, Script Editor was able to finish startup - and even showed the unsaved script that I&rsquo;d been working on. Nice.</p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://mvr.micro.blog/2023/06/10/every-once-in.html" class="u-url"><time class="dt-published" datetime="2023-06-10 09:28:35 -0400">Jun 10, 2023</time></a>
 
