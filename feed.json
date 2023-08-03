@@ -7,6 +7,24 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2023/08/03/got-my-first.html",
+				
+				"content_html": "<p>got my first pension check; nice.\nretiring, is the best (work-related) decision I ever made - LOVING it.<br>\n(BTW: kudos to Cox Auto, for continuing to offer a pension.)</p>\n",
+				"content_text": "got my first pension check; nice.\r\nretiring, is the best (work-related) decision I ever made - LOVING it.  \r\n(BTW: kudos to Cox Auto, for continuing to offer a pension.)\r\n",
+				"date_published": "2023-08-03T16:09:46-04:00",
+				"url": "https://mvr.micro.blog/2023/08/03/got-my-first.html",
+				"tags": ["tech","health","people"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/07/07/keef-with-a.html",
+				
+				"content_html": "<p>Keef, with a great way to look at our obligation to actively make a better world: \n<a href=\"https://www.dailykos.com/stories/2023/6/27/2178001/-Cartoon-Litter\">www.dailykos.com/stories/2&hellip;</a></p>\n",
+				"content_text": "Keef, with a great way to look at our obligation to actively make a better world: \r\n[www.dailykos.com/stories/2...](https://www.dailykos.com/stories/2023/6/27/2178001/-Cartoon-Litter)\n",
+				"date_published": "2023-07-07T13:36:18-04:00",
+				"url": "https://mvr.micro.blog/2023/07/07/keef-with-a.html",
+				"tags": ["politics","comics","people"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2023/06/30/ugh-just-after.html",
 				
 				"content_html": "<p>ugh: just after 3am, I got an email that my HSA was going to start charging a fee - per <em>month</em> - after <em>today</em>.\nso much for that account being - as they so often market it - &ldquo;my money&rdquo;. 😟<br>\n&ldquo;luckily&rdquo;, I had enough med. expenses to drain the account 😕</p>\n",
