@@ -7,11 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2023/12/09/partiallyformed-process-to.html",
+				
+				"content_html": "<p>Partially-formed process, to convert RTF formatting (ex: lists) from clipboard / pasteboard, to paste into Markdown format (ex: git):</p>\n<p><code>osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown</code></p>\n<p>(for Mac; could be adapted)</p>\n",
+				"content_text": "Partially-formed process, to convert RTF formatting (ex: lists) from clipboard / pasteboard, to paste into Markdown format (ex: git):  \r\n\r\n`osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown`\r\n  \r\n(for Mac; could be adapted)\r\n\r\n",
+				"date_published": "2023-12-09T13:41:06-05:00",
+				"url": "https://mvr.micro.blog/2023/12/09/partiallyformed-process-to.html",
+				"tags": ["tech","Mac","UNIX  Linux"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/10/23/strange-when-adding.html",
+				
+				"content_html": "<p>strange: when adding a link to an (Apple) Notes document: if the URL has a comma, everything up to the comma is silently stripped (permanently; editing the URL afterward, is too late) - one solution is to encode commas (the first time) as <code>%2C</code></p>\n",
+				"content_text": "strange: when adding a link to an (Apple) Notes document: if the URL has a comma, everything up to the comma is silently stripped (permanently; editing the URL afterward, is too late) - one solution is to encode commas (the first time) as `%2C`\n",
+				"date_published": "2023-10-23T13:39:16-05:00",
+				"url": "https://mvr.micro.blog/2023/10/23/strange-when-adding.html",
+				"tags": ["tech","Mac","iOS"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/10/22/brilliant-and-beautiful.html",
+				
+				"content_html": "<p>brilliant - and beautiful!<br>\na human &ldquo;walk&rdquo; through time, across the earth<br>\n<a href=\"https://out-of-eden-walk.nationalgeographic.org/media/2013-01-a-walk-through-time/\">out-of-eden-walk.nationalgeographic.org/media/201&hellip;</a></p>\n",
+				"content_text": "brilliant - and beautiful!  \r\na human \"walk\" through time, across the earth  \r\n[out-of-eden-walk.nationalgeographic.org/media/201...](https://out-of-eden-walk.nationalgeographic.org/media/2013-01-a-walk-through-time/)\n",
+				"date_published": "2023-10-22T06:24:05-05:00",
+				"url": "https://mvr.micro.blog/2023/10/22/brilliant-and-beautiful.html",
+				"tags": ["natural world","beauty","people","history"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2023/10/20/in-the-story.html",
 				
 				"content_html": "<p>In the story about VT&rsquo;s US Rep Becca Balint and contributions by crypto-jerk SBF, theVPO has it right: <a href=\"https://thevpo.org/2023/10/20/desperately-seeking-scandal/\">thevpo.org/2023/10/2&hellip;</a><br>\nSadly, coverage by both VTDigger &amp; SevenDays is uncharacteristically sensationalist - a glaring and concerning shift. What&rsquo;s up there?</p>\n",
 				"content_text": "In the story about VT's US Rep Becca Balint and contributions by crypto-jerk SBF, theVPO has it right: [thevpo.org/2023/10/2...](https://thevpo.org/2023/10/20/desperately-seeking-scandal/)  \r\nSadly, coverage by both VTDigger & SevenDays is uncharacteristically sensationalist - a glaring and concerning shift. What's up there?\n",
-				"date_published": "2023-10-20T13:05:04-04:00",
+				"date_published": "2023-10-20T12:05:04-05:00",
 				"url": "https://mvr.micro.blog/2023/10/20/in-the-story.html",
 				"tags": ["politics","Vermont"]
 			},
@@ -20,7 +47,7 @@
 				
 				"content_html": "<p>$14 / month - and you better believe you&rsquo;re <em>still</em> the product 🤮 <br>\n<a href=\"https://arstechnica.com/tech-policy/2023/10/ad-free-facebook-instagram-access-planned-for-14-per-month-in-europe/\">arstechnica.com/tech-poli&hellip;</a></p>\n",
 				"content_text": "$14 / month - and you better believe you're _still_ the product 🤮    \n[arstechnica.com/tech-poli...](https://arstechnica.com/tech-policy/2023/10/ad-free-facebook-instagram-access-planned-for-14-per-month-in-europe/)\n",
-				"date_published": "2023-10-03T09:50:14-04:00",
+				"date_published": "2023-10-03T08:50:14-05:00",
 				"url": "https://mvr.micro.blog/2023/10/03/month-and-you.html",
 				"tags": ["politics","tech","health","security"]
 			},
@@ -29,7 +56,7 @@
 				
 				"content_html": "<p>it&rsquo;s increasingly easy, to feel like the formerly reasonable expectations, of working hard, are now less and less likely to happen, as we descend further into dog-eat-dog.<br>\nso, the choice is between: a) get increasingly resentful; b) temper expectations - while continuing to fix this broken system</p>\n",
 				"content_text": "it's increasingly easy, to feel like the formerly reasonable expectations, of working hard, are now less and less likely to happen, as we descend further into dog-eat-dog.  \r\nso, the choice is between: a) get increasingly resentful; b) temper expectations - while continuing to fix this broken system\r\n",
-				"date_published": "2023-09-27T12:57:22-04:00",
+				"date_published": "2023-09-27T11:57:22-05:00",
 				"url": "https://mvr.micro.blog/2023/09/27/its-increasingly-easy.html",
 				"tags": ["politics","people"]
 			},
@@ -38,7 +65,7 @@
 				
 				"content_html": "<p>with piles of books across the place (and devices) I noticed that, depending which pile I find myself at, I&rsquo;m reading both &ldquo;The Midnight Kingdom&rdquo; by Jared Yates Sexton [@JYSexton], and &ldquo;How to Be an Antiracist&rdquo;, by Ibram X. Kendi [@ibramxk] - concurrently.<br>\nand, each being <em>seriously</em> grounded in important - and suppressed - history, I find that they&rsquo;re almost <em>meant</em> to be read together.<br>\nmuch learning - and much needed.<br>\nwhich reminds me, that I&rsquo;ve also been meaning to read Howard Zinn&rsquo;s &ldquo;A People’s History of the United States&rdquo;.</p>\n<p><a href=\"https://www.penguinrandomhouse.com/books/673035/the-midnight-kingdom-by-jared-yates-sexton/\">www.penguinrandomhouse.com/books/673&hellip;</a><br>\n<a href=\"https://books.apple.com/us/book/how-to-be-an-antiracist/id1384259598\">books.apple.com/us/book/h&hellip;</a><br>\n<a href=\"https://www.howardzinn.org/collection/peoples-history/\">www.howardzinn.org/collectio&hellip;</a></p>\n",
 				"content_text": "with piles of books across the place (and devices) I noticed that, depending which pile I find myself at, I'm reading both \"The Midnight Kingdom\" by Jared Yates Sexton [@JYSexton], and \"How to Be an Antiracist\", by Ibram X. Kendi [@ibramxk] - concurrently.  \nand, each being _seriously_ grounded in important - and suppressed - history, I find that they're almost _meant_ to be read together.  \nmuch learning - and much needed.  \nwhich reminds me, that I've also been meaning to read Howard Zinn's \"A People’s History of the United States\".   \n\n[www.penguinrandomhouse.com/books/673...](https://www.penguinrandomhouse.com/books/673035/the-midnight-kingdom-by-jared-yates-sexton/)  \n[books.apple.com/us/book/h...](https://books.apple.com/us/book/how-to-be-an-antiracist/id1384259598)  \n[www.howardzinn.org/collectio...](https://www.howardzinn.org/collection/peoples-history/)\n",
-				"date_published": "2023-09-09T09:34:11-04:00",
+				"date_published": "2023-09-09T08:34:11-05:00",
 				"url": "https://mvr.micro.blog/2023/09/09/with-piles-of.html",
 				"tags": ["politics","health","books","people"]
 			},
@@ -47,7 +74,7 @@
 				
 				"content_html": "<p>Wow: The Nib is sadly on the way out 😢 - but making all their mags available for free download!<br>\n<a href=\"https://membership.thenib.com/donate-free-pdf-downloads\">membership.thenib.com/donate-fr&hellip;</a><br>\n(These folks are amazing - please consider tipping them!)</p>\n",
 				"content_text": "Wow: The Nib is sadly on the way out 😢 - but making all their mags available for free download!  \r\n[membership.thenib.com/donate-fr...](https://membership.thenib.com/donate-free-pdf-downloads)  \r\n(These folks are amazing - please consider tipping them!)\r\n\r\n",
-				"date_published": "2023-08-09T13:48:35-04:00",
+				"date_published": "2023-08-09T12:48:35-05:00",
 				"url": "https://mvr.micro.blog/2023/08/09/wow-the-nib.html",
 				"tags": ["beauty","books","comics","people"]
 			},
@@ -56,7 +83,7 @@
 				
 				"content_html": "<p>got my first pension check; nice.\nretiring, is the best (work-related) decision I ever made - LOVING it.<br>\n(BTW: kudos to Cox Auto, for continuing to offer a pension.)</p>\n",
 				"content_text": "got my first pension check; nice.\r\nretiring, is the best (work-related) decision I ever made - LOVING it.  \r\n(BTW: kudos to Cox Auto, for continuing to offer a pension.)\r\n",
-				"date_published": "2023-08-03T16:09:46-04:00",
+				"date_published": "2023-08-03T15:09:46-05:00",
 				"url": "https://mvr.micro.blog/2023/08/03/got-my-first.html",
 				"tags": ["tech","health","people"]
 			},
@@ -65,7 +92,7 @@
 				
 				"content_html": "<p>Keef, with a great way to look at our obligation to actively make a better world: \n<a href=\"https://www.dailykos.com/stories/2023/6/27/2178001/-Cartoon-Litter\">www.dailykos.com/stories/2&hellip;</a></p>\n",
 				"content_text": "Keef, with a great way to look at our obligation to actively make a better world: \r\n[www.dailykos.com/stories/2...](https://www.dailykos.com/stories/2023/6/27/2178001/-Cartoon-Litter)\n",
-				"date_published": "2023-07-07T13:36:18-04:00",
+				"date_published": "2023-07-07T12:36:18-05:00",
 				"url": "https://mvr.micro.blog/2023/07/07/keef-with-a.html",
 				"tags": ["politics","comics","people"]
 			},
@@ -74,7 +101,7 @@
 				
 				"content_html": "<p>ugh: just after 3am, I got an email that my HSA was going to start charging a fee - per <em>month</em> - after <em>today</em>.\nso much for that account being - as they so often market it - &ldquo;my money&rdquo;. 😟<br>\n&ldquo;luckily&rdquo;, I had enough med. expenses to drain the account 😕</p>\n",
 				"content_text": "ugh: just after 3am, I got an email that my HSA was going to start charging a fee - per _month_ - after _today_.\nso much for that account being - as they so often market it - \"my money\". 😟  \n\"luckily\", I had enough med. expenses to drain the account 😕\n",
-				"date_published": "2023-06-30T14:09:07-04:00",
+				"date_published": "2023-06-30T13:09:07-05:00",
 				"url": "https://mvr.micro.blog/2023/06/30/ugh-just-after.html",
 				"tags": ["health"]
 			},
@@ -83,7 +110,7 @@
 				
 				"content_html": "<p>reminder:<br>\nthat thing you opened you phone/computer for - to be immediately distracted by other notifications? do the first thing FIRST - those notifications will still be there.<br>\n(otherwise, you&rsquo;ll likely forget the first - likely more important - thing.)</p>\n",
 				"content_text": "reminder:  \nthat thing you opened you phone/computer for - to be immediately distracted by other notifications? do the first thing FIRST - those notifications will still be there.  \n(otherwise, you'll likely forget the first - likely more important - thing.)\n",
-				"date_published": "2023-06-26T07:39:52-04:00",
+				"date_published": "2023-06-26T06:39:52-05:00",
 				"url": "https://mvr.micro.blog/2023/06/26/reminder-that-thing.html",
 				"tags": ["tech","health"]
 			},
@@ -92,7 +119,7 @@
 				
 				"content_html": "<p>A <code>sudo softwareupdate --install --all</code> never got past <code>Downloaded</code>. 😕 No prompt (cmd-line or GUI) to restart &amp; nothing in-process (ex: verification). I was watching logs, and saw nothing amiss. Solution was to <code>^C</code> &amp; run it again - with <code>--restart</code> too.</p>\n",
 				"content_text": "A `sudo softwareupdate --install --all` never got past `Downloaded`. 😕 No prompt (cmd-line or GUI) to restart & nothing in-process (ex: verification). I was watching logs, and saw nothing amiss. Solution was to `^C` & run it again - with `--restart` too.\n",
-				"date_published": "2023-06-22T12:05:02-04:00",
+				"date_published": "2023-06-22T11:05:02-05:00",
 				"url": "https://mvr.micro.blog/2023/06/22/a-sudo-softwareupdate.html",
 				"tags": ["Mac","UNIX  Linux"]
 			},
@@ -101,7 +128,7 @@
 				"title": "Uninstall is sometimes not so simple",
 				"content_html": "<p>Drat; I&rsquo;ve been meaning to try the <a href=\"http://www.satimage.fr/software/en/smile/\">Smile</a> AppleScript editor, but waited too long, and it&rsquo;s incompatible with modern macOS - HOWEVER:</p>\n<p>I trashed the <code>/Applications/Smile</code> directory (no uninstaller in there), and then re-opened Script Editor to get back to work - but it hung; never completed startup and showed no error messages. Strange.</p>\n<p>After a bit of debugging, I recalled that when I&rsquo;d installed Smile - since I luckily already had Apple&rsquo;s built-in Script Editor app open - the Installer told me it had to quit that first. Interesting - and seemed maybe relevant now.</p>\n<p>So I started hunting for evidence of just what had been installed - likely something conflicting with Script Editor (at least).</p>\n<p><code>/var/log/install.log</code> did have some info, and so did <code>/private/var/db/receipts</code> - which led to the solution (in my case anyway), which was <em>also</em> deleting these directories:</p>\n<pre><code>/Library/Application Support/Smile\n/Library/ScriptingAdditions/FITS.osax\n/Library/ScriptingAdditions/Numerics.osax\n/Library/ScriptingAdditions/Satimage.osax\n/Library/ScriptingAdditions/XMLLib.osax\n</code></pre>\n<p>After which, Script Editor was able to finish startup - and even showed the unsaved script that I&rsquo;d been working on. Nice.</p>\n",
 				"content_text": "Drat; I've been meaning to try the [Smile](http://www.satimage.fr/software/en/smile/) AppleScript editor, but waited too long, and it's incompatible with modern macOS - HOWEVER:\n\nI trashed the `/Applications/Smile` directory (no uninstaller in there), and then re-opened Script Editor to get back to work - but it hung; never completed startup and showed no error messages. Strange.\n\nAfter a bit of debugging, I recalled that when I'd installed Smile - since I luckily already had Apple's built-in Script Editor app open - the Installer told me it had to quit that first. Interesting - and seemed maybe relevant now.\n\nSo I started hunting for evidence of just what had been installed - likely something conflicting with Script Editor (at least).\n\n`/var/log/install.log` did have some info, and so did `/private/var/db/receipts` - which led to the solution (in my case anyway), which was _also_ deleting these directories:\n\n    /Library/Application Support/Smile\n    /Library/ScriptingAdditions/FITS.osax\n    /Library/ScriptingAdditions/Numerics.osax\n    /Library/ScriptingAdditions/Satimage.osax\n    /Library/ScriptingAdditions/XMLLib.osax\n\nAfter which, Script Editor was able to finish startup - and even showed the unsaved script that I'd been working on. Nice.\n",
-				"date_published": "2023-06-20T12:07:09-04:00",
+				"date_published": "2023-06-20T11:07:09-05:00",
 				"url": "https://mvr.micro.blog/2023/06/20/uninstall-is-sometimes.html",
 				"tags": ["tech","Mac"]
 			},
@@ -110,7 +137,7 @@
 				
 				"content_html": "<p>every once in awhile the Danzinger balance, tips more from the usual woodchuck dry humor, to poignance - which some of us know all too well:\n<a href=\"https://www.rutlandherald.com/features/weekend_magazine/teeds/image_9a74d4f8-2072-572a-b595-a67fbff38408.html\">https://www.rutlandherald.com/features/weekend_magazine/teeds/image_9a74d4f8-2072-572a-b595-a67fbff38408.html</a></p>\n",
 				"content_text": "every once in awhile the Danzinger balance, tips more from the usual woodchuck dry humor, to poignance - which some of us know all too well:\nhttps://www.rutlandherald.com/features/weekend_magazine/teeds/image_9a74d4f8-2072-572a-b595-a67fbff38408.html\n",
-				"date_published": "2023-06-10T09:28:35-04:00",
+				"date_published": "2023-06-10T08:28:35-05:00",
 				"url": "https://mvr.micro.blog/2023/06/10/every-once-in.html",
 				"tags": ["natural world","Vermont","comics","people"]
 			},
@@ -119,7 +146,7 @@
 				
 				"content_html": "<p>ugh: in a dir within <code>iCloud Drive</code>, replacing a regular file, with a symlink of the same name, apparently breaks sync&rsquo;ing 😟 - and good luck trying to find that via <code>brctl log -w</code>. (only reason I knew it broke: a periodic check of sync status)</p>\n",
 				"content_text": "ugh: in a dir within `iCloud Drive`, replacing a regular file, with a symlink of the same name, apparently breaks sync'ing 😟 - and good luck trying to find that via `brctl log -w`. (only reason I knew it broke: a periodic check of sync status)\n",
-				"date_published": "2023-05-17T13:52:23-04:00",
+				"date_published": "2023-05-17T12:52:23-05:00",
 				"url": "https://mvr.micro.blog/2023/05/17/ugh-in-a.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -128,7 +155,7 @@
 				
 				"content_html": "<p>oh; weird: if you <em>happen</em> to have <code>/tmp</code> open in a Finder window, <code>brew install wget</code> fails with <code>dir_s_rmdir</code> - apparently due to a &ldquo;.DS_Store&rdquo; file, a few levels below <code>/tmp</code></p>\n",
 				"content_text": "oh; weird: if you _happen_ to have `/tmp` open in a Finder window, `brew install wget` fails with `dir_s_rmdir` - apparently due to a \".DS_Store\" file, a few levels below `/tmp`\n",
-				"date_published": "2023-05-12T14:55:28-04:00",
+				"date_published": "2023-05-12T13:55:28-05:00",
 				"url": "https://mvr.micro.blog/2023/05/12/oh-weird-if.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -137,7 +164,7 @@
 				
 				"content_html": "<p><a href=\"https://vtdigger.org/2023/04/24/vermont-state-university-reverses-course-on-libraries-athletics/\">vtdigger.org/2023/04/2&hellip;</a></p>\n<blockquote>\n<p>these are distractions</p>\n</blockquote>\n<p>- interim president Mike Smith &ndash; confirming he’s all in, on continuing to gut VSU, as soon as the outrage dies down</p>\n",
 				"content_text": "[vtdigger.org/2023/04/2...](https://vtdigger.org/2023/04/24/vermont-state-university-reverses-course-on-libraries-athletics/)\n\n> these are distractions\n \n\\- interim president Mike Smith -- confirming he’s all in, on continuing to gut VSU, as soon as the outrage dies down\n",
-				"date_published": "2023-04-24T20:34:24-04:00",
+				"date_published": "2023-04-24T19:34:24-05:00",
 				"url": "https://mvr.micro.blog/2023/04/24/203424.html",
 				"tags": ["politics","Vermont"]
 			},
@@ -146,7 +173,7 @@
 				
 				"content_html": "<p>Google - the company whose motto WAS &ldquo;Don&rsquo;t be Evil&rdquo;:\n<a href=\"https://arstechnica.com/?p=1933240\">arstechnica.com</a></p>\n",
 				"content_text": "Google - the company whose motto WAS \"Don't be Evil\":\n[arstechnica.com](https://arstechnica.com/?p=1933240)\n",
-				"date_published": "2023-04-20T11:45:43-04:00",
+				"date_published": "2023-04-20T10:45:43-05:00",
 				"url": "https://mvr.micro.blog/2023/04/20/google-the-company.html",
 				"tags": ["tech"]
 			},
@@ -155,7 +182,7 @@
 				
 				"content_html": "<p>as usual: doing the right thing is - if moral reasons aren&rsquo;t enough for you - also the less expensive choice: <a href=\"http://thevpo.org/2023/04/18/the-acceptable-cruelty-calculation/\">thevpo.org/2023/04/1&hellip;</a></p>\n",
 				"content_text": "as usual: doing the right thing is - if moral reasons aren't enough for you - also the less expensive choice: [thevpo.org/2023/04/1...](http://thevpo.org/2023/04/18/the-acceptable-cruelty-calculation/)\n",
-				"date_published": "2023-04-18T08:26:52-04:00",
+				"date_published": "2023-04-18T07:26:52-05:00",
 				"url": "https://mvr.micro.blog/2023/04/18/as-usual-doing.html",
 				"tags": ["politics","Vermont"]
 			},
@@ -164,7 +191,7 @@
 				
 				"content_html": "<p>Apple Savings: % ain&rsquo;t bad &amp; it looks like xfer between a linked external account, is much more pleasant (fee-free) than with most others: <a href=\"https://www.apple.com/newsroom/2023/04/apple-cards-new-high-yield-savings-account-is-now-available-offering-a-4-point-15-percent-apy/\">www.apple.com/newsroom/&hellip;</a></p>\n",
 				"content_text": "Apple Savings: % ain't bad & it looks like xfer between a linked external account, is much more pleasant (fee-free) than with most others: [www.apple.com/newsroom/...](https://www.apple.com/newsroom/2023/04/apple-cards-new-high-yield-savings-account-is-now-available-offering-a-4-point-15-percent-apy/)\n",
-				"date_published": "2023-04-17T13:11:56-04:00",
+				"date_published": "2023-04-17T12:11:56-05:00",
 				"url": "https://mvr.micro.blog/2023/04/17/apple-savings-aint.html",
 				"tags": ["tech"]
 			},
@@ -173,7 +200,7 @@
 				
 				"content_html": "<p>another sign that several justices on the US Supreme Court are partisan hacks: this is nothing but a trial balloon, to see if the majority of the US that&rsquo;s uninfected with MAGA, keeps paying attention to these increasing abuses by &ldquo;conservatives&rdquo;:\n<a href=\"https://arstechnica.com/?p=1932127\">arstechnica.com</a></p>\n",
 				"content_text": "another sign that several justices on the US Supreme Court are partisan hacks: this is nothing but a trial balloon, to see if the majority of the US that's uninfected with MAGA, keeps paying attention to these increasing abuses by \"conservatives\":\n[arstechnica.com](https://arstechnica.com/?p=1932127)\n\n",
-				"date_published": "2023-04-15T08:43:24-04:00",
+				"date_published": "2023-04-15T07:43:24-05:00",
 				"url": "https://mvr.micro.blog/2023/04/15/another-sign-that.html",
 				"tags": ["politics"]
 			},
@@ -182,7 +209,7 @@
 				
 				"content_html": "<p>are you in the cloud majority? <a href=\"https://twitter.com/Grady_Booch/status/1645870605252857856\">twitter.com/Grady_Boo&hellip;</a></p>\n",
 				"content_text": "are you in the cloud majority? [twitter.com/Grady_Boo...](https://twitter.com/Grady_Booch/status/1645870605252857856)\n",
-				"date_published": "2023-04-12T08:19:16-04:00",
+				"date_published": "2023-04-12T07:19:16-05:00",
 				"url": "https://mvr.micro.blog/2023/04/12/are-you-in.html",
 				"tags": ["tech"]
 			},
@@ -191,7 +218,7 @@
 				
 				"content_html": "<p>wow; the Murad situation just looks worse and worse - and why indeed, is it so very important, for some of us, to keep pushing him as police chief?! <a href=\"https://thevpo.org/2023/04/12/is-jon-murad-really-worth-all-of-this\">thevpo.org/2023/04/1&hellip;</a></p>\n",
 				"content_text": "wow; the Murad situation just looks worse and worse - and why indeed, is it so very important, for some of us, to keep pushing him as police chief?! [thevpo.org/2023/04/1...](https://thevpo.org/2023/04/12/is-jon-murad-really-worth-all-of-this)\n",
-				"date_published": "2023-04-12T08:09:24-04:00",
+				"date_published": "2023-04-12T07:09:24-05:00",
 				"url": "https://mvr.micro.blog/2023/04/12/wow-the-murad.html",
 				"tags": ["politics","Vermont"]
 			},
@@ -200,7 +227,7 @@
 				"title": "macOS Login Items, and other \"Allow in Background\"",
 				"content_html": "<p>There are lots of Login Items and other &ldquo;Allow in Background&rdquo; items in macOS these days (especially if the Mac is managed…) so it can be useful to get a list of them all - especially when names shown in the GUI, are not clear. The <code>dumpbtm</code> tool is verbose - though generally all you need is this abbreviated list:</p>\n<p><code>sfltool dumpbtm | grep -E '^([[:blank:]]{0,1}[^[:blank:]]|[[:blank:]]*(Name|URL):)'</code></p>\n",
 				"content_text": "There are lots of Login Items and other \"Allow in Background\" items in macOS these days (especially if the Mac is managed…) so it can be useful to get a list of them all - especially when names shown in the GUI, are not clear. The `dumpbtm` tool is verbose - though generally all you need is this abbreviated list:\r\n\r\n`sfltool dumpbtm | grep -E '^([[:blank:]]{0,1}[^[:blank:]]|[[:blank:]]*(Name|URL):)'`\n",
-				"date_published": "2023-04-01T08:54:55-04:00",
+				"date_published": "2023-04-01T07:54:55-05:00",
 				"url": "https://mvr.micro.blog/2023/04/01/macos-login-items.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -209,7 +236,7 @@
 				
 				"content_html": "<p>how to convert macOS clipboard RTF (ex: from Notes.app), to Markdown? this&rsquo;ll get you 95% of the way there: <code>osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown</code></p>\n",
 				"content_text": "how to convert macOS clipboard RTF (ex: from Notes.app), to Markdown? this'll get you 95% of the way there: `osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown`\n",
-				"date_published": "2023-04-01T08:43:00-04:00",
+				"date_published": "2023-04-01T07:43:00-05:00",
 				"url": "https://mvr.micro.blog/2023/04/01/how-to-convert.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -217,8 +244,8 @@
 				"id": "http://mvr.micro.blog/2023/03/23/the-new-legit.html",
 				
 				"content_html": "<p>the new legit slacking excuse - and not just for programmers!</p>\n<p>with thanks / apologies to the amazing Randall Munroe - his original: <a href=\"https://xkcd.com/303\">xkcd.com/303</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "the new legit slacking excuse - and not just for programmers!\n\nwith thanks / apologies to the amazing Randall Munroe - his original: [xkcd.com/303](https://xkcd.com/303)\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2023/b3f4a23e1a.jpg\" width=\"413\" height=\"360\" alt=\"\">\n",
-				"date_published": "2023-03-23T13:15:45-04:00",
+				"content_text": "the new legit slacking excuse - and not just for programmers!\n\nwith thanks / apologies to the amazing Randall Munroe - his original: [xkcd.com/303](https://xkcd.com/303)\n\n<img src=\"uploads/2023/b3f4a23e1a.jpg\" width=\"413\" height=\"360\" alt=\"\">\n",
+				"date_published": "2023-03-23T12:15:45-05:00",
 				"url": "https://mvr.micro.blog/2023/03/23/the-new-legit.html",
 				"tags": ["tech","comics"]
 			},
@@ -227,7 +254,7 @@
 				
 				"content_html": "<p>I am so down for this\n<a href=\"https://twitter.com/TMNTMovie/status/1632742839573528577?s=20\">TMNT Movie</a>\n(and FWTFIW: new to the franshise - don&rsquo;t at me)</p>\n",
 				"content_text": "I am so down for this\n[TMNT Movie](https://twitter.com/TMNTMovie/status/1632742839573528577?s=20)\n(and FWTFIW: new to the franshise - don't at me)\n",
-				"date_published": "2023-03-06T16:45:12-04:00",
+				"date_published": "2023-03-06T15:45:12-05:00",
 				"url": "https://mvr.micro.blog/2023/03/06/i-am-so.html",
 				"tags": ["comics"]
 			},
@@ -236,7 +263,7 @@
 				
 				"content_html": "<p>if you haven&rsquo;t found PDL yet, Reza Farazmand does great work - check it out: <a href=\"https://poorlydrawnlines.com/comic/a-good-day-2/\">poorlydrawnlines.com/comic/a-g&hellip;</a></p>\n",
 				"content_text": "if you haven't found PDL yet, Reza Farazmand does great work - check it out: [poorlydrawnlines.com/comic/a-g...](https://poorlydrawnlines.com/comic/a-good-day-2/)\n",
-				"date_published": "2023-03-05T08:22:08-04:00",
+				"date_published": "2023-03-05T07:22:08-05:00",
 				"url": "https://mvr.micro.blog/2023/03/05/if-you-havent.html",
 				"tags": ["beauty","comics"]
 			},
@@ -245,7 +272,7 @@
 				
 				"content_html": "<p>it&rsquo;s just <em>weird</em>, how there are so many signs, urging people to vote against police oversight measures, in rich neighborhoods…\n(looking at you in particular, BTV)</p>\n",
 				"content_text": "it's just _weird_, how there are so many signs, urging people to vote against police oversight measures, in rich neighborhoods…\n(looking at you in particular, BTV)\n",
-				"date_published": "2023-03-03T11:11:21-04:00",
+				"date_published": "2023-03-03T10:11:21-05:00",
 				"url": "https://mvr.micro.blog/2023/03/03/its-just-weird.html",
 				"tags": ["politics","Vermont","security"]
 			},
@@ -254,7 +281,7 @@
 				
 				"content_html": "<p>How strange: On one Mac I use, when I paste (cmd-V) into the filename field (has focus) in a Save dialog, it suddenly jumps to the Documents folder. On another Mac, it simply pastes, leaving the folder as-is. It apparently does this jump, on any keyboard equivalent (ex: cmd-A).</p>\n",
 				"content_text": "How strange: On one Mac I use, when I paste (cmd-V) into the filename field (has focus) in a Save dialog, it suddenly jumps to the Documents folder. On another Mac, it simply pastes, leaving the folder as-is. It apparently does this jump, on any keyboard equivalent (ex: cmd-A).\n",
-				"date_published": "2023-01-17T15:37:55-04:00",
+				"date_published": "2023-01-17T14:37:55-05:00",
 				"url": "https://mvr.micro.blog/2023/01/17/how-strange-on.html",
 				"tags": ["tech","Mac"]
 			},
@@ -263,7 +290,7 @@
 				
 				"content_html": "<p>as we&rsquo;ve come to expect from the good folks at TidBITS - a thoroughly approachable and emminently useful guide, to protecting yourself from the scourge of &ldquo;phishing&rdquo;: <a href=\"https://tidbits.com/2023/01/16/an-annotated-field-guide-to-identifying-phish/\">tidbits.com/2023/01/1&hellip;</a></p>\n",
 				"content_text": "as we've come to expect from the good folks at TidBITS - a thoroughly approachable and emminently useful guide, to protecting yourself from the scourge of \"phishing\": [tidbits.com/2023/01/1...](https://tidbits.com/2023/01/16/an-annotated-field-guide-to-identifying-phish/)\n",
-				"date_published": "2023-01-16T22:30:21-04:00",
+				"date_published": "2023-01-16T21:30:21-05:00",
 				"url": "https://mvr.micro.blog/2023/01/16/as-weve-come.html",
 				"tags": ["security"]
 			},
@@ -272,7 +299,7 @@
 				
 				"content_html": "<p>ugh; a disappointing hatchett job - more so, since there are important questions to <em>discuss</em>. too bad the author seems to see nothing past their foregone conclusions. <a href=\"https://vtdigger.org/2023/01/08/why-bread-and-puppet-the-anti-war-theater-group-is-curiously-quiet-about-ukraine/\">vtdigger.org/2023/01/0&hellip;</a></p>\n",
 				"content_text": "ugh; a disappointing hatchett job - more so, since there are important questions to _discuss_. too bad the author seems to see nothing past their foregone conclusions. [vtdigger.org/2023/01/0...](https://vtdigger.org/2023/01/08/why-bread-and-puppet-the-anti-war-theater-group-is-curiously-quiet-about-ukraine/)\n",
-				"date_published": "2023-01-16T11:21:52-04:00",
+				"date_published": "2023-01-16T10:21:52-05:00",
 				"url": "https://mvr.micro.blog/2023/01/16/ugh-a-disappointing.html",
 				"tags": ["politics","Vermont","beauty","people"]
 			},
@@ -281,7 +308,7 @@
 				
 				"content_html": "<p>The macOS <em>Weather</em> app can notify for severe weather - it&rsquo;s Settings window, directed me to Settings &gt; Notifications &ndash; but Weather was mising. I stumbled on a solution: Open Notification Center &amp; open Weather from <em>there</em> - it immediately prompted to enable. (C&rsquo;mon Apple :/ .)</p>\n",
 				"content_text": "The macOS _Weather_ app can notify for severe weather - it's Settings window, directed me to Settings > Notifications -- but Weather was mising. I stumbled on a solution: Open Notification Center & open Weather from _there_ - it immediately prompted to enable. (C'mon Apple :/ .)\n",
-				"date_published": "2023-01-16T07:44:33-04:00",
+				"date_published": "2023-01-16T06:44:33-05:00",
 				"url": "https://mvr.micro.blog/2023/01/16/the-macos-weather.html",
 				"tags": ["tech","natural world","Mac","climate change"]
 			},
@@ -290,7 +317,7 @@
 				
 				"content_html": "<p>the OPMI survey is well worth a few minutes of your time - it might help you understand a bit about yourself &ndash; and others\n<a href=\"https://drj.virtualave.net/OMPI/\">drj.virtualave.net/OMPI/</a></p>\n",
 				"content_text": "the OPMI survey is well worth a few minutes of your time - it might help you understand a bit about yourself -- and others\n[drj.virtualave.net/OMPI/](https://drj.virtualave.net/OMPI/)\n",
-				"date_published": "2023-01-10T09:35:05-04:00",
+				"date_published": "2023-01-10T08:35:05-05:00",
 				"url": "https://mvr.micro.blog/2023/01/10/the-opmi-survey.html",
 				"tags": ["politics","people"]
 			},
@@ -299,7 +326,7 @@
 				
 				"content_html": "<p>check out the &ldquo;Big Five&rdquo; (personality) survey - well worth a half hour\n<a href=\"https://www.personal.psu.edu/%7Ej5j/IPIP/\">www.personal.psu.edu/%7Ej5j/IP&hellip;</a></p>\n",
 				"content_text": "check out the \"Big Five\" (personality) survey - well worth a half hour\n[www.personal.psu.edu/%7Ej5j/IP...](https://www.personal.psu.edu/%7Ej5j/IPIP/)\n",
-				"date_published": "2023-01-10T09:30:50-04:00",
+				"date_published": "2023-01-10T08:30:50-05:00",
 				"url": "https://mvr.micro.blog/2023/01/10/check-out-the.html",
 				"tags": ["people"]
 			},
@@ -308,7 +335,7 @@
 				
 				"content_html": "<p>Here&rsquo;s to all of us, who&rsquo;ve been fighting for truth, justice, peace, … for so very, very long now: <a href=\"https://music.apple.com/us/album/heres-to-us/629912461?i=629913373\">music.apple.com/us/album/&hellip;</a></p>\n",
 				"content_text": "Here's to all of us, who've been fighting for truth, justice, peace, … for so very, very long now: [music.apple.com/us/album/...](https://music.apple.com/us/album/heres-to-us/629912461?i=629913373)\n",
-				"date_published": "2023-01-08T10:28:15-04:00",
+				"date_published": "2023-01-08T09:28:15-05:00",
 				"url": "https://mvr.micro.blog/2023/01/08/heres-to-all.html",
 				"tags": ["politics","beauty","music"]
 			},
@@ -317,7 +344,7 @@
 				
 				"content_html": "<p>I started a Note, with lists of of word / term associations - <em>which make sense to <strong>me</strong></em>. Since Spotlight indexes Notes.app, the results come up in that context with everything else, so it&rsquo;s already started to help me find things more quickly. Might try to integrate with Quicksilver…</p>\n",
 				"content_text": "I started a Note, with lists of of word / term associations - _which make sense to **me**_. Since Spotlight indexes Notes.app, the results come up in that context with everything else, so it's already started to help me find things more quickly. Might try to integrate with Quicksilver…\n",
-				"date_published": "2022-12-16T13:08:31-04:00",
+				"date_published": "2022-12-16T12:08:31-05:00",
 				"url": "https://mvr.micro.blog/2022/12/16/i-started-a.html",
 				"tags": ["tech","Mac"]
 			},
@@ -326,7 +353,7 @@
 				"title": "COVID and elevated risk of blood clots, strokes or heart attacks",
 				"content_html": "<p>“If you’ve had covid, watch out for stroke symptoms: Given that most people have had Covid by now, everyone should be more vigilant about the early warning signs such as chest pain, unusual swelling, numbness or weakness, or sudden changes in balance, speech or vision.” [Washington Post] (with hat-tip to Violet Blue)</p>\n<p>I can tell you from <em>direct</em> experience: Do not waste a moment second-guessing; if someone shows signs of stroke (memomnic acronym is FAST; look it up), get to the hospital <strong>ASAP</strong>.</p>\n",
 				"content_text": "“If you’ve had covid, watch out for stroke symptoms: Given that most people have had Covid by now, everyone should be more vigilant about the early warning signs such as chest pain, unusual swelling, numbness or weakness, or sudden changes in balance, speech or vision.” [Washington Post] (with hat-tip to Violet Blue)\n\nI can tell you from _direct_ experience: Do not waste a moment second-guessing; if someone shows signs of stroke (memomnic acronym is FAST; look it up), get to the hospital **ASAP**.\n",
-				"date_published": "2022-11-10T18:01:19-04:00",
+				"date_published": "2022-11-10T17:01:19-05:00",
 				"url": "https://mvr.micro.blog/2022/11/10/covid-and-elevated.html",
 				"tags": ["health"]
 			},
@@ -335,7 +362,7 @@
 				
 				"content_html": "<p>vote\n<a href=\"https://pbs.twimg.com/media/FhAUWnuUcAARmiy.jpg\">pbs.twimg.com/media/FhA&hellip;</a></p>\n",
 				"content_text": "vote \n[pbs.twimg.com/media/FhA...](https://pbs.twimg.com/media/FhAUWnuUcAARmiy.jpg)\n",
-				"date_published": "2022-11-07T22:07:44-04:00",
+				"date_published": "2022-11-07T21:07:44-05:00",
 				"url": "https://mvr.micro.blog/2022/11/07/vote-httpspbstwimgcommediafhauwnuucaarmiyjpg.html",
 				"tags": ["politics"]
 			},
@@ -344,7 +371,7 @@
 				
 				"content_html": "<p>&ldquo;voting as fire extinguisher&rdquo;\n<a href=\"https://www.reddit.com/r/Poetry/comments/ynzdrd/poem_voting_as_fire_extinguisher_by_kyle_tran/\">https://www.reddit.com/r/Poetry/comments/ynzdrd/poem_voting_as_fire_extinguisher_by_kyle_tran/</a>\nfull poem, by kyle tran myhre: <a href=\"https://guante.info/2020/10/14/trickortreat/\">guante.info/2020/10/1&hellip;</a></p>\n",
 				"content_text": "\"voting as fire extinguisher\"\nhttps://www.reddit.com/r/Poetry/comments/ynzdrd/poem_voting_as_fire_extinguisher_by_kyle_tran/\nfull poem, by kyle tran myhre: [guante.info/2020/10/1...](https://guante.info/2020/10/14/trickortreat/)\n",
-				"date_published": "2022-11-07T13:12:02-04:00",
+				"date_published": "2022-11-07T12:12:02-05:00",
 				"url": "https://mvr.micro.blog/2022/11/07/voting-as-fire.html",
 				"tags": ["politics","beauty"]
 			},
@@ -353,7 +380,7 @@
 				
 				"content_html": "<p>if you&rsquo;re able, I hope you&rsquo;ll join me in supporting the amazing Violet Blue and her book: <a href=\"https://www.kickstarter.com/projects/violetblue/a-fish-has-no-word-for-water\">www.kickstarter.com/projects/&hellip;</a></p>\n",
 				"content_text": "if you're able, I hope you'll join me in supporting the amazing Violet Blue and her book: [www.kickstarter.com/projects/...](https://www.kickstarter.com/projects/violetblue/a-fish-has-no-word-for-water)\n",
-				"date_published": "2022-11-05T10:06:17-04:00",
+				"date_published": "2022-11-05T09:06:17-05:00",
 				"url": "https://mvr.micro.blog/2022/11/05/if-youre-able.html",
 				"tags": ["politics","health","security","books"]
 			},
@@ -362,7 +389,7 @@
 				
 				"content_html": "<p>wow; i had no idea how challenging it would be, to get <em>off</em> the treadmill. yet another learning experience.</p>\n",
 				"content_text": "wow; i had no idea how challenging it would be, to get _off_ the treadmill. yet another learning experience. \n",
-				"date_published": "2022-10-30T16:58:34-04:00",
+				"date_published": "2022-10-30T15:58:34-05:00",
 				"url": "https://mvr.micro.blog/2022/10/30/wow-i-had.html",
 				"tags": ["health"]
 			},
@@ -371,7 +398,7 @@
 				
 				"content_html": "<p>Wow; if you haven&rsquo;t yet seen Lucky (with Harry Dean Stanton), it is a beautiful thing: <a href=\"https://www.imdb.com/title/tt5859238/\">www.imdb.com/title/tt5&hellip;</a></p>\n",
 				"content_text": "Wow; if you haven't yet seen Lucky (with Harry Dean Stanton), it is a beautiful thing: [www.imdb.com/title/tt5...](https://www.imdb.com/title/tt5859238/)\n",
-				"date_published": "2022-09-28T09:25:29-04:00",
+				"date_published": "2022-09-28T08:25:29-05:00",
 				"url": "https://mvr.micro.blog/2022/09/28/wow-if-you.html",
 				"tags": ["beauty"]
 			},
@@ -380,7 +407,7 @@
 				
 				"content_html": "<p>Alcaraz, on Lindsey Graham - insightful as ever: <a href=\"https://www.dailykos.com/stories/2022/9/8/2121616/-Cartoon-Special-master\">www.dailykos.com/stories/2&hellip;</a></p>\n",
 				"content_text": "Alcaraz, on Lindsey Graham - insightful as ever: [www.dailykos.com/stories/2...](https://www.dailykos.com/stories/2022/9/8/2121616/-Cartoon-Special-master)\n",
-				"date_published": "2022-09-14T11:47:03-04:00",
+				"date_published": "2022-09-14T10:47:03-05:00",
 				"url": "https://mvr.micro.blog/2022/09/14/alcaraz-insightful-as.html",
 				"tags": ["politics","comics"]
 			},
@@ -389,7 +416,7 @@
 				
 				"content_html": "<p>How strange: I just got a &ldquo;Magic Keyboard&rdquo; for my M1 MacBook Air - and its Globe key works (to show Character Viewer) &ndash; only when not in clamshell mode. It works in either mode, for other things like Dictation.</p>\n",
 				"content_text": "How strange: I just got a \"Magic Keyboard\" for my M1 MacBook Air - and its Globe key works (to show Character Viewer) -- only when not in clamshell mode. It works in either mode, for other things like Dictation.\n",
-				"date_published": "2022-09-10T13:45:06-04:00",
+				"date_published": "2022-09-10T12:45:06-05:00",
 				"url": "https://mvr.micro.blog/2022/09/10/how-strange-i.html",
 				"tags": ["tech","Mac"]
 			},
@@ -398,7 +425,7 @@
 				"title": "Apparently it's time for M1 users, to migrate their Homebrew config. Like right now.",
 				"content_html": "<p>Drat; that was an unpleasant surprise:</p>\n<p>For some reason, when I tried <code>brew upgrade</code> today, the response was: <code>Cannot install in Homebrew on ARM processor in Intel default prefix</code>.</p>\n<p>Weird; it&rsquo;s been working fine, via Terminal in Rosetta, on my M1, for quite some time. Last I saw, that was required, on Apple Silicon.</p>\n<p>I don&rsquo;t see any warning logged from past &ldquo;brew update&rdquo; runs. And I couldn&rsquo;t find any announcement or release note, that Homebrew is now ready for prime-time on M1 - but apparently someone felt it necessary to force the issue. :/</p>\n<p>So, since I depend on brew and several tools installed that way - <em>including some automation</em> - I dropped what I was supposed to be doing, to sort this out. Here&rsquo;s what it took for me:</p>\n<ol>\n<li>Run <code>brew bundle dump</code> - this will create a <code>Brewfile</code> in the current directory.</li>\n<li>May or may not be necessary: Quit &amp; relaunch Terminal, <em>without Rosetta</em>.</li>\n<li>Install Homebrew - let it go to the new dir, <code>/opt/homebrew/</code> - AKA <code>${HOMEBREW_PREFIX}</code>.</li>\n<li>Run <code>brew dump</code> - which uses the previously-created <code>Brewfile</code>, to (hopefully) install what you were using (as much as it can) in it&rsquo;s new structure, in <code>${HOMEBREW_PREFIX}</code>.</li>\n<li>As long as this succeeded, delete / archive the <code>Brewfile</code>. If not, debug…</li>\n<li>If you haven&rsquo;t personalized <code>$PATH</code> etc.: Follow the directions (in the output above) for updating that.</li>\n<li>If you <em>have</em> (personalized <code>$PATH</code> etc.): Update that to also include <code>${HOMEBREW_PREFIX}</code> (using the ouput as a guide) - note that there are some <em>new</em> environment vairables here, to consider adding to your shell&rsquo;s config. You&rsquo;ll likely want to make sure the new dir is <em>before</em> the old one (so any tools not yet updated are still accessible - and new tools take precedence over the now stranded ones).</li>\n<li>Update any needed <em>configs</em> that live in <code>/usr/local</code> (ex: for <code>clamav</code>), into the correct place in the new <code>${HOMEBREW_PREFIX}</code>.</li>\n<li>Now find wherever you might have references to brew tools, which are hard-coded for <code>/usr/local</code>, and update instead, to <code>${HOMEBREW_PREFIX}</code>. Suggestions of places to look: <code>/etc/crontab</code>, user-specific crontabs (ex: <code>crontab -l</code>), LaunchItems and such. And scripts that might be hard-coded for <code>/usr/local</code>. (Yes; hard-coding is &ldquo;bad&rdquo; - and sometimes useful to, for example, be sure to use the tool installed via brew, vs. a built-in tool by the same name.)</li>\n<li>Repeat on any other systems you need to.</li>\n<li>Set a reminder to clean out the stuff in <code>/usr/local</code>, once it&rsquo;s no longer needed. (It <em>might</em> be sufficient to <code>which</code> each tool, and confirm when they&rsquo;re all found in <code>${HOMEBREW_PREFIX}</code> vs. the old <code>/usr/local</code>.)</li>\n</ol>\n<p>Whew! That seemed a bit more difficult than necessary - especially since it was (as far as I could tell) forced without warning.</p>\n",
 				"content_text": "Drat; that was an unpleasant surprise:\r\n\r\nFor some reason, when I tried `brew upgrade` today, the response was: `Cannot install in Homebrew on ARM processor in Intel default prefix`.\r\n\r\nWeird; it's been working fine, via Terminal in Rosetta, on my M1, for quite some time. Last I saw, that was required, on Apple Silicon.\r\n\r\nI don't see any warning logged from past \"brew update\" runs. And I couldn't find any announcement or release note, that Homebrew is now ready for prime-time on M1 - but apparently someone felt it necessary to force the issue. :/\r\n\r\nSo, since I depend on brew and several tools installed that way - _including some automation_ - I dropped what I was supposed to be doing, to sort this out. Here's what it took for me:\r\n\r\n1. Run `brew bundle dump` - this will create a `Brewfile` in the current directory.\r\n2. May or may not be necessary: Quit & relaunch Terminal, _without Rosetta_.\r\n3. Install Homebrew - let it go to the new dir, `/opt/homebrew/` - AKA `${HOMEBREW_PREFIX}`.\r\n4. Run `brew dump` - which uses the previously-created `Brewfile`, to (hopefully) install what you were using (as much as it can) in it's new structure, in `${HOMEBREW_PREFIX}`.\r\n5. As long as this succeeded, delete / archive the `Brewfile`. If not, debug…\r\n6. If you haven't personalized `$PATH` etc.: Follow the directions (in the output above) for updating that.\r\n7. If you _have_ (personalized `$PATH` etc.): Update that to also include `${HOMEBREW_PREFIX}` (using the ouput as a guide) - note that there are some _new_ environment vairables here, to consider adding to your shell's config. You'll likely want to make sure the new dir is _before_ the old one (so any tools not yet updated are still accessible - and new tools take precedence over the now stranded ones).\r\n8. Update any needed _configs_ that live in `/usr/local` (ex: for `clamav`), into the correct place in the new `${HOMEBREW_PREFIX}`.\r\n9. Now find wherever you might have references to brew tools, which are hard-coded for `/usr/local`, and update instead, to `${HOMEBREW_PREFIX}`. Suggestions of places to look: `/etc/crontab`, user-specific crontabs (ex: `crontab -l`), LaunchItems and such. And scripts that might be hard-coded for `/usr/local`. (Yes; hard-coding is \"bad\" - and sometimes useful to, for example, be sure to use the tool installed via brew, vs. a built-in tool by the same name.)\r\n10. Repeat on any other systems you need to.\r\n11. Set a reminder to clean out the stuff in `/usr/local`, once it's no longer needed. (It _might_ be sufficient to `which` each tool, and confirm when they're all found in `${HOMEBREW_PREFIX}` vs. the old `/usr/local`.)\r\n\r\nWhew! That seemed a bit more difficult than necessary - especially since it was (as far as I could tell) forced without warning.\n",
-				"date_published": "2022-09-02T15:13:06-04:00",
+				"date_published": "2022-09-02T14:13:06-05:00",
 				"url": "https://mvr.micro.blog/2022/09/02/apparently-its-time.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -407,7 +434,7 @@
 				
 				"content_html": "<p>eloquent - <a href=\"https://vtdigger.org/2022/07/27/peter-berger-no-issue-matters-more-than-the-preservation-of-the-republic/\">vtdigger.org/2022/07/2&hellip;</a></p>\n",
 				"content_text": "eloquent - [vtdigger.org/2022/07/2...](https://vtdigger.org/2022/07/27/peter-berger-no-issue-matters-more-than-the-preservation-of-the-republic/)\n",
-				"date_published": "2022-08-02T12:23:49-04:00",
+				"date_published": "2022-08-02T11:23:49-05:00",
 				"url": "https://mvr.micro.blog/2022/08/02/122349.html",
 				"tags": ["politics"]
 			},
@@ -416,7 +443,7 @@
 				
 				"content_html": "<p>if you haven&rsquo;t yet had the joy of watching and listening to Rich Ortiz make music, you&rsquo;re missing out - stunning guitarist, beautiful music, and a huge heart; a treasure.\n<a href=\"https://music.apple.com/us/album/rising-tide-single/1460117955\">music.apple.com/us/album/&hellip;</a></p>\n",
 				"content_text": "if you haven't yet had the joy of watching and listening to Rich Ortiz make music, you're missing out - stunning guitarist, beautiful music, and a huge heart; a treasure. \n[music.apple.com/us/album/...](https://music.apple.com/us/album/rising-tide-single/1460117955)\n",
-				"date_published": "2022-08-01T08:24:21-04:00",
+				"date_published": "2022-08-01T07:24:21-05:00",
 				"url": "https://mvr.micro.blog/2022/08/01/if-you-have.html",
 				"tags": ["beauty","music"]
 			},
@@ -425,7 +452,7 @@
 				
 				"content_html": "<p>wow; check out this art exhibit at the Vermont Supreme Court Gallery!\n<a href=\"https://www.rutlandherald.com/features/vermont_arts/the-folded-line-alisa-dworsky-at-the-supreme-court/article_2dbbeafc-da19-56e9-9b18-cf131d79926b.html\">https://www.rutlandherald.com/features/vermont_arts/the-folded-line-alisa-dworsky-at-the-supreme-court/article_2dbbeafc-da19-56e9-9b18-cf131d79926b.html</a></p>\n",
 				"content_text": "wow; check out this art exhibit at the Vermont Supreme Court Gallery! \nhttps://www.rutlandherald.com/features/vermont_arts/the-folded-line-alisa-dworsky-at-the-supreme-court/article_2dbbeafc-da19-56e9-9b18-cf131d79926b.html\n",
-				"date_published": "2022-07-16T07:37:26-04:00",
+				"date_published": "2022-07-16T06:37:26-05:00",
 				"url": "https://mvr.micro.blog/2022/07/16/wow-check-out.html",
 				"tags": ["Vermont","beauty"]
 			},
@@ -434,7 +461,7 @@
 				
 				"content_html": "<p>the magic of the US dollar, is precisely this:<br>\nit has value, because enough people believe it does.</p>\n<p>the flipside: that belief is by no means certain to continue indefinitely</p>\n",
 				"content_text": "the magic of the US dollar, is precisely this:  \nit has value, because enough people believe it does.  \n\nthe flipside: that belief is by no means certain to continue indefinitely \n",
-				"date_published": "2022-07-07T15:01:07-04:00",
+				"date_published": "2022-07-07T14:01:07-05:00",
 				"url": "https://mvr.micro.blog/2022/07/07/the-magic-of.html",
 				"tags": ["politics","security"]
 			},
@@ -443,7 +470,7 @@
 				
 				"content_html": "<p>it&rsquo;s weird… people on the &ldquo;right&rdquo; are constantly whining about how illegitimate X is - based on utter bullshit.  \nand people of goodwill continually hamstring themselves, adhering to &ldquo;norms&rdquo; - while enduring truly illegitimate abuses.  \nsuch as this batshit insane Supreme Court. which only has the power we invest them with.  \nso… until it&rsquo;s legitimate again, it&rsquo;s time to stop investing in it.</p>\n",
 				"content_text": "it's weird… people on the \"right\" are constantly whining about how illegitimate X is - based on utter bullshit.  \nand people of goodwill continually hamstring themselves, adhering to \"norms\" - while enduring truly illegitimate abuses.  \nsuch as this batshit insane Supreme Court. which only has the power we invest them with.  \nso… until it's legitimate again, it's time to stop investing in it.\n",
-				"date_published": "2022-06-24T19:25:14-04:00",
+				"date_published": "2022-06-24T18:25:14-05:00",
 				"url": "https://mvr.micro.blog/2022/06/24/its-weird-people.html",
 				"tags": ["politics"]
 			},
@@ -452,7 +479,7 @@
 				
 				"content_html": "<p>Well said - and they would know<br>\n<a href=\"https://vvfnd.org/wp-content/uploads/2022/06/VVF_NYT_20220602_2.pdf\">https://vvfnd.org/wp-content/uploads/2022/06/VVF_NYT_20220602_2.pdf</a></p>\n",
 				"content_text": "Well said - and they would know  \nhttps://vvfnd.org/wp-content/uploads/2022/06/VVF_NYT_20220602_2.pdf\n",
-				"date_published": "2022-06-05T12:37:50-04:00",
+				"date_published": "2022-06-05T11:37:50-05:00",
 				"url": "https://mvr.micro.blog/2022/06/05/well-said-and.html",
 				"tags": ["politics","security"]
 			},
@@ -461,7 +488,7 @@
 				
 				"content_html": "<p>&ldquo;Russian missiles strike Kyiv, shattering sense of calm&rdquo;<br>\nBullshit - the only sense of calm, was for people with their heads in the sand, hoping that appeasement would spare any cost to them. Which - and we have overwhelming evidence - simply makes things worse.<br>\nThere is one way - only - to stop Putin. And that is to - wait for it - stop Putin.<br>\nThere&rsquo;s no way out by dialog only - the rest of the world must step up, and take <em>direct</em> ACTION.\n<a href=\"https://www.rutlandherald.com/news/business/russian-missiles-strike-kyiv-shattering-sense-of-calm/article_af7109a8-fba0-5101-96ac-c372186a74a2.html\">www.rutlandherald.com/news/busi&hellip;</a></p>\n",
 				"content_text": "\"Russian missiles strike Kyiv, shattering sense of calm\"  \nBullshit - the only sense of calm, was for people with their heads in the sand, hoping that appeasement would spare any cost to them. Which - and we have overwhelming evidence - simply makes things worse.  \nThere is one way - only - to stop Putin. And that is to - wait for it - stop Putin.  \nThere's no way out by dialog only - the rest of the world must step up, and take _direct_ ACTION.\n[www.rutlandherald.com/news/busi...](https://www.rutlandherald.com/news/business/russian-missiles-strike-kyiv-shattering-sense-of-calm/article_af7109a8-fba0-5101-96ac-c372186a74a2.html)\n",
-				"date_published": "2022-06-05T09:05:33-04:00",
+				"date_published": "2022-06-05T08:05:33-05:00",
 				"url": "https://mvr.micro.blog/2022/06/05/russian-missiles-strike.html",
 				"tags": ["politics","security"]
 			},
@@ -470,7 +497,7 @@
 				
 				"content_html": "<p>did we really need more evidence that Elon is a terrible human being? really??\n&ldquo;demanding workers show up for at least 40 hours a week in the office or find another employer”<br>\n<a href=\"https://www.ft.com/content/f8da2592-ed67-4b87-b6d5-a0e1e4ac5a8f\">www.ft.com/content/f&hellip;</a></p>\n",
 				"content_text": "did we really need more evidence that Elon is a terrible human being? really?? \n\"demanding workers show up for at least 40 hours a week in the office or find another employer”  \n[www.ft.com/content/f...](https://www.ft.com/content/f8da2592-ed67-4b87-b6d5-a0e1e4ac5a8f)\n",
-				"date_published": "2022-06-03T17:34:43-04:00",
+				"date_published": "2022-06-03T16:34:43-05:00",
 				"url": "https://mvr.micro.blog/2022/06/03/did-we-really.html",
 				"tags": ["politics","tech","health"]
 			},
@@ -479,7 +506,7 @@
 				"title": "COVID tips",
 				"content_html": "<p>With so many of us now, simply shrugging and giving up on being careful about COVID - prompted by government and business leading the way down this dangerous path (especially dangerous for the many of us who cannot get vaccinated) - it&rsquo;s sad that the reality at this stage, is that you&rsquo;d have to be in a bubble to avoid getting it.  \nN95 masks provide decent protection - to the people on the outside of the mask. That&rsquo;s the best we&rsquo;ve got - and many of the people who should most be wearing them, are the people who care the least, so aren&rsquo;t.</p>\n<p>So we&rsquo;ll all likely get it - and with that in mind:</p>\n<ul>\n<li>get all the boosters you can, as soon as they&rsquo;re available to you</li>\n<li>don&rsquo;t wait on a booster since this will increase your risk AND delay your ability to get the next one, which may be even better and/or more targeted</li>\n<li>manage risk as best possible; minimize time in closed rooms, especially with poor ventilation</li>\n<li>for recent variants, the amount of exposure to become infected, is about 60 <em>seconds</em></li>\n<li>test early and often, especially after anything you think even MIGHT have been risky</li>\n<li>tests are generally covered by healthcare plans, or otherwise available at no additional cost - get as many as you are allowed, and use them</li>\n<li>PCR tests are the gold standard, and pick up infection sooner than antigen tests</li>\n<li>PCR tests will also show positive, for awhile afterward (because you&rsquo;ve still got it in you)</li>\n<li>there are no at-home PCR tests; they require more advanced lab equipment and expertise</li>\n<li>LAMP tests are _similar to PCR; they look for the same thing <em>in a different way</em></li>\n<li>PCR tests are still available at no additional cost, usually run by the state</li>\n<li>antigen tests are useful to show if you&rsquo;re at a high enough level that you should isolate</li>\n<li>antigen tests will take awhile after infection, to show positive; test &gt;5 days after exposure</li>\n<li>antigen tests are also useful after you&rsquo;ve had it, and are no longer symptomatic, to show when it&rsquo;s safe to exit isolation (even when a PCR might show positive)</li>\n<li>test results are no longer tracked in even a remotely comprehensive way, so those stats are dubious at best</li>\n<li>we DO have treatment options - and you need to prepare NOW to be able to use them</li>\n<li>for instance, Paxlovid is apparently most/only useful, <em>immediately</em> after infection</li>\n<li>so have that conversation with your doctor NOW, to know how to get it as soon as you need it, since you can get it only on their say-so</li>\n<li>the treatments (like Paxlovid) have significant potential side-effects and drug interactions; check those carefully - also good to do NOW, before you&rsquo;re in the throws</li>\n</ul>\n<p>Last: Please point out any errors I&rsquo;ve made above, or any additions / questions / comments - best way to get through this, is TOGETHER. ❤️</p>\n",
 				"content_text": "With so many of us now, simply shrugging and giving up on being careful about COVID - prompted by government and business leading the way down this dangerous path (especially dangerous for the many of us who cannot get vaccinated) - it's sad that the reality at this stage, is that you'd have to be in a bubble to avoid getting it.  \r\nN95 masks provide decent protection - to the people on the outside of the mask. That's the best we've got - and many of the people who should most be wearing them, are the people who care the least, so aren't.\r\n\r\nSo we'll all likely get it - and with that in mind:\r\n\r\n- get all the boosters you can, as soon as they're available to you\r\n- don't wait on a booster since this will increase your risk AND delay your ability to get the next one, which may be even better and/or more targeted\r\n- manage risk as best possible; minimize time in closed rooms, especially with poor ventilation\r\n- for recent variants, the amount of exposure to become infected, is about 60 _seconds_\r\n- test early and often, especially after anything you think even MIGHT have been risky\r\n- tests are generally covered by healthcare plans, or otherwise available at no additional cost - get as many as you are allowed, and use them\r\n- PCR tests are the gold standard, and pick up infection sooner than antigen tests\r\n- PCR tests will also show positive, for awhile afterward (because you've still got it in you)\r\n- there are no at-home PCR tests; they require more advanced lab equipment and expertise\r\n- LAMP tests are _similar to PCR; they look for the same thing _in a different way_\r\n- PCR tests are still available at no additional cost, usually run by the state\r\n- antigen tests are useful to show if you're at a high enough level that you should isolate\r\n- antigen tests will take awhile after infection, to show positive; test >5 days after exposure\r\n- antigen tests are also useful after you've had it, and are no longer symptomatic, to show when it's safe to exit isolation (even when a PCR might show positive)\r\n- test results are no longer tracked in even a remotely comprehensive way, so those stats are dubious at best\r\n- we DO have treatment options - and you need to prepare NOW to be able to use them\r\n- for instance, Paxlovid is apparently most/only useful, _immediately_ after infection\r\n- so have that conversation with your doctor NOW, to know how to get it as soon as you need it, since you can get it only on their say-so\r\n- the treatments (like Paxlovid) have significant potential side-effects and drug interactions; check those carefully - also good to do NOW, before you're in the throws\r\n\r\nLast: Please point out any errors I've made above, or any additions / questions / comments - best way to get through this, is TOGETHER. ❤️\r\n",
-				"date_published": "2022-05-22T09:45:56-04:00",
+				"date_published": "2022-05-22T08:45:56-05:00",
 				"url": "https://mvr.micro.blog/2022/05/22/covid-tips.html",
 				"tags": ["health"]
 			},
@@ -488,7 +515,7 @@
 				
 				"content_html": "<p>another nudge to get any tests and boosters you’re eligible for, ASAP:<br>\nFauci signaling that [due to GOP opposition to COVID funding], the US is going to start running out.  :(<br>\nthis, as we appear to be in a surge in the NorthEast, and likely country-wide by Fall (if not sooner).<br>\n<a href=\"https://www.realclearpolitics.com/video/2022/05/13/fauci_we_have_the_possibility_of_a_surge_due_to_waning_immunity_and_people_gathering_without_masks.html\">https://www.realclearpolitics.com/video/2022/05/13/fauci_we_have_the_possibility_of_a_surge_due_to_waning_immunity_and_people_gathering_without_masks.html</a></p>\n",
 				"content_text": "another nudge to get any tests and boosters you’re eligible for, ASAP:  \nFauci signaling that \\[due to GOP opposition to COVID funding\\], the US is going to start running out.  :(  \nthis, as we appear to be in a surge in the NorthEast, and likely country-wide by Fall (if not sooner).  \nhttps://www.realclearpolitics.com/video/2022/05/13/fauci_we_have_the_possibility_of_a_surge_due_to_waning_immunity_and_people_gathering_without_masks.html\n",
-				"date_published": "2022-05-22T09:38:00-04:00",
+				"date_published": "2022-05-22T08:38:00-05:00",
 				"url": "https://mvr.micro.blog/2022/05/22/another-nudge-to.html",
 				"tags": ["health"]
 			},
@@ -497,7 +524,7 @@
 				
 				"content_html": "<p>do yourself (and everyone else) a favor - get some of these N95 masks:<br>\n<a href=\"https://www.airgami.life\">www.airgami.life</a><br>\nwhy? excellent breathability, excellent fit, excellent protection.<br>\nBTW: also works very well, for those of us with beards - for a solid (and safe) fit</p>\n",
 				"content_text": "do yourself (and everyone else) a favor - get some of these N95 masks:  \n[www.airgami.life](https://www.airgami.life)  \nwhy? excellent breathability, excellent fit, excellent protection.  \nBTW: also works very well, for those of us with beards - for a solid (and safe) fit\n",
-				"date_published": "2022-05-15T13:46:00-04:00",
+				"date_published": "2022-05-15T12:46:00-05:00",
 				"url": "https://mvr.micro.blog/2022/05/15/do-yourself-and.html",
 				"tags": ["health"]
 			},
@@ -506,7 +533,7 @@
 				
 				"content_html": "<p>we will not be deterred! 😉<br>\n<a href=\"https://www.rutlandherald.com/opinion/commentary/danziger/image_9886f7aa-50e7-57b0-a54e-89bd28117873.html\">www.rutlandherald.com/opinion/c&hellip;</a><br>\n❤️</p>\n",
 				"content_text": "we will not be deterred! 😉  \n[www.rutlandherald.com/opinion/c...](https://www.rutlandherald.com/opinion/commentary/danziger/image_9886f7aa-50e7-57b0-a54e-89bd28117873.html)  \n❤️\n",
-				"date_published": "2022-05-14T07:57:00-04:00",
+				"date_published": "2022-05-14T06:57:00-05:00",
 				"url": "https://mvr.micro.blog/2022/05/14/we-will-not.html",
 				"tags": ["natural world","Vermont","health","comics"]
 			},
@@ -515,7 +542,7 @@
 				
 				"content_html": "<p>Wiley nails it<br>\n<a href=\"https://www.gocomics.com/nonsequitur/2022/04/29\">www.gocomics.com/nonsequit&hellip;</a></p>\n",
 				"content_text": "Wiley nails it  \n[www.gocomics.com/nonsequit...](https://www.gocomics.com/nonsequitur/2022/04/29)\n",
-				"date_published": "2022-04-29T08:00:00-04:00",
+				"date_published": "2022-04-29T07:00:00-05:00",
 				"url": "https://mvr.micro.blog/2022/04/29/wiley-nails-it.html",
 				"tags": ["politics","security","comics"]
 			},
@@ -524,7 +551,7 @@
 				
 				"content_html": "<p>Leah Elliot&rsquo;s remix of Scott McCloud&rsquo;s 2008 discussion of Google Chrome - should be required reading for anyone using it. And the rest of us, too.<br>\n&ldquo;What are you going to <em>do</em> about it?&rdquo;\n<a href=\"https://contrachrome.com/comic/page01/\">contrachrome.com/comic/pag&hellip;</a></p>\n",
 				"content_text": "Leah Elliot's remix of Scott McCloud's 2008 discussion of Google Chrome - should be required reading for anyone using it. And the rest of us, too.  \n\"What are you going to _do_ about it?\"\n[contrachrome.com/comic/pag...](https://contrachrome.com/comic/page01/)\n",
-				"date_published": "2022-04-25T07:12:00-04:00",
+				"date_published": "2022-04-25T06:12:00-05:00",
 				"url": "https://mvr.micro.blog/2022/04/25/leah-elliots-remix.html",
 				"tags": ["politics","tech","security","comics"]
 			},
@@ -533,7 +560,7 @@
 				
 				"content_html": "<p>Books Unbanned - thanks to the Brooklyn Public Library 👏🏽</p>\n<p><a href=\"https://www.bklynlibrary.org/books-unbanned\">www.bklynlibrary.org/books-unb&hellip;</a></p>\n",
 				"content_text": "Books Unbanned - thanks to the Brooklyn Public Library 👏🏽\n\n[www.bklynlibrary.org/books-unb...](https://www.bklynlibrary.org/books-unbanned)\n",
-				"date_published": "2022-04-24T09:16:00-04:00",
+				"date_published": "2022-04-24T08:16:00-05:00",
 				"url": "https://mvr.micro.blog/2022/04/24/books-unbanned-thanks.html",
 				"tags": ["politics","books"]
 			},
@@ -542,7 +569,7 @@
 				
 				"content_html": "<p>gods bless danzinger <a href=\"http://www.danzigercartoons.com/cartoons/spring-seed-catalogues\">www.danzigercartoons.com/cartoons/&hellip;</a></p>\n",
 				"content_text": "gods bless danzinger [www.danzigercartoons.com/cartoons/...](http://www.danzigercartoons.com/cartoons/spring-seed-catalogues)\n",
-				"date_published": "2022-04-12T17:44:00-04:00",
+				"date_published": "2022-04-12T16:44:00-05:00",
 				"url": "https://mvr.micro.blog/2022/04/12/gods-bless-danzinger.html",
 				"tags": ["natural world","Vermont","comics"]
 			},
@@ -550,8 +577,8 @@
 				"id": "http://mvr.micro.blog/2022/04/04/whoever-made-this.html",
 				
 				"content_html": "<p>whoever made this, gets 1,000 internet points</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
-				"date_published": "2022-04-04T17:25:00-04:00",
+				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
+				"date_published": "2022-04-04T16:25:00-05:00",
 				"url": "https://mvr.micro.blog/2022/04/04/whoever-made-this.html",
 				"tags": ["health"]
 			},
@@ -560,7 +587,7 @@
 				
 				"content_html": "<p>more painful evidence that many officials - yes; &ldquo;even&rdquo; in VT - are making decisions heavily weighted on political considerations vs. science (but ham-handedly abusing science, to justify): <a href=\"https://vtdigger.org/2022/03/30/a-vermont-school-district-reimposed-a-mask-mandate-the-states-top-education-official-urged-it-not-to/\">vtdigger.org/2022/03/3&hellip;</a></p>\n",
 				"content_text": "more painful evidence that many officials - yes; \"even\" in VT - are making decisions heavily weighted on political considerations vs. science (but ham-handedly abusing science, to justify): [vtdigger.org/2022/03/3...](https://vtdigger.org/2022/03/30/a-vermont-school-district-reimposed-a-mask-mandate-the-states-top-education-official-urged-it-not-to/)\n",
-				"date_published": "2022-03-30T20:57:00-04:00",
+				"date_published": "2022-03-30T19:57:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/30/more-painful-evidence.html",
 				"tags": ["politics","Vermont","health"]
 			},
@@ -569,7 +596,7 @@
 				
 				"content_html": "<p>One of the most reliably <em>wrong</em> voices in VT (yes; more than McClaughry) - full of short-sightedness &amp; GOP / Libertarian &ldquo;values&rdquo;</p>\n<p><a href=\"https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/\">vtdigger.org/2022/03/2&hellip;</a></p>\n",
 				"content_text": "One of the most reliably _wrong_ voices in VT (yes; more than McClaughry) - full of short-sightedness & GOP / Libertarian \"values\"\n\n[vtdigger.org/2022/03/2...](https://vtdigger.org/2022/03/28/tom-evslin-inflation-and-war-change-the-calculations-on-climate-legislation/)\n",
-				"date_published": "2022-03-28T07:52:00-04:00",
+				"date_published": "2022-03-28T06:52:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/28/one-of-the.html",
 				"tags": ["politics","Vermont","climate change"]
 			},
@@ -578,7 +605,7 @@
 				
 				"content_html": "<p>spare a thought for my family: our fourth hospice, and death, in the past six years</p>\n<p><a href=\"https://www.maharandsonfuneralhome.net/memorials/tommaso-rendino/4878181/index.php\">www.maharandsonfuneralhome.net/memorials&hellip;</a></p>\n",
 				"content_text": "spare a thought for my family: our fourth hospice, and death, in the past six years\r\n\r\n[www.maharandsonfuneralhome.net/memorials...](https://www.maharandsonfuneralhome.net/memorials/tommaso-rendino/4878181/index.php)\n",
-				"date_published": "2022-03-27T18:04:05-04:00",
+				"date_published": "2022-03-27T17:04:05-05:00",
 				"url": "https://mvr.micro.blog/2022/03/27/spare-a-thought.html"
 			},
 			{
@@ -586,7 +613,7 @@
 				
 				"content_html": "<p>&ldquo;Thus far, only the state’s larger hospitals… have filed rate adjustment requests&rdquo;</p>\n<p>Oh; but &ldquo;economies of scale&rdquo;!</p>\n<p><a href=\"https://vtdigger.org/2022/03/27/smaller-vermont-hospitals-forgo-requests-for-service-rate-hikes%EF%BF%BC/\">vtdigger.org/2022/03/2&hellip;</a></p>\n",
 				"content_text": "\"Thus far, only the state’s larger hospitals… have filed rate adjustment requests\"\n\nOh; but \"economies of scale\"!\n\n[vtdigger.org/2022/03/2...](https://vtdigger.org/2022/03/27/smaller-vermont-hospitals-forgo-requests-for-service-rate-hikes%EF%BF%BC/)\n",
-				"date_published": "2022-03-27T18:01:00-04:00",
+				"date_published": "2022-03-27T17:01:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/27/thus-far-only.html",
 				"tags": ["Vermont","health"]
 			},
@@ -595,7 +622,7 @@
 				
 				"content_html": "<p>brilliant explanation of why - especially for some of us - it&rsquo;s hard to switch tasks: <a href=\"https://eisforerin.com/tag/adhd/\">eisforerin.com/tag/adhd/</a></p>\n",
 				"content_text": "brilliant explanation of why - especially for some of us - it's hard to switch tasks: [eisforerin.com/tag/adhd/](https://eisforerin.com/tag/adhd/)\n",
-				"date_published": "2022-03-23T08:56:00-04:00",
+				"date_published": "2022-03-23T07:56:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/23/brilliant-explanation-of.html",
 				"tags": ["health","comics"]
 			},
@@ -604,7 +631,7 @@
 				
 				"content_html": "<p>Wow; the new Spatial Audio feature (AirPods) is cool - though rather disorienting in some situations; here&rsquo;s how to control it: <a href=\"https://support.apple.com/guide/airpods/control-spatial-audio-and-head-tracking-dev00eb7e0a3/web\">support.apple.com/guide/air&hellip;</a></p>\n",
 				"content_text": "Wow; the new Spatial Audio feature (AirPods) is cool - though rather disorienting in some situations; here's how to control it: [support.apple.com/guide/air...](https://support.apple.com/guide/airpods/control-spatial-audio-and-head-tracking-dev00eb7e0a3/web)\n",
-				"date_published": "2022-03-22T15:44:00-04:00",
+				"date_published": "2022-03-22T14:44:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/22/wow-the-new.html",
 				"tags": ["tech","Mac","iOS"]
 			},
@@ -613,7 +640,7 @@
 				
 				"content_html": "<p>Bolling’s brilliant take, on Putin’s abuse of his country, to abuse the people of Ukraine</p>\n<p><a href=\"https://www.dailykos.com/stories/2022/3/10/2084867/-Cartoon-A-Simpsonian-look-Mr-Putin-s-invasion-of-Ukraine\">www.dailykos.com/stories/2&hellip;</a></p>\n",
 				"content_text": "Bolling’s brilliant take, on Putin’s abuse of his country, to abuse the people of Ukraine\n\n[www.dailykos.com/stories/2...](https://www.dailykos.com/stories/2022/3/10/2084867/-Cartoon-A-Simpsonian-look-Mr-Putin-s-invasion-of-Ukraine)\n",
-				"date_published": "2022-03-11T14:12:00-04:00",
+				"date_published": "2022-03-11T13:12:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/11/bollings-brilliant-take.html",
 				"tags": ["politics","security"]
 			},
@@ -622,7 +649,7 @@
 				
 				"content_html": "<p>“market forces” and healthcare - forcing many of us, to get neither health, nor care <a href=\"https://vtdigger.org/2022/03/10/dr-marvin-malek-uvm-united-healthcare-spat-shows-market-forces-at-work/\">vtdigger.org/2022/03/1&hellip;</a></p>\n",
 				"content_text": "“market forces” and healthcare - forcing many of us, to get neither health, nor care [vtdigger.org/2022/03/1...](https://vtdigger.org/2022/03/10/dr-marvin-malek-uvm-united-healthcare-spat-shows-market-forces-at-work/)\n",
-				"date_published": "2022-03-11T10:32:00-04:00",
+				"date_published": "2022-03-11T09:32:00-05:00",
 				"url": "https://mvr.micro.blog/2022/03/11/market-forces-and.html",
 				"tags": ["politics","Vermont","health"]
 			},
@@ -631,7 +658,7 @@
 				
 				"content_html": "<p>The kids, are a whole lot better than alright: <a href=\"https://www.npr.org/sections/health-shots/2022/02/16/1074191656/this-16-year-old-wanted-to-get-the-covid-vaccine-he-had-to-hide-it-from-his-pare\">&ldquo;teen wanted COVID vaccine; had to hide it from parents&rdquo;</a></p>\n",
 				"content_text": "The kids, are a whole lot better than alright: [\"teen wanted COVID vaccine; had to hide it from parents\"](https://www.npr.org/sections/health-shots/2022/02/16/1074191656/this-16-year-old-wanted-to-get-the-covid-vaccine-he-had-to-hide-it-from-his-pare)\n",
-				"date_published": "2022-02-18T18:42:00-04:00",
+				"date_published": "2022-02-18T17:42:00-05:00",
 				"url": "https://mvr.micro.blog/2022/02/18/the-kids-are.html",
 				"tags": ["health","security"]
 			},
@@ -640,7 +667,7 @@
 				
 				"content_html": "<p>Oh for the love of… <a href=\"https://www.techradar.com/news/zoom-on-mac-may-be-recording-you-even-when-youre-not-using-it\">Zoom on Mac may be recording you even when you&rsquo;re not using it</a>. How many &ldquo;oops&rdquo; does one org get?!</p>\n",
 				"content_text": "Oh for the love of… [Zoom on Mac may be recording you even when you're not using it](https://www.techradar.com/news/zoom-on-mac-may-be-recording-you-even-when-youre-not-using-it). How many \"oops\" does one org get?!\n",
-				"date_published": "2022-02-18T18:36:06-04:00",
+				"date_published": "2022-02-18T17:36:06-05:00",
 				"url": "https://mvr.micro.blog/2022/02/18/oh-for-the.html",
 				"tags": ["tech","Mac"]
 			},
@@ -649,7 +676,7 @@
 				
 				"content_html": "<p>Poor form, folks - from the <a href=\"https://www.theladders.com/corporate/privacy\">Ladders Privacy Policy</a></p>\n<blockquote>\n<p>Our Services do not respond to Do Not Track signals.</p>\n</blockquote>\n<p>Sure; thanks for being honest - even better, to actually show some respect.</p>\n",
 				"content_text": "Poor form, folks - from the [Ladders Privacy Policy](https://www.theladders.com/corporate/privacy) \n\n> Our Services do not respond to Do Not Track signals.\n\nSure; thanks for being honest - even better, to actually show some respect.\n",
-				"date_published": "2022-02-16T10:41:00-04:00",
+				"date_published": "2022-02-16T09:41:00-05:00",
 				"url": "https://mvr.micro.blog/2022/02/16/poor-form-folks.html",
 				"tags": ["tech","security"]
 			},
@@ -658,7 +685,7 @@
 				
 				"content_html": "<p><a href=\"https://www.creators.com/read/mike-luckovich/02/22/320030\">a terribly trenchant summation of Trump and the Trump GOP</a></p>\n",
 				"content_text": "[a terribly trenchant summation of Trump and the Trump GOP](https://www.creators.com/read/mike-luckovich/02/22/320030)\n",
-				"date_published": "2022-02-16T09:34:00-04:00",
+				"date_published": "2022-02-16T08:34:00-05:00",
 				"url": "https://mvr.micro.blog/2022/02/16/a-terribly-trenchant.html",
 				"tags": ["politics"]
 			},
@@ -667,7 +694,7 @@
 				
 				"content_html": "<p>brava, <a href=\"https://gail.com\">gail.com</a> - well done indeed</p>\n",
 				"content_text": "brava, [gail.com](https://gail.com) - well done indeed\n",
-				"date_published": "2022-02-11T12:46:00-04:00",
+				"date_published": "2022-02-11T11:46:00-05:00",
 				"url": "https://mvr.micro.blog/2022/02/11/brava-gailcom-well.html",
 				"tags": ["tech"]
 			},
@@ -676,7 +703,7 @@
 				
 				"content_html": "<p>finally reading DFW’s (<a href=\"https://en.wikipedia.org/wiki/David_Foster_Wallace\">David Foster Wallce</a>) “<a href=\"https://en.wikipedia.org/wiki/Infinite_Jest\">Infinite Jest</a>” - and have had to employ a <em>third</em> bookmark — <em>so far</em>. lordy!</p>\n",
 				"content_text": "finally reading DFW’s ([David Foster Wallce](https://en.wikipedia.org/wiki/David_Foster_Wallace)) “[Infinite Jest](https://en.wikipedia.org/wiki/Infinite_Jest)” - and have had to employ a _third_ bookmark — _so far_. lordy!\n",
-				"date_published": "2022-02-09T19:09:00-04:00",
+				"date_published": "2022-02-09T18:09:00-05:00",
 				"url": "https://mvr.micro.blog/2022/02/09/finally-reading-dfws.html",
 				"tags": ["books"]
 			},
@@ -685,7 +712,7 @@
 				
 				"content_html": "<p>as usual, <a href=\"https://www.gocomics.com/nonsequitur/2022/01/28\">Wiley nails it</a></p>\n<p>btw, and not sure if it&rsquo;s intentional: some of us, are just &ldquo;them&rdquo; :/</p>\n",
 				"content_text": "as usual, [Wiley nails it](https://www.gocomics.com/nonsequitur/2022/01/28)\n\nbtw, and not sure if it's intentional: some of us, are just \"them\" :/\n",
-				"date_published": "2022-01-29T17:37:00-04:00",
+				"date_published": "2022-01-29T16:37:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/29/as-usual-wiley.html",
 				"tags": ["politics","comics"]
 			},
@@ -694,7 +721,7 @@
 				
 				"content_html": "<p><a href=\"https://www.smbc-comics.com/comic/uncertainty\">of course it is ;)</a></p>\n",
 				"content_text": "[of course it is ;)](https://www.smbc-comics.com/comic/uncertainty)\n",
-				"date_published": "2022-01-29T17:35:00-04:00",
+				"date_published": "2022-01-29T16:35:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/29/of-course-it.html",
 				"tags": ["tech","comics"]
 			},
@@ -703,7 +730,7 @@
 				
 				"content_html": "<p>maitri</p>\n",
 				"content_text": "maitri\n",
-				"date_published": "2022-01-25T09:44:00-04:00",
+				"date_published": "2022-01-25T08:44:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/25/maitri.html",
 				"tags": ["health"]
 			},
@@ -712,15 +739,15 @@
 				
 				"content_html": "<p>spare a thought - or $ if you can - for some good folks who need help: <a href=\"https://www.gofundme.com/f/help-baby-adrian-while-so-far-from-home\">www.gofundme.com/f/help-ba&hellip;</a></p>\n",
 				"content_text": "spare a thought - or $ if you can - for some good folks who need help: [www.gofundme.com/f/help-ba...](https://www.gofundme.com/f/help-baby-adrian-while-so-far-from-home)\n",
-				"date_published": "2022-01-18T14:21:29-04:00",
+				"date_published": "2022-01-18T13:21:29-05:00",
 				"url": "https://mvr.micro.blog/2022/01/18/spare-a-thought.html"
 			},
 			{
 				"id": "http://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				
 				"content_html": "<p>my black mug shot #blackmugshots #blackmugshot</p>\n<ul>\n<li><a href=\"https://duckduckgo.com/?q=black+mug+shots\">WTF</a></li>\n<li><a href=\"http://www.blackmugshots.com/\">change the conversation</a></li>\n</ul>\n<!-- raw HTML omitted -->\n",
-				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
-				"date_published": "2022-01-18T14:13:00-04:00",
+				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
+				"date_published": "2022-01-18T13:13:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				"tags": ["politics"]
 			},
@@ -729,7 +756,7 @@
 				
 				"content_html": "<p>quick way to get notified that your <em>other</em> Mac (maybe a server?) has some software updates available: <a href=\"https://github.com/mvgfr/utils_mvr/blob/main/swupd_remote_check.sh\">swupd_remote_check.sh</a></p>\n",
 				"content_text": "quick way to get notified that your _other_ Mac (maybe a server?) has some software updates available: [swupd\\_remote\\_check.sh](https://github.com/mvgfr/utils_mvr/blob/main/swupd_remote_check.sh)\n",
-				"date_published": "2022-01-17T18:32:00-04:00",
+				"date_published": "2022-01-17T17:32:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/17/quick-way-to.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -738,7 +765,7 @@
 				
 				"content_html": "<p>safety tip, for whenever you pull out your computer to do &lt;whatever&gt;:\nALWAYS do that FIRST - the other stuff clamoring for your attention will happily continue reminding you, AFTER you’re done.\nYOUR intentions are more important - especially since there’s nothing reminding you about that.</p>\n",
 				"content_text": "safety tip, for whenever you pull out your computer to do \\<whatever\\>:\nALWAYS do that FIRST - the other stuff clamoring for your attention will happily continue reminding you, AFTER you’re done.\nYOUR intentions are more important - especially since there’s nothing reminding you about that.\n",
-				"date_published": "2022-01-17T09:43:00-04:00",
+				"date_published": "2022-01-17T08:43:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/17/safety-tip-for.html",
 				"tags": ["tech"]
 			},
@@ -747,7 +774,7 @@
 				"title": "A Hack to Index Notes, for Quicksilver",
 				"content_html": "<p>First: A few presumptions; <em>this is a hack</em>:</p>\n<ul>\n<li>You have at least some grasp of operating at the (Mac) command-line; ex: in <a href=\"https://en.wikipedia.org/wiki/Terminal_(macOS)\">Terminal</a>.\n<ul>\n<li>For instance: <code>~</code> (tilde) is an abbreviation is for <em>your</em> homedir.</li>\n</ul>\n</li>\n<li>You know what <a href=\"https://qsapp.com/\">Quicksilver</a> is.\n<ul>\n<li>(Yes; Far as I know, it&rsquo;s Mac only.)</li>\n</ul>\n</li>\n<li>Debugging your setup is up to you; at the moment, I have <em>extremely</em> limited availability to help.\n<ul>\n<li>Feel free to drop a note; on the off chance it&rsquo;s possible, I will try to help.</li>\n</ul>\n</li>\n</ul>\n<h2 id=\"how-to-set-it-up\">How to set it up</h2>\n<ol>\n<li>A (bash) script to list the Titles of your Notes:\n<ul>\n<li>The code is in separate section below.</li>\n<li>Save the script to <code>~/dump-note-titles.sh</code>.</li>\n<li><a href=\"https://en.wikipedia.org/wiki/Chmod\"><code>chmod</code></a> it, to be executable:\n<pre tabindex=\"0\"><code>chmod u+x ~/dump-note-titles.sh\n</code></pre></li>\n<li>Run it once, to seed the output file:\n<pre tabindex=\"0\"><code>~/dump-note-titles.sh\n</code></pre></li>\n<li>Open the <code>~/titles-from-notes-app.txt</code> file which it generated.\n<ul>\n<li>It should have a list of the Titles of your Notes.</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Keep this <em>up-to-date</em>, via <a href=\"https://en.wikipedia.org/wiki/Cron\">cron</a>:\n<ul>\n<li>Edit your crontab:\n<pre tabindex=\"0\"><code>crontab -e\n</code></pre><pre tabindex=\"0\"><code></code></pre></li>\n<li>Add a line like this:\n<pre tabindex=\"0\"><code>48  *  *  *  *\t ~/dump-note-titles.sh\n</code></pre></li>\n<li>Yes; <a href=\"https://duckduckgo.com/?q=how+to+debug+a+cron+job&amp;ia=web\">cron can be a bear to debug</a>. :/</li>\n</ul>\n</li>\n<li>Config QuickSilver to use this new &ldquo;index&rdquo;:\n<ul>\n<li>Add a Catalog entry, using <code>File &amp; Folder Scanner</code>.</li>\n<li>For the Path, select the <code>~/titles-from-notes-app.txt</code> file generated by the script above.</li>\n<li>For the Include Contents setting, select <code>Text Lines</code>.</li>\n</ul>\n</li>\n<li>Config a new Quicksilver Action, to open Notes by title:\n<ul>\n<li>Open <a href=\"https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/GettoKnowScriptEditor.html#//apple_ref/doc/uid/TP40016239-CH5-SW1\"><code>Script Editor.app</code></a>.</li>\n<li>Paste the code in - see the separate section below.</li>\n<li>Save it, as <code>open note by title.scpt</code> (<code>File format: Script</code>), to your Quicksilver Actions directory.\n<ul>\n<li>Which is usually here: <code>~/Library/Application Support/Quicksilver/Actions/</code>.</li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>\n<h2 id=\"how-to-use\">How to use</h2>\n<ul>\n<li>Fire up Quicksilver.</li>\n<li>Start typing some substring of a Note Title.</li>\n<li>Select the Title you want from the results.</li>\n<li>Select <code>open note by title</code> as the action.</li>\n</ul>\n<h3 id=\"bash-script-dump-note-titlessh\">bash Script <code>~/dump-note-titles.sh</code></h3>\n<pre><code>#!/bin/bash\nosascript \\\n\t-e 'set outFilePath to (((path to home folder) as text) &amp; &quot;titles-from-notes-app.txt&quot;)' \\\n\t-e 'tell application &quot;Notes&quot;' \\\n\t-e     'set nameList to name of every note' \\\n\t-e 'end tell' \\\n\t-e 'set outFile to open for access file outFilePath with write permission' \\\n\t-e 'repeat with theName in nameList' \\\n\t-e     'write theName &amp; return to outFile as «class utf8»' \\\n\t-e 'end repeat' \\\n\t-e 'close access outFile' \\\n</code></pre>\n<h3 id=\"applescript-open-note-by-titlescpt\">Applescript <code>open note by title.scpt</code></h3>\n<pre><code>using terms from application &quot;Quicksilver&quot;\n\ton process text ThisClipping\n\t\ttell application &quot;Notes&quot;\n\t\t\tshow note ThisClipping\n\tend process text\nend using terms from\n</code></pre>\n<p>(Yes; I do intend to put this in a repo, where it belongs.)</p>\n",
 				"content_text": "First: A few presumptions; _this is a hack_:\n\n- You have at least some grasp of operating at the (Mac) command-line; ex: in [Terminal](https://en.wikipedia.org/wiki/Terminal_(macOS)).\n    - For instance: `~` (tilde) is an abbreviation is for _your_ homedir.\n- You know what [Quicksilver](https://qsapp.com/) is.\n    - (Yes; Far as I know, it's Mac only.)\n- Debugging your setup is up to you; at the moment, I have _extremely_ limited availability to help.\n    - Feel free to drop a note; on the off chance it's possible, I will try to help.\n\n## How to set it up\n1. A (bash) script to list the Titles of your Notes:\n    - The code is in separate section below.\n    - Save the script to `~/dump-note-titles.sh`.\n    - [`chmod`](https://en.wikipedia.org/wiki/Chmod) it, to be executable:\n        ```\n        chmod u+x ~/dump-note-titles.sh\n        ```\n    - Run it once, to seed the output file:\n        ```\n\t\t~/dump-note-titles.sh\n        ```\n    - Open the `~/titles-from-notes-app.txt` file which it generated.\n        - It should have a list of the Titles of your Notes.\n1. Keep this _up-to-date_, via [cron](https://en.wikipedia.org/wiki/Cron):\n\t- Edit your crontab:\n\t\t```\n\t\tcrontab -e\n\t\t```\n    - Add a line like this:\n        ```\n        48  *  *  *  *\t ~/dump-note-titles.sh\n        ```\n    - Yes; [cron can be a bear to debug](https://duckduckgo.com/?q=how+to+debug+a+cron+job&ia=web). :/\n1. Config QuickSilver to use this new \"index\":\n    - Add a Catalog entry, using `File & Folder Scanner`.\n    - For the Path, select the `~/titles-from-notes-app.txt` file generated by the script above.\n    - For the Include Contents setting, select `Text Lines`.\n1. Config a new Quicksilver Action, to open Notes by title:\n    - Open [`Script Editor.app`](https://developer.apple.com/library/archive/documentation/LanguagesUtilities/Conceptual/MacAutomationScriptingGuide/GettoKnowScriptEditor.html#//apple_ref/doc/uid/TP40016239-CH5-SW1).\n    - Paste the code in - see the separate section below.\n    - Save it, as `open note by title.scpt` (`File format: Script`), to your Quicksilver Actions directory.\n        - Which is usually here: `~/Library/Application Support/Quicksilver/Actions/`.\n\n## How to use\n- Fire up Quicksilver.\n- Start typing some substring of a Note Title.\n- Select the Title you want from the results.\n- Select `open note by title` as the action.\n\n### bash Script `~/dump-note-titles.sh`\n\t#!/bin/bash\n\tosascript \\\n\t\t-e 'set outFilePath to (((path to home folder) as text) & \"titles-from-notes-app.txt\")' \\\n\t\t-e 'tell application \"Notes\"' \\\n\t\t-e     'set nameList to name of every note' \\\n\t\t-e 'end tell' \\\n\t\t-e 'set outFile to open for access file outFilePath with write permission' \\\n\t\t-e 'repeat with theName in nameList' \\\n\t\t-e     'write theName & return to outFile as «class utf8»' \\\n\t\t-e 'end repeat' \\\n\t\t-e 'close access outFile' \\\n\n### Applescript `open note by title.scpt`\n\tusing terms from application \"Quicksilver\"\n\t\ton process text ThisClipping\n\t\t\ttell application \"Notes\"\n\t\t\t\tshow note ThisClipping\n\t\tend process text\n\tend using terms from\n\n(Yes; I do intend to put this in a repo, where it belongs.)\n",
-				"date_published": "2022-01-15T18:34:00-04:00",
+				"date_published": "2022-01-15T17:34:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/15/a-hack-to.html",
 				"tags": ["tech","Mac","UNIX  Linux"]
 			},
@@ -756,7 +783,7 @@
 				
 				"content_html": "<p>workers unite - we have a <em>slim</em> chance here, to reverse some of the ground lost over the past half century\n✊🏽✊🏽✊🏽</p>\n<p><a href=\"https://twitter.com/GrimKim/status/1482032160374673411\">twitter.com/GrimKim/s&hellip;</a></p>\n",
 				"content_text": "workers unite - we have a _slim_ chance here, to reverse some of the ground lost over the past half century\n✊🏽✊🏽✊🏽\n\n[twitter.com/GrimKim/s...](https://twitter.com/GrimKim/status/1482032160374673411)\n",
-				"date_published": "2022-01-14T13:47:00-04:00",
+				"date_published": "2022-01-14T12:47:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/14/workers-unite-we.html",
 				"tags": ["politics"]
 			},
@@ -764,8 +791,8 @@
 				"id": "http://mvr.micro.blog/2022/01/13/good-illustration-of.html",
 				
 				"content_html": "<p>good illustration of the idea of &ldquo;security theater&rdquo; - all that counts, is the weakest link; and so many to choose from…</p>\n<p>(entry to &ldquo;reservoir&rdquo; near top of Main St in Burlington (VT) near UVM&rsquo;s Davis Ctr)</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "good illustration of the idea of \"security theater\" - all that counts, is the weakest link; and so many to choose from…\n\n(entry to \"reservoir\" near top of Main St in Burlington (VT) near UVM's Davis Ctr)\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" />\n",
-				"date_published": "2022-01-13T18:29:00-04:00",
+				"content_text": "good illustration of the idea of \"security theater\" - all that counts, is the weakest link; and so many to choose from…\n\n(entry to \"reservoir\" near top of Main St in Burlington (VT) near UVM's Davis Ctr)\n\n<img src=\"uploads/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" />\n",
+				"date_published": "2022-01-13T17:29:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/good-illustration-of.html",
 				"tags": ["security"]
 			},
@@ -773,8 +800,8 @@
 				"id": "http://mvr.micro.blog/2022/01/13/such-a-bane.html",
 				
 				"content_html": "<p>burdock: such a bane - and such a beauty</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "burdock: such a bane - and such a beauty\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" />\n",
-				"date_published": "2022-01-13T18:28:00-04:00",
+				"content_text": "burdock: such a bane - and such a beauty\n\n<img src=\"uploads/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" />\n",
+				"date_published": "2022-01-13T17:28:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/such-a-bane.html",
 				"tags": ["natural world","beauty"]
 			},
@@ -782,8 +809,8 @@
 				"id": "http://mvr.micro.blog/2022/01/13/thankful-to-be.html",
 				
 				"content_html": "<p>thankful to carry on some family history - and some of this equipment has been in use, <em>since the late 1800&rsquo;s</em></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "thankful to carry on some family history - and some of this equipment has been in use, _since the late 1800's_\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" />\n",
-				"date_published": "2022-01-13T18:28:00-04:00",
+				"content_text": "thankful to carry on some family history - and some of this equipment has been in use, _since the late 1800's_\n\n<img src=\"uploads/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" />\n",
+				"date_published": "2022-01-13T17:28:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/thankful-to-be.html",
 				"tags": ["beauty","Italian","wine"]
 			},
@@ -791,8 +818,8 @@
 				"id": "http://mvr.micro.blog/2022/01/13/anybody-know-how.html",
 				
 				"content_html": "<p>anybody know <em>how</em> to ID if this is really &ldquo;lion&rsquo;s mane&rdquo;?</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "anybody know _how_ to ID if this is really \"lion's mane\"?\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" />\n",
-				"date_published": "2022-01-13T18:27:00-04:00",
+				"content_text": "anybody know _how_ to ID if this is really \"lion's mane\"?\n\n<img src=\"uploads/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" />\n",
+				"date_published": "2022-01-13T17:27:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/anybody-know-how.html",
 				"tags": ["natural world"]
 			},
@@ -801,7 +828,7 @@
 				
 				"content_html": "<p>Some of my favorite authors:</p>\n<ul>\n<li><a href=\"https://vondanmcintyre.net/bibliography/\">Vonda N. McIntyre</a> - <code>Dreamsnake</code> is simply beautiful; such a joy to read something from a woman&rsquo;s point of view - and so powerful.</li>\n<li><a href=\"https://en.wikipedia.org/wiki/Roger_Zelazny_bibliography\">Roger Zelazny</a> - thanks to my sister, for introducing me to <code>Lord of Light</code>, which is right up my alley.</li>\n<li><a href=\"https://kbspangler.com/\">KB Spangler</a> - if you haven&rsquo;t read the webcomic <a href=\"http://www.agirlandherfed.com/\">A Girl and Her Fed</a>, go read it now, from the begining - terrific writing (and I love her early, simple art).</li>\n<li><a href=\"https://en.wikipedia.org/wiki/Michael_Flynn_bibliography\">Michael Flynn</a> - <code>The Wreck of the River of Stars</code> is such a great read, and so <em>very</em> well crafted.</li>\n<li><a href=\"https://www.richardkadrey.com/\">Richard Kadrey</a> - <code>Butcher Bird</code> is my favorite - so far. Fun, funny, touching - and skilled writing.</li>\n<li><a href=\"https://www.jeffvandermeer.com/\">Jeff VanDerMeer</a> - <code>Dead Astronauts</code> was… astounding; what a trip!</li>\n<li><a href=\"https://en.wikipedia.org/wiki/Robert_Reed_(author)\">Robert Reed</a> - what grabbed me was <code>Baby’s Fire</code> from an old Asimov&rsquo;s: hard sci-fi and <em>well</em> worth the effort to try to keep up. It later became <code>Sister Alice</code>, which took the characters - and the reader - even farther.</li>\n<li><a href=\"https://nkjemisin.com\">N. K. Jemisin</a> - it all started from a tweet where I made an incorrect guess as to who wrote a quote I&rsquo;d appreciated. It was N. K. Jemisin, so I started with <code>The Inheritance Trilogy Omnibus</code>: brilliant - and again: terrific, strong female characters. (BTW: It&rsquo;s 1,442 pages - and I <em>love</em> a book where I get to live with the characters a decent while.)</li>\n</ul>\n",
 				"content_text": "Some of my favorite authors:\n\n- [Vonda N. McIntyre](https://vondanmcintyre.net/bibliography/) - `Dreamsnake` is simply beautiful; such a joy to read something from a woman's point of view - and so powerful.\n- [Roger Zelazny](https://en.wikipedia.org/wiki/Roger_Zelazny_bibliography) - thanks to my sister, for introducing me to `Lord of Light`, which is right up my alley.\n- [KB Spangler](https://kbspangler.com/) - if you haven't read the webcomic [A Girl and Her Fed](http://www.agirlandherfed.com/), go read it now, from the begining - terrific writing (and I love her early, simple art).\n- [Michael Flynn](https://en.wikipedia.org/wiki/Michael_Flynn_bibliography) - `The Wreck of the River of Stars` is such a great read, and so _very_ well crafted.\n- [Richard Kadrey](https://www.richardkadrey.com/) - `Butcher Bird` is my favorite - so far. Fun, funny, touching - and skilled writing.\n- [Jeff VanDerMeer](https://www.jeffvandermeer.com/) - `Dead Astronauts` was… astounding; what a trip!\n- [Robert Reed](https://en.wikipedia.org/wiki/Robert_Reed_(author)) - what grabbed me was `Baby’s Fire` from an old Asimov's: hard sci-fi and _well_ worth the effort to try to keep up. It later became `Sister Alice`, which took the characters - and the reader - even farther.\n- [N. K. Jemisin](https://nkjemisin.com) - it all started from a tweet where I made an incorrect guess as to who wrote a quote I'd appreciated. It was N. K. Jemisin, so I started with `The Inheritance Trilogy Omnibus`: brilliant - and again: terrific, strong female characters. (BTW: It's 1,442 pages - and I _love_ a book where I get to live with the characters a decent while.)\n",
-				"date_published": "2022-01-13T16:24:00-04:00",
+				"date_published": "2022-01-13T15:24:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/some-of-my.html",
 				"tags": ["books"]
 			},
@@ -810,7 +837,7 @@
 				"title": "GTD - my intro",
 				"content_html": "<h1 id=\"gtd-getting-things-done\">GTD: Getting Things Done</h1>\n<h2 id=\"gtd---high-level\">GTD - High-Level</h2>\n<ul>\n<li><a href=\"https://gettingthingsdone.com/what-is-gtd/\">GTD Definition, from the source</a></li>\n<li><a href=\"https://en.wikipedia.org/wiki/Getting_Things_Done#/media/File:GTDcanonical.png\">GTD Flow diagram</a></li>\n<li><a href=\"https://en.wikipedia.org/wiki/Getting_Things_Done\">Wikipedia</a></li>\n</ul>\n<h3 id=\"five-steps-of-gtd\">Five steps of GTD</h3>\n<ol>\n<li>CAPTURE - Collect what has your attention</li>\n<li>CLARIFY - Process what it means</li>\n<li>ORGANIZE - Put it where it belongs</li>\n<li>REFLECT - Review frequently</li>\n<li>ENGAGE - Simply <em>do</em></li>\n</ol>\n<h3 id=\"horizons-of-focus\">Horizons of Focus</h3>\n<ul>\n<li>Horizon 5 (AKA 50k ft level): Life; Purpose, principles, and values</li>\n<li>Horizon 4: Long-term visions</li>\n<li>Horizon 3: 1-2 year goals</li>\n<li>Horizon 2: Areas of focus and accountability</li>\n<li>Horizon 1: Current projects</li>\n<li>Ground: Current actions</li>\n</ul>\n<h3 id=\"gtd-concepts-that-have-been-useful--important-to-me\">GTD Concepts that have been useful / important to me</h3>\n<h4 id=\"there-is-no-carved-in-stone-method-or-set-of-tools--technologies\">There is no carved-in-stone method or set of tools / technologies</h4>\n<ul>\n<li>and it will not work until you make it your own, and actually <em>use</em> what works, <em>for YOU</em></li>\n<li>start SIMPLE; suggestion:\n<ul>\n<li>paper &amp; pen</li>\n<li>OR plain text file</li>\n</ul>\n</li>\n<li>if you move to an electronic tool, <a href=\"https://www.toodledo.com/\">ToodleDo</a> can be a useful place to start\n<ul>\n<li>there&rsquo;s a highly-functional free level, to try it out\n<ul>\n<li>via browser, and app (ex: iOS)</li>\n</ul>\n</li>\n<li>it supports both import and export</li>\n</ul>\n</li>\n</ul>\n<h4 id=\"capture-is-critical\">Capture is critical</h4>\n<ul>\n<li>make it <em>quick</em>\n<ul>\n<li>capture the essence only, and <em>keep moving</em></li>\n</ul>\n</li>\n<li>LATER, in a Weekly Review: Clarify &amp; Organize the InBox, to get items to the appropriate &ldquo;place&rdquo;</li>\n<li>BOTH of these are critical, to a trusted system\n<ul>\n<li>and if it&rsquo;s not trusted, it won&rsquo;t be used</li>\n</ul>\n</li>\n</ul>\n<h4 id=\"weekly-review\">Weekly Review</h4>\n<ul>\n<li>the <a href=\"https://gettingthingsdone.com/wp-content/uploads/2014/10/Weekly_Review_Checklist.pdf\">&ldquo;official&rdquo; process</a></li>\n<li><a href=\"https://todoist.com/productivity-methods/weekly-review\">a more narrative description</a></li>\n</ul>\n<h4 id=\"context-is-key\">Context is key</h4>\n<ul>\n<li>act, in the CONTEXT you&rsquo;re in right now\n<ul>\n<li>no sense paging through Tasks that can&rsquo;t be done in the current context</li>\n</ul>\n</li>\n<li>what is a context?\n<ul>\n<li>the <em>capacity</em> to do some things (and not others)</li>\n<li><em>not</em> simply a physical location</li>\n<li>can be:\n<ul>\n<li>the resources available (or not), in different situations; ex:\n<ul>\n<li>have internet?</li>\n<li>can make a private phone call?</li>\n<li>have the physical objects needed for a task?</li>\n</ul>\n</li>\n<li>your energy level\n<ul>\n<li>different tasks, require <em>different</em> types of energy</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>for many of us, <code>Computer</code> is far too general a context; probably want to slice more finely; ex:\n<ul>\n<li>screen (any device)</li>\n<li>internet / broadband (when more bandwidth is required)</li>\n<li>$SPECIFIC_DEVICE_X\n<ul>\n<li>when tasks require THAT device</li>\n<li>AND there&rsquo;s enough for this to be a separate context</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n<h4 id=\"next-action\">Next Action:</h4>\n<ul>\n<li>The very next thing to do, in a project or Area of Focus\n<ul>\n<li>MUST be an ACTION</li>\n<li>MUST be small enough, to pick up and complete (if not: split)</li>\n</ul>\n</li>\n</ul>\n<h4 id=\"treat-time-as-the-limited-resource-that-it-is\">Treat time as the limited resource that it IS</h4>\n<ul>\n<li>if you don&rsquo;t explicitly ALLOCATE time for something, it will likely not get it</li>\n</ul>\n<h4 id=\"area-of-focus-or-responsibility-or-accountability\">Area of Focus (OR Responsibility, OR accountability)</h4>\n<ul>\n<li>something continual; to be maintained (ex: health)</li>\n<li>without a finished state</li>\n</ul>\n<h4 id=\"project\">Project</h4>\n<ul>\n<li>has a start, and finish; can be checked off / completed</li>\n<li>(if it repeats, maybe a checklist?)</li>\n</ul>\n",
 				"content_text": "# GTD: Getting Things Done\n\n## GTD - High-Level\n- [GTD Definition, from the source](https://gettingthingsdone.com/what-is-gtd/)\n- [GTD Flow diagram](https://en.wikipedia.org/wiki/Getting_Things_Done#/media/File:GTDcanonical.png)\n- [Wikipedia](https://en.wikipedia.org/wiki/Getting_Things_Done)\n\n### Five steps of GTD\n1. CAPTURE - Collect what has your attention\n2. CLARIFY - Process what it means\n3. ORGANIZE - Put it where it belongs\n4. REFLECT - Review frequently\n5. ENGAGE - Simply _do_\n\n### Horizons of Focus\n- Horizon 5 (AKA 50k ft level): Life; Purpose, principles, and values\n- Horizon 4: Long-term visions\n- Horizon 3: 1-2 year goals\n- Horizon 2: Areas of focus and accountability\n- Horizon 1: Current projects\n- Ground: Current actions\n\n### GTD Concepts that have been useful / important to me\n\n#### There is no carved-in-stone method or set of tools / technologies\n- and it will not work until you make it your own, and actually _use_ what works, _for YOU_\n- start SIMPLE; suggestion:\n    - paper & pen\n    - OR plain text file\n- if you move to an electronic tool, [ToodleDo](https://www.toodledo.com/) can be a useful place to start\n    - there's a highly-functional free level, to try it out\n        - via browser, and app (ex: iOS)\n    - it supports both import and export\n\n#### Capture is critical\n- make it _quick_\n    - capture the essence only, and _keep moving_\n- LATER, in a Weekly Review: Clarify & Organize the InBox, to get items to the appropriate \"place\"\n- BOTH of these are critical, to a trusted system\n    - and if it's not trusted, it won't be used\n\n#### Weekly Review\n- the [\"official\" process](https://gettingthingsdone.com/wp-content/uploads/2014/10/Weekly_Review_Checklist.pdf)\n- [a more narrative description](https://todoist.com/productivity-methods/weekly-review)\n\n#### Context is key\n- act, in the CONTEXT you're in right now\n    - no sense paging through Tasks that can't be done in the current context\n- what is a context?\n    - the _capacity_ to do some things (and not others)\n    - _not_ simply a physical location\n    - can be:\n        - the resources available (or not), in different situations; ex:\n            - have internet?\n            - can make a private phone call?\n            - have the physical objects needed for a task?\n        - your energy level\n            - different tasks, require _different_ types of energy\n    - for many of us, `Computer` is far too general a context; probably want to slice more finely; ex:\n        - screen (any device)\n        - internet / broadband (when more bandwidth is required)\n        - $SPECIFIC_DEVICE_X\n            - when tasks require THAT device\n            - AND there's enough for this to be a separate context\n\n#### Next Action:\n- The very next thing to do, in a project or Area of Focus\n    - MUST be an ACTION\n    - MUST be small enough, to pick up and complete (if not: split)\n\n#### Treat time as the limited resource that it IS\n- if you don't explicitly ALLOCATE time for something, it will likely not get it\n\n#### Area of Focus (OR Responsibility, OR accountability)\n- something continual; to be maintained (ex: health)\n- without a finished state\n\n#### Project\n- has a start, and finish; can be checked off / completed\n- (if it repeats, maybe a checklist?)\n",
-				"date_published": "2022-01-13T15:54:00-04:00",
+				"date_published": "2022-01-13T14:54:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/gtd-my-intro.html",
 				"tags": ["GTD"]
 			},
@@ -819,7 +846,7 @@
 				"title": "clean up sensitive (Mac) Preview files",
 				"content_html": "<p>It&rsquo;s handy to print things to Preview - maybe you want to save the &ldquo;security&rdquo; questions and (random) answers from a new site registration, to a secure place (like <a href=\"https://1password.com/\">1Password</a>) and now you&rsquo;re wondering where that temporary file is - with that sensitive info.</p>\n<p>So; fire up a terminal:</p>\n<pre tabindex=\"0\"><code>find $TMPDIR -type f -mmin -1440 -iname \\*.pdf\\* -print0 | xargs -0 -L1 -t -I% mv -i % ~/.Trash/; open ~/.Trash/\r\n</code></pre><p>Notes:</p>\n<ul>\n<li>start <code>find</code> with these options / arguments:\n<ul>\n<li>in <code>$TMPDIR</code> - your own user&rsquo;s dir for temporary files\n<ul>\n<li>(which will automatically get cleaned up - <em>eventually</em>)</li>\n</ul>\n</li>\n<li><code>-type f</code> - we want to find <em>files</em> only</li>\n<li><code>-mmin -1440</code> - files modified in the last 1440 minutes (1 day); tweak as you like</li>\n<li><code>-iname \\*.pdf\\*</code> - files of with an extension of <code>pdf*</code></li>\n<li><code>-print0</code> - output results <em>null-terminated</em> (to handle &ldquo;special&rdquo; chars)</li>\n</ul>\n</li>\n<li><code>|</code> - pipe results to <code>xargs</code>, to process them using these options:\n<ul>\n<li><code>-0</code> - handle <em>null-terminated</em> input</li>\n<li><code>-L1</code> - process one item at a time (if any)</li>\n<li><code>-t</code> - show commands as they&rsquo;re executed</li>\n<li><code>-I%</code> - in the ensuing command, replace <code>%</code> there, with the resulting filename/s</li>\n</ul>\n</li>\n<li><code>mv</code> - move these files, with the following options:\n<ul>\n<li><code>-i</code> - interactive prompt (instead of overwrite)</li>\n<li><code>%</code> - the source filename, substituted by xargs</li>\n<li><code>~/.Trash/</code> - destination dir; put them here</li>\n</ul>\n</li>\n<li><code>open ~/.Trash/</code> - open (in Finder), for your review</li>\n</ul>\n",
 				"content_text": "It's handy to print things to Preview - maybe you want to save the \"security\" questions and (random) answers from a new site registration, to a secure place (like [1Password](https://1password.com/)) and now you're wondering where that temporary file is - with that sensitive info.\r\n\r\nSo; fire up a terminal:\r\n\r\n```\r\nfind $TMPDIR -type f -mmin -1440 -iname \\*.pdf\\* -print0 | xargs -0 -L1 -t -I% mv -i % ~/.Trash/; open ~/.Trash/\r\n```\r\n\r\nNotes:\r\n\r\n- start `find` with these options / arguments:\r\n  - in `$TMPDIR` - your own user's dir for temporary files\r\n      - (which will automatically get cleaned up - _eventually_)\r\n  - `-type f` - we want to find _files_ only\r\n  - `-mmin -1440` - files modified in the last 1440 minutes (1 day); tweak as you like\r\n  - `-iname \\*.pdf\\*` - files of with an extension of `pdf*`\r\n  - `-print0` - output results _null-terminated_ (to handle \"special\" chars)\r\n- `|` - pipe results to `xargs`, to process them using these options:\r\n  - `-0` - handle _null-terminated_ input\r\n  - `-L1` - process one item at a time (if any)\r\n  - `-t` - show commands as they're executed\r\n  - `-I%` - in the ensuing command, replace `%` there, with the resulting filename/s\r\n- `mv` - move these files, with the following options:\r\n  - `-i` - interactive prompt (instead of overwrite)\r\n  - `%` - the source filename, substituted by xargs\r\n  - `~/.Trash/` - destination dir; put them here\r\n- `open ~/.Trash/` - open (in Finder), for your review\n",
-				"date_published": "2022-01-13T15:41:34-04:00",
+				"date_published": "2022-01-13T14:41:34-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/clean-up-sensitive.html",
 				"tags": ["tech","Mac","UNIX  Linux","security"]
 			},
@@ -827,8 +854,8 @@
 				"id": "http://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				
 				"content_html": "<p>in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms</p>\n<p>(photo credit to my amazing wife :)</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
-				"date_published": "2022-01-13T15:06:00-04:00",
+				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
+				"date_published": "2022-01-13T14:06:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				"tags": ["natural world"]
 			},
@@ -837,7 +864,7 @@
 				"title": "Quicksilver",
 				"content_html": "<p>I&rsquo;m amazed how useful <a href=\"https://qsapp.com/\">Quicksilver</a> <em>still</em> is. I&rsquo;ll be blogging more about it shortly.</p>\n<p>In the mean time, here&rsquo;s a <em>quick</em> description of how <em>I</em> use it (and there many features I don&rsquo;t use).</p>\n<ul>\n<li>start typing the name of <code>thing</code>, and get it\n<ul>\n<li><code>thing</code> can be a: file, app, command, function, …</li>\n<li>the typing can be\n- in the middle of the name of what you&rsquo;re looking for\n- multiple <em>discontiguous</em> parts of the name - great for getting to <em>specific</em> things quickly\n- it can even be a typo - which you <em>define</em> as what you <em>meant</em>; powerful\n- as you type, potential matches are shown for your selection\n- and it learns: as you make choices, those are rated higher than other potential matches</li>\n</ul>\n</li>\n<li>it doesn&rsquo;t matter <em>where</em> <code>thing</code> lives</li>\n<li>you define what to <em>do</em> with <code>thing</code>; like:\n<ul>\n<li>search for <code>thing</code>; with <a href=\"https://duckduckgo.com/\">DDG</a>, in a local doc repository, …</li>\n<li>send <code>thing</code>, to be processed by<code>thing2</code></li>\n<li>add <code>thing</code> as an argument to a command; in a shell/terminal, or AppleScript, or, …</li>\n</ul>\n</li>\n</ul>\n<p>Best part: It let&rsquo;s me have a thought about <code>thing</code>, type that in, and move <em>directly</em> to what I want to do with <code>thing</code>. All without remembering where <code>thing</code> is, which app to open, and all that ancillary stuff - which often results in moving my thought process from what I intended to do, to <em>how</em> to do it. Or, sometimes, forgetting it altogether.</p>\n",
 				"content_text": "I'm amazed how useful [Quicksilver](https://qsapp.com/) _still_ is. I'll be blogging more about it shortly.\n\nIn the mean time, here's a _quick_ description of how _I_ use it (and there many features I don't use).\n\n- start typing the name of `thing`, and get it\n    - `thing` can be a: file, app, command, function, …\n    - the typing can be\n          - in the middle of the name of what you're looking for\n          - multiple _discontiguous_ parts of the name - great for getting to _specific_ things quickly\n          - it can even be a typo - which you _define_ as what you _meant_; powerful\n          - as you type, potential matches are shown for your selection\n                  - and it learns: as you make choices, those are rated higher than other potential matches\n- it doesn't matter _where_ `thing` lives\n- you define what to _do_ with `thing`; like:\n    - search for `thing`; with [DDG](https://duckduckgo.com/), in a local doc repository, …\n    - send `thing`, to be processed by`thing2`\n    - add `thing` as an argument to a command; in a shell/terminal, or AppleScript, or, …\n\nBest part: It let's me have a thought about `thing`, type that in, and move _directly_ to what I want to do with `thing`. All without remembering where `thing` is, which app to open, and all that ancillary stuff - which often results in moving my thought process from what I intended to do, to _how_ to do it. Or, sometimes, forgetting it altogether.\n",
-				"date_published": "2022-01-13T14:41:00-04:00",
+				"date_published": "2022-01-13T13:41:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/quicksilver.html",
 				"tags": ["tech","Mac"]
 			},
@@ -846,7 +873,7 @@
 				
 				"content_html": "<p>FWIW: Whenever I &ldquo;have to&rdquo; visit a questionable site (looking at you, Facebook - screw the new name) I use an iOS device, since that&rsquo;s more tightly secure than most of the &ldquo;desktop&rdquo; OS choices <em>with any reasonable usability</em>.</p>\n<p>Obviously nothing is perfectly secure - though it&rsquo;s foolish to subject a less secure OS to that risk.</p>\n",
 				"content_text": "FWIW: Whenever I \"have to\" visit a questionable site (looking at you, Facebook - screw the new name) I use an iOS device, since that's more tightly secure than most of the \"desktop\" OS choices _with any reasonable usability_.\n\nObviously nothing is perfectly secure - though it's foolish to subject a less secure OS to that risk.\n",
-				"date_published": "2022-01-13T14:01:00-04:00",
+				"date_published": "2022-01-13T13:01:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/fwiw-whenever-i.html",
 				"tags": ["iOS","security"]
 			},
@@ -855,7 +882,7 @@
 				
 				"content_html": "<p>well this looks darn handy: <a href=\"https://sayyescovidhometest.org/\">sayyescovidhometest.org</a></p>\n",
 				"content_text": "well this looks darn handy: [sayyescovidhometest.org](https://sayyescovidhometest.org/)\n",
-				"date_published": "2022-01-12T14:31:00-04:00",
+				"date_published": "2022-01-12T13:31:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/12/well-this-looks.html",
 				"tags": ["health","security"]
 			},
@@ -864,7 +891,7 @@
 				"title": "log4j is not the problem",
 				"content_html": "<h3 id=\"the-central-problem-is-the-enormous-jenga-towerhttpsxkcdcom2347-that-weve-built\">The central problem, is the enormous <a href=\"https://xkcd.com/2347/\">jenga tower</a> that we&rsquo;ve built:</h3>\n<ul>\n<li>Full of dependencies that virtually <em>no one</em> understands.</li>\n<li>Dependencies generally chosen, for expedience.</li>\n<li>Chosen by coders at all levels of in/experience.</li>\n<li>Driven by &ldquo;ship it now&rdquo;, and &ldquo;move fast and break things&rdquo;.</li>\n<li>With management <em>rarely</em> caring about risks - until one becomes a <em>public</em> crisis, which can no longer be ignored.</li>\n</ul>\n<h3 id=\"predictions\">Predictions:</h3>\n<ol>\n<li>These crises will get both worse, and more frequent - bad actors (*), have noticed how vulnerable <em>everything</em> is.</li>\n</ol>\n<ul>\n<li>(* Bad actors of all stripes, not &ldquo;just&rdquo; in tech - and some have state-level resources.)</li>\n</ul>\n<ol start=\"3\">\n<li>Even still, there will be little fundamental change in how we write &amp; deploy code - because most of the people making these decisions haven&rsquo;t felt it. Yet.</li>\n<li>The &ldquo;powers that be&rdquo; think they&rsquo;re insulated from the pain. It may not be long til they find out how wrong they are.</li>\n</ol>\n",
 				"content_text": "### The central problem, is the enormous [jenga tower](https://xkcd.com/2347/) that we've built:\n  - Full of dependencies that virtually _no one_ understands.\n  - Dependencies generally chosen, for expedience.\n  - Chosen by coders at all levels of in/experience.\n  - Driven by \"ship it now\", and \"move fast and break things\".\n  - With management _rarely_ caring about risks - until one becomes a _public_ crisis, which can no longer be ignored.\n\n### Predictions:\n1. These crises will get both worse, and more frequent - bad actors (\\*), have noticed how vulnerable _everything_ is.\n  - (\\* Bad actors of all stripes, not \"just\" in tech - and some have state-level resources.)\n3. Even still, there will be little fundamental change in how we write & deploy code - because most of the people making these decisions haven't felt it. Yet.\n4. The \"powers that be\" think they're insulated from the pain. It may not be long til they find out how wrong they are.\n",
-				"date_published": "2022-01-09T08:56:00-04:00",
+				"date_published": "2022-01-09T07:56:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/09/logj-is-not.html",
 				"tags": ["politics","tech","Mac","UNIX  Linux","security"]
 			},
@@ -873,7 +900,7 @@
 				
 				"content_html": "<p>Here&rsquo;s a shocker (not):<br>\nJohn McClaughry is completely wrong - again:<br>\n&ldquo;Who pays for these expensive liberal pipe dreams&rdquo;<br>\nshould instead be: &ldquo;We&rsquo;re ALL (*) paying, every single day - when will we invest in actual solutions?&rdquo;</p>\n<p>(* &ldquo;ALL&rdquo; of course refers to everyone excepy McLaughry and other &ldquo;conervatives&rdquo; and &ldquo;libertarians&rdquo;, who manage to foist most of the cost of their privilege, on the rest of us.)</p>\n<p><a href=\"https://vtdigger.org/2022/01/02/john-mcclaughry-a-big-question-about-tomorrows-energy-plan-who-pays/\">vtdigger.org/2022/01/0&hellip;</a></p>\n",
 				"content_text": "Here's a shocker (not):  \nJohn McClaughry is completely wrong - again:  \n\"Who pays for these expensive liberal pipe dreams\"  \nshould instead be: \"We're ALL (\\*) paying, every single day - when will we invest in actual solutions?\"  \n\n(\\* \"ALL\" of course refers to everyone excepy McLaughry and other \"conervatives\" and \"libertarians\", who manage to foist most of the cost of their privilege, on the rest of us.)\n\n[vtdigger.org/2022/01/0...](https://vtdigger.org/2022/01/02/john-mcclaughry-a-big-question-about-tomorrows-energy-plan-who-pays/)\n",
-				"date_published": "2022-01-03T18:44:00-04:00",
+				"date_published": "2022-01-03T17:44:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/03/heres-a-shocker.html",
 				"tags": ["Vermont","climate change"]
 			},
@@ -882,7 +909,7 @@
 				
 				"content_html": "<p>BTW: Here are links to my old blogs, on Blogger (bought by Google):<br>\n(Why give any more to Google - home of &ldquo;Do(n&rsquo;t) be evil&rdquo;.)</p>\n<ul>\n<li><a href=\"https://mvgfr.blogspot.com/\">shards mvgfr</a></li>\n<li><a href=\"https://mvgfr-geek.blogspot.com/\">shards mvgfr: geek</a></li>\n<li><a href=\"https://politics-mvgfr.blogspot.com/\">shards mvgfr: politics</a></li>\n</ul>\n",
 				"content_text": "BTW: Here are links to my old blogs, on Blogger (bought by Google):  \n(Why give any more to Google - home of \"Do(n't) be evil\".)  \n- [shards mvgfr](https://mvgfr.blogspot.com/)  \n- [shards mvgfr: geek](https://mvgfr-geek.blogspot.com/)  \n- [shards mvgfr: politics](https://politics-mvgfr.blogspot.com/)  \n",
-				"date_published": "2021-12-31T13:05:00-04:00",
+				"date_published": "2021-12-31T12:05:00-05:00",
 				"url": "https://mvr.micro.blog/2021/12/31/btw-here-are.html",
 				"tags": ["politics","tech","security"]
 			},
@@ -891,7 +918,7 @@
 				
 				"content_html": "<p>Rodger Malcolm Mitchell writes about several things - eloquently - including the recent passing of his wife:</p>\n<p><a href=\"https://mythfighter.com/2021/10/28/how-to-recover-from-loss-and-the-unforgivable-waste-of-performance-mourning/\">mythfighter.com/2021/10/2&hellip;</a></p>\n",
 				"content_text": "Rodger Malcolm Mitchell writes about several things - eloquently - including the recent passing of his wife:\n\n[mythfighter.com/2021/10/2...](https://mythfighter.com/2021/10/28/how-to-recover-from-loss-and-the-unforgivable-waste-of-performance-mourning/)\n",
-				"date_published": "2021-10-29T18:33:00-04:00",
+				"date_published": "2021-10-29T17:33:00-05:00",
 				"url": "https://mvr.micro.blog/2021/10/29/rodger-malcolm-mitchell.html",
 				"tags": ["beauty"]
 			},
@@ -900,7 +927,7 @@
 				"title": "blogging redux",
 				"content_html": "<p>Oh… It actually feels good to pay for blogging services with a few bucks - rather than my immortal soul.</p>\n",
 				"content_text": "Oh… It actually feels good to pay for blogging services with a few bucks - rather than my immortal soul.\n",
-				"date_published": "2021-10-18T17:07:00-04:00",
+				"date_published": "2021-10-18T16:07:00-05:00",
 				"url": "https://mvr.micro.blog/2021/10/18/oh-it-actually.html",
 				"tags": ["politics","tech"]
 			}
