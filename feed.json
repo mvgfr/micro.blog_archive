@@ -7,6 +7,42 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2023/12/09/csvkit-to-import.html",
+				"title": "csvkit to import CSVs in a uniform format",
+				"content_html": "<p>I&rsquo;ve really been enjoying the power of <code>csvkit</code> to <em>reliably</em> munge CSVs into a uniform format - regardless the format from the provider (not only the order of columns, but also more complex transformations like whether debits are positive or negative):</p>\n<pre tabindex=\"0\"><code class=\"language-cat\" data-lang=\"cat\">SQLALCHEMY_SILENCE_UBER_WARNING=1 csvsql --no-inference \\\n--query 'SELECT COALESCE(&quot;Transaction Date&quot;,&quot;&quot;),&quot;=-&quot;||COALESCE(&quot;Amount (USD)&quot;,&quot;&quot;),COALESCE(&quot;Category&quot;,&quot;&quot;),COALESCE(&quot;Description&quot;,&quot;&quot;)||&quot;||&quot;||COALESCE(&quot;Merchant&quot;,&quot;&quot;)||&quot;||&quot;||COALESCE(&quot;Type&quot;,&quot;&quot;),&quot;Apple Card&quot; \\\nFROM stdin' \\\n| csvformat -T | tail -n+2 | sort\n</code></pre><p>ref: <a href=\"https://csvkit.readthedocs.io/\">https://csvkit.readthedocs.io/</a></p>\n",
+				"content_text": "I've really been enjoying the power of `csvkit` to _reliably_ munge CSVs into a uniform format - regardless the format from the provider (not only the order of columns, but also more complex transformations like whether debits are positive or negative):  \n\n```cat Apple-Card.CSV | \\\nSQLALCHEMY_SILENCE_UBER_WARNING=1 csvsql --no-inference \\\n--query 'SELECT COALESCE(\"Transaction Date\",\"\"),\"=-\"||COALESCE(\"Amount (USD)\",\"\"),COALESCE(\"Category\",\"\"),COALESCE(\"Description\",\"\")||\"||\"||COALESCE(\"Merchant\",\"\")||\"||\"||COALESCE(\"Type\",\"\"),\"Apple Card\" \\\nFROM stdin' \\\n| csvformat -T | tail -n+2 | sort\n```\n  \nref: https://csvkit.readthedocs.io/\n",
+				"date_published": "2023-12-09T14:37:31-05:00",
+				"url": "https://mvr.micro.blog/2023/12/09/csvkit-to-import.html",
+				"tags": ["Mac","UNIX  Linux"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/12/09/for-each-time.html",
+				"title": "for each Time Machine destination, display: ID, date \u0026 human-readable destination",
+				"content_html": "<pre tabindex=\"0\"><code class=\"language-destInfoTM\" data-lang=\"destInfoTM\">{\n    remvHeaders='s/==+/\\'$'\\n''/g';\n    echo 'Current status of TM destinations:';\n    destInfo=$(tmutil destinationinfo | \\\n        sed 's/^&gt; //' | \\\n        tr '\\n' '\\;' | \\\n        sed -E 's/  +:/:/g' | \\\n        sed -E &quot;$remvHeaders&quot;);\n    defaults read /Library/Preferences/com.apple.TimeMachine.plist Destinations | \\\n        egrep -v ',$' | \\\n        sed -E -e ':a' -e 'N' -e '$!ba' -e 's/\\n[[:blank:]]+&quot;/ /g' | \\\n        sed -E 's/^[[:blank:]]+//' | \\\n        fgrep -e DestinationID -e SnapshotDates | \\\n        sed -e ':a' -e 'N' -e '$!ba' -e 's/;\\n/;/g' | \\\n        sed 's/( /&quot;/' | \\\n        while read -r theLine; do\n                destID=$(echo &quot;$theLine&quot; | \\\n                        cut -d\\&quot; -f2);\n                snapDate=$(echo &quot;$theLine&quot; | \\\n                cut -d\\&quot; -f4);\n        echo $destID $snapDate$(echo &quot;$destInfo&quot; | \\\n        fgrep &quot;$destID&quot; | \\\n        sed 's/;ID.*$//' | \\\n        sed -E -e 's/;[^: ]+: / /g');\n    done | sort -rn\n}\n</code></pre>",
+				"content_text": "```destInfoTM ()\n{\n    remvHeaders='s/==+/\\'$'\\n''/g';\n    echo 'Current status of TM destinations:';\n    destInfo=$(tmutil destinationinfo | \\\n        sed 's/^> //' | \\\n        tr '\\n' '\\;' | \\\n        sed -E 's/  +:/:/g' | \\\n        sed -E \"$remvHeaders\");\n    defaults read /Library/Preferences/com.apple.TimeMachine.plist Destinations | \\\n        egrep -v ',$' | \\\n        sed -E -e ':a' -e 'N' -e '$!ba' -e 's/\\n[[:blank:]]+\"/ /g' | \\\n        sed -E 's/^[[:blank:]]+//' | \\\n        fgrep -e DestinationID -e SnapshotDates | \\\n        sed -e ':a' -e 'N' -e '$!ba' -e 's/;\\n/;/g' | \\\n        sed 's/( /\"/' | \\\n        while read -r theLine; do\n                destID=$(echo \"$theLine\" | \\\n                        cut -d\\\" -f2);\n                snapDate=$(echo \"$theLine\" | \\\n                cut -d\\\" -f4);\n        echo $destID $snapDate$(echo \"$destInfo\" | \\\n        fgrep \"$destID\" | \\\n        sed 's/;ID.*$//' | \\\n        sed -E -e 's/;[^: ]+: / /g');\n    done | sort -rn\n}\n```\n",
+				"date_published": "2023-12-09T14:19:20-05:00",
+				"url": "https://mvr.micro.blog/2023/12/09/for-each-time.html",
+				"tags": ["tech","Mac","security"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/12/09/wow-i-just.html",
+				
+				"content_html": "<p>wow; I just read my first work by Eleanor Arnason - &ldquo;Potter of Bones&rdquo; is smart, enchanting, fresh, and I&rsquo;m looking forward to more!<br>\nrefs:</p>\n<ul>\n<li><a href=\"https://en.wikipedia.org/wiki/Eleanor_Arnason\">wikipedia</a></li>\n<li><a href=\"https://us.macmillan.com/books/9781250296207/theverybestofthebest\">macmillan</a></li>\n</ul>\n",
+				"content_text": "wow; I just read my first work by Eleanor Arnason - \"Potter of Bones\" is smart, enchanting, fresh, and I'm looking forward to more!  \nrefs:\n- [wikipedia](https://en.wikipedia.org/wiki/Eleanor_Arnason)\n- [macmillan](https://us.macmillan.com/books/9781250296207/theverybestofthebest)\n",
+				"date_published": "2023-12-09T14:00:33-05:00",
+				"url": "https://mvr.micro.blog/2023/12/09/wow-i-just.html",
+				"tags": ["tech","beauty","Mac","books"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2023/12/09/open-iftop-for.html",
+				
+				"content_html": "<p>open <code>iftop</code> for each (cfg&rsquo;d) network interface:</p>\n<p><code>for i in $(ifconfig -lu); do if ifconfig $i | fgrep -v 'inet 127.' | grep -q &quot;inet [0-9]&quot;; then echo $i; fi; done | while read intfc; do osascript -e &quot;tell application \\&quot;terminal\\&quot; to do script \\&quot;sudo iftop -i $intfc\\&quot;&quot;; done</code></p>\n<p>(Mac; could be adapted)</p>\n",
+				"content_text": "open `iftop` for each (cfg'd) network interface:  \r\n\r\n`for i in $(ifconfig -lu); do if ifconfig $i | fgrep -v 'inet 127.' | grep -q \"inet [0-9]\"; then echo $i; fi; done | while read intfc; do osascript -e \"tell application \\\"terminal\\\" to do script \\\"sudo iftop -i $intfc\\\"\"; done`\r\n  \r\n(Mac; could be adapted)\n",
+				"date_published": "2023-12-09T13:44:20-05:00",
+				"url": "https://mvr.micro.blog/2023/12/09/open-iftop-for.html",
+				"tags": ["tech","Mac","UNIX  Linux"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2023/12/09/partiallyformed-process-to.html",
 				
 				"content_html": "<p>Partially-formed process, to convert RTF formatting (ex: lists) from clipboard / pasteboard, to paste into Markdown format (ex: git):</p>\n<p><code>osascript -e 'the clipboard as «class RTF »' | tr -d '«»' | sed 's/^data RTF //' | xxd -r -p | /usr/local/bin/pandoc -f rtf -t markdown</code></p>\n<p>(for Mac; could be adapted)</p>\n",
@@ -244,7 +280,7 @@
 				"id": "http://mvr.micro.blog/2023/03/23/the-new-legit.html",
 				
 				"content_html": "<p>the new legit slacking excuse - and not just for programmers!</p>\n<p>with thanks / apologies to the amazing Randall Munroe - his original: <a href=\"https://xkcd.com/303\">xkcd.com/303</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "the new legit slacking excuse - and not just for programmers!\n\nwith thanks / apologies to the amazing Randall Munroe - his original: [xkcd.com/303](https://xkcd.com/303)\n\n<img src=\"uploads/2023/b3f4a23e1a.jpg\" width=\"413\" height=\"360\" alt=\"\">\n",
+				"content_text": "the new legit slacking excuse - and not just for programmers!\n\nwith thanks / apologies to the amazing Randall Munroe - his original: [xkcd.com/303](https://xkcd.com/303)\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2023/b3f4a23e1a.jpg\" width=\"413\" height=\"360\" alt=\"\">\n",
 				"date_published": "2023-03-23T12:15:45-05:00",
 				"url": "https://mvr.micro.blog/2023/03/23/the-new-legit.html",
 				"tags": ["tech","comics"]
@@ -577,7 +613,7 @@
 				"id": "http://mvr.micro.blog/2022/04/04/whoever-made-this.html",
 				
 				"content_html": "<p>whoever made this, gets 1,000 internet points</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"uploads/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
+				"content_text": "whoever made this, gets 1,000 internet points\n\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/76098a2c91.png\" width=\"600\" height=\"519\" alt=\"\" />\n",
 				"date_published": "2022-04-04T16:25:00-05:00",
 				"url": "https://mvr.micro.blog/2022/04/04/whoever-made-this.html",
 				"tags": ["health"]
@@ -746,7 +782,7 @@
 				"id": "http://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				
 				"content_html": "<p>my black mug shot #blackmugshots #blackmugshot</p>\n<ul>\n<li><a href=\"https://duckduckgo.com/?q=black+mug+shots\">WTF</a></li>\n<li><a href=\"http://www.blackmugshots.com/\">change the conversation</a></li>\n</ul>\n<!-- raw HTML omitted -->\n",
-				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"uploads/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
+				"content_text": "my black mug shot #blackmugshots #blackmugshot\n\n- [WTF](https://duckduckgo.com/?q=black+mug+shots)\n- [change the conversation](http://www.blackmugshots.com/)\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/0eca950886.jpg\" width=\"288\" height=\"327\" alt=\"\" />\n",
 				"date_published": "2022-01-18T13:13:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/18/my-black-mug.html",
 				"tags": ["politics"]
@@ -791,7 +827,7 @@
 				"id": "http://mvr.micro.blog/2022/01/13/good-illustration-of.html",
 				
 				"content_html": "<p>good illustration of the idea of &ldquo;security theater&rdquo; - all that counts, is the weakest link; and so many to choose from…</p>\n<p>(entry to &ldquo;reservoir&rdquo; near top of Main St in Burlington (VT) near UVM&rsquo;s Davis Ctr)</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "good illustration of the idea of \"security theater\" - all that counts, is the weakest link; and so many to choose from…\n\n(entry to \"reservoir\" near top of Main St in Burlington (VT) near UVM's Davis Ctr)\n\n<img src=\"uploads/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" />\n",
+				"content_text": "good illustration of the idea of \"security theater\" - all that counts, is the weakest link; and so many to choose from…\n\n(entry to \"reservoir\" near top of Main St in Burlington (VT) near UVM's Davis Ctr)\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/f37398a02b.jpg\" width=\"378\" height=\"504\" alt=\"I do not think it means what you think it means\" />\n",
 				"date_published": "2022-01-13T17:29:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/good-illustration-of.html",
 				"tags": ["security"]
@@ -800,7 +836,7 @@
 				"id": "http://mvr.micro.blog/2022/01/13/such-a-bane.html",
 				
 				"content_html": "<p>burdock: such a bane - and such a beauty</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "burdock: such a bane - and such a beauty\n\n<img src=\"uploads/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" />\n",
+				"content_text": "burdock: such a bane - and such a beauty\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/c59491bafa.jpg\" width=\"432\" height=\"576\" alt=\"burdock\" />\n",
 				"date_published": "2022-01-13T17:28:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/such-a-bane.html",
 				"tags": ["natural world","beauty"]
@@ -809,7 +845,7 @@
 				"id": "http://mvr.micro.blog/2022/01/13/thankful-to-be.html",
 				
 				"content_html": "<p>thankful to carry on some family history - and some of this equipment has been in use, <em>since the late 1800&rsquo;s</em></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "thankful to carry on some family history - and some of this equipment has been in use, _since the late 1800's_\n\n<img src=\"uploads/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" />\n",
+				"content_text": "thankful to carry on some family history - and some of this equipment has been in use, _since the late 1800's_\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/085ae2dc22.jpg\" width=\"576\" height=\"432\" alt=\"wine barrels, press, etc.\" />\n",
 				"date_published": "2022-01-13T17:28:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/thankful-to-be.html",
 				"tags": ["beauty","Italian","wine"]
@@ -818,7 +854,7 @@
 				"id": "http://mvr.micro.blog/2022/01/13/anybody-know-how.html",
 				
 				"content_html": "<p>anybody know <em>how</em> to ID if this is really &ldquo;lion&rsquo;s mane&rdquo;?</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "anybody know _how_ to ID if this is really \"lion's mane\"?\n\n<img src=\"uploads/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" />\n",
+				"content_text": "anybody know _how_ to ID if this is really \"lion's mane\"?\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/d7162e263f.jpg\" width=\"450\" height=\"600\" alt=\"fungus\" />\n",
 				"date_published": "2022-01-13T17:27:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/anybody-know-how.html",
 				"tags": ["natural world"]
@@ -854,7 +890,7 @@
 				"id": "http://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				
 				"content_html": "<p>in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms</p>\n<p>(photo credit to my amazing wife :)</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"uploads/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
+				"content_text": "in my happy place, doing one of my favorite things (besides simply walking in the woods): hunting mushrooms\n\n(photo credit to my amazing wife :)\n\n\n<img src=\"https://cdn.uploads.micro.blog/53180/2022/2d17a14ab5.jpg\" width=\"432\" height=\"516\" alt=\"walking in the woods\" />\n",
 				"date_published": "2022-01-13T14:06:00-05:00",
 				"url": "https://mvr.micro.blog/2022/01/13/in-my-happy.html",
 				"tags": ["natural world"]
