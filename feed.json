@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2024/01/18/safety-tip-for.html",
+				
+				"content_html": "<p>safety tip for using <code>tar</code> and <code>--option</code>s:</p>\n<p>this will fail (it ignores the excludes - frustrating!):<br>\n<code>tar -cf /dev/null ./ --exclude-from=file-of-excludes</code></p>\n<p>this will work:<br>\n<code>tar -cf /dev/null --exclude-from=file-of-excludes ./</code></p>\n<p>(hint: put the options <em>before</em> the path to archive)</p>\n",
+				"content_text": "safety tip for using `tar` and `--option`s:  \r\n  \r\nthis will fail (it ignores the excludes - frustrating!):  \r\n`tar -cf /dev/null ./ --exclude-from=file-of-excludes`  \r\n  \r\nthis will work:  \r\n`tar -cf /dev/null --exclude-from=file-of-excludes ./`  \r\n  \r\n(hint: put the options _before_ the path to archive)\r\n",
+				"date_published": "2024-01-18T16:00:44-05:00",
+				"url": "https://mvr.micro.blog/2024/01/18/safety-tip-for.html",
+				"tags": ["UNIX  Linux"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2024/01/07/smbc-is-brilliant.html",
 				
 				"content_html": "<p>SMBC is brilliant - as usual:<br>\n<a href=\"https://www.smbc-comics.com/comic/self-3\">www.smbc-comics.com/comic/sel&hellip;</a></p>\n",
