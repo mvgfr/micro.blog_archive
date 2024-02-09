@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2024/02/09/mac-file-sharing.html",
+				"title": "mac file sharing settings cleared",
+				"content_html": "<p>seems to have happened just after applying the 14.3.1 update (though has happened before):<br>\nall settings missing from the GUI, and <code>sharing -l</code> shows the same - nothing. 😕</p>\n<p>easy enough to re-config - at least after I determined this was the problem, and scratched my head to remember what shares were defined.<br>\n(might want to cron <code>sharing -l</code>, to keep a log of the config)</p>\n",
+				"content_text": "seems to have happened just after applying the 14.3.1 update (though has happened before):  \r\nall settings missing from the GUI, and `sharing -l` shows the same - nothing. 😕  \r\n\r\neasy enough to re-config - at least after I determined this was the problem, and scratched my head to remember what shares were defined.  \r\n(might want to cron `sharing -l`, to keep a log of the config)\r\n",
+				"date_published": "2024-02-09T11:29:42-05:00",
+				"url": "https://mvr.micro.blog/2024/02/09/mac-file-sharing.html",
+				"tags": ["tech","Mac"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2024/01/29/interesting-underscore-artifact.html",
 				"title": "Interesting underscore artifact in recent versions of macOS Terminal",
 				"content_html": "<p>a thin horizontal line, somewhere before the current cursor…<br>\nit&rsquo;s apparently a leftover bit of the cursor which (regardless what style cursor you have) displays in the underline format, where a cursor <em>was</em>.<br>\nselecting that line (ex: triple-click) clears the artifact.</p>\n",
