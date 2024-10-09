@@ -7,12 +7,22 @@
 	"items": [
 		
 			{
-				"id": "http://mvr.micro.blog/2024/06/26/httpsarstechnicacomp-cool-thats.html",
+				"id": "http://mvr.micro.blog/2024/10/09/notsotemporary-files.html",
+				"title": "not-so-temporary files",
+				"content_html": "<p>hmm; I recently had the need to find where the &ldquo;temporary&rdquo; PDF was stored, as a result of selecting &ldquo;Print &gt; PDF &gt; Open in Preview&rdquo;, in an app - and found that it&rsquo;s no longer simply in your user&rsquo;s <code>$TMPDIR</code> - so:</p>\n<p>here&rsquo;s a command-line to find recent ones and move them to the Trash, to review (and likely delete):</p>\n<p><code>find $TMPDIR ~/Library/Containers/*/Data/tmp/TemporaryItems -type f -mtime -7 -iname \\*.pdf\\* -print0 | xargs -0 -r -L1 -t -I% mv -i % ~/.Trash/; open ~/.Trash/</code></p>\n<p>(note: there may be several of the same name, and these will <em>not</em> overwrite each other, and thus not be moved - after disposing of previous results (as per your needs), run the command again. lather, rinse, repeat.)<br>\n—</p>\n<p>it appears these dirs are not cleaned up on a schedule (though may be cleared via <code>Safe Mode</code>), so files may linger here for quite some time - including, depending on what you &ldquo;Print to PDF&rdquo;, some that you may not want hanging around (ex: bank statement).<br>\n—</p>\n<p>BTW: depending what apps you use, you may want to check what else is in these <code>TemporaryItems</code> dirs:</p>\n<p><code>find $TMPDIR ~/Library/Containers/*/Data/tmp/TemporaryItems -type f \\! -name .DS_Store -ls</code></p>\n<p>(as usual: <em>caveat lector</em>)</p>\n",
+				"content_text": "hmm; I recently had the need to find where the \"temporary\" PDF was stored, as a result of selecting \"Print > PDF > Open in Preview\", in an app - and found that it's no longer simply in your user's `$TMPDIR` - so:  \r\n  \r\nhere's a command-line to find recent ones and move them to the Trash, to review (and likely delete):  \r\n  \r\n`find $TMPDIR ~/Library/Containers/*/Data/tmp/TemporaryItems -type f -mtime -7 -iname \\*.pdf\\* -print0 | xargs -0 -r -L1 -t -I% mv -i % ~/.Trash/; open ~/.Trash/`  \r\n  \r\n(note: there may be several of the same name, and these will _not_ overwrite each other, and thus not be moved - after disposing of previous results (as per your needs), run the command again. lather, rinse, repeat.)  \r\n—  \r\n  \r\nit appears these dirs are not cleaned up on a schedule (though may be cleared via `Safe Mode`), so files may linger here for quite some time - including, depending on what you \"Print to PDF\", some that you may not want hanging around (ex: bank statement).  \r\n—  \r\n  \r\nBTW: depending what apps you use, you may want to check what else is in these `TemporaryItems` dirs:  \r\n  \r\n`find $TMPDIR ~/Library/Containers/*/Data/tmp/TemporaryItems -type f \\! -name .DS_Store -ls`  \r\n  \r\n(as usual: _caveat lector_)\n",
+				"date_published": "2024-10-09T11:09:34-04:00",
+				"url": "https://mvr.micro.blog/2024/10/09/notsotemporary-files.html",
+				"tags": ["tech","Mac","iOS","security"]
+			},
+			{
+				"id": "http://mvr.micro.blog/2024/06/26/scotus-nixes-injunction.html",
 				
-				"content_html": "<p><a href=\"https://arstechnica.com/?p=2033738\">arstechnica.com</a></p>\n<p>cool… that&rsquo;s… oh…</p>\n<p>just ahead of SCOTUS plans / wishes for a 2nd Trump &ldquo;administration&rdquo;</p>\n",
-				"content_text": "[arstechnica.com](https://arstechnica.com/?p=2033738)\r\n\r\ncool… that's… oh…  \r\n\r\njust ahead of SCOTUS plans / wishes for a 2nd Trump \"administration\"\n",
-				"date_published": "2024-06-26T17:45:40-04:00",
-				"url": "https://mvr.micro.blog/2024/06/26/httpsarstechnicacomp-cool-thats.html"
+				"content_html": "<p><a href=\"https://arstechnica.com/?p=2033738\">SCOTUS nixes injunction that limited Biden admin contacts with social networks</a> [Ars Technica ]</p>\n<p>cool… that&rsquo;s… oh…</p>\n<p>just ahead of SCOTUS plans / wishes for a 2nd Trump &ldquo;administration&rdquo;</p>\n",
+				"content_text": "[SCOTUS nixes injunction that limited Biden admin contacts with social networks](https://arstechnica.com/?p=2033738) \\[Ars Technica \\]\r\n\r\ncool… that's… oh…  \r\n\r\njust ahead of SCOTUS plans / wishes for a 2nd Trump \"administration\"\n",
+				"date_published": "2024-06-26T17:48:02-04:00",
+				"url": "https://mvr.micro.blog/2024/06/26/scotus-nixes-injunction.html",
+				"tags": ["politics"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2024/03/27/qd-cmdline-to.html",
