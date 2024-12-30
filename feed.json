@@ -7,10 +7,19 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2024/12/30/two-words-for-any-time.html",
+				
+				"content_html": "<p>two words, for any time I ever hear &ldquo;nice guys finish last&rdquo;:</p>\n<p>Jimmy Carter</p>\n",
+				"content_text": "two words, for any time I ever hear \"nice guys finish last\":  \r\n  \r\nJimmy Carter\n",
+				"date_published": "2024-12-30T09:47:28-05:00",
+				"url": "https://mvr.micro.blog/2024/12/30/two-words-for-any-time.html",
+				"tags": ["politics","beauty","people","philosophy"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2024/12/04/wonder-how-many.html",
 				
-				"content_html": "<p>Wonder how many of us, faced with toll roads which now:</p>\n<ul>\n<li>photograph the car &amp; license plate</li>\n<li>bil an additional &ldquo;convenience&rdquo; fee</li>\n<li>via some unknown 3rd party with our private info…<br>\ninstead:</li>\n<li>simply choose to save our privacy and a bit of $</li>\n<li>by spending a few more minutes</li>\n<li>on a more pleasant road</li>\n</ul>\n",
-				"content_text": "Wonder how many of us, faced with toll roads which now:  \r\n- photograph the car & license plate\r\n- bil an additional \"convenience\" fee\r\n- via some unknown 3rd party with our private info…  \r\ninstead:  \r\n- simply choose to save our privacy and a bit of $\r\n- by spending a few more minutes\r\n- on a more pleasant road\n",
+				"content_html": "<p>Wonder how many of us, faced with toll roads which now:</p>\n<ul>\n<li>photograph the car &amp; license plate</li>\n<li>add a &ldquo;convenience&rdquo; fee</li>\n<li>via some unknown 3rd party with our private info…<br>\ninstead:</li>\n<li>simply choose to save our privacy and a bit of $</li>\n<li>by spending a few more minutes</li>\n<li>on a more pleasant road</li>\n</ul>\n",
+				"content_text": "Wonder how many of us, faced with toll roads which now:  \n- photograph the car & license plate  \n- add a \"convenience\" fee  \n- via some unknown 3rd party with our private info…  \ninstead:  \n- simply choose to save our privacy and a bit of $  \n- by spending a few more minutes  \n- on a more pleasant road\n",
 				"date_published": "2024-12-04T10:26:38-05:00",
 				"url": "https://mvr.micro.blog/2024/12/04/wonder-how-many.html",
 				"tags": ["tech","security"]
