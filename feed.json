@@ -7,6 +7,15 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2025/01/08/this-is-beautiful-in-part.html",
+				
+				"content_html": "<p>this is beautiful (in part, because it&rsquo;s ACTION) - share the dream:<br>\n<a href=\"https://blog.codinghorror.com/stay-gold-america/\">blog.codinghorror.com/stay-gold&hellip;</a></p>\n",
+				"content_text": "this is beautiful (in part, because it's ACTION) - share the dream:  \r\n[blog.codinghorror.com/stay-gold...](https://blog.codinghorror.com/stay-gold-america/)\n",
+				"date_published": "2025-01-08T08:24:31-05:00",
+				"url": "https://mvr.micro.blog/2025/01/08/this-is-beautiful-in-part.html",
+				"tags": ["politics","tech","beauty","health","Mac","security","people","philosophy"]
+			},
+			{
 				"id": "http://mvr.micro.blog/2024/12/30/two-words-for-any-time.html",
 				
 				"content_html": "<p>two words, for any time I ever hear &ldquo;nice guys finish last&rdquo;:</p>\n<p>Jimmy Carter</p>\n",
