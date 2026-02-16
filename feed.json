@@ -7,12 +7,21 @@
 	"items": [
 		
 			{
+				"id": "http://mvr.micro.blog/2026/02/16/just-heard-about-this-today.html",
+				
+				"content_html": "<p>just heard about this today (via &ldquo;On, with Kara Swisher&rdquo;) and it sounds very interesting (because potentially very effective):\n<a href=\"https://www.resistandunsubscribe.com\">www.resistandunsubscribe.com</a></p>\n",
+				"content_text": "just heard about this today (via \"On, with Kara Swisher\") and it sounds very interesting (because potentially very effective):\n[www.resistandunsubscribe.com](https://www.resistandunsubscribe.com)\n",
+				"date_published": "2026-02-16T15:41:18-05:00",
+				"url": "https://mvr.micro.blog/2026/02/16/just-heard-about-this-today.html"
+			},
+			{
 				"id": "http://mvr.micro.blog/2026/02/15/i-use-quicksilver-a-lot.html",
 				
 				"content_html": "<p>I use <a href=\"https://qsapp.com/\">Quicksilver</a> - <em>a LOT</em>.<br>\nWhen the 2.5.6 upgrade (from 2.5.4) failed, even my efforts to debug, were painful - most would have started with Quicksilver. :/<br>\nAnyway, after over an hour, here&rsquo;s what finally worked for me:</p>\n<ul>\n<li>revert to v2.5.4</li>\n<li>AND: delete /Library/Caches/com.blacktree.Quicksilver/</li>\n</ul>\n",
 				"content_text": "I use [Quicksilver](https://qsapp.com/) - _a LOT_.  \nWhen the 2.5.6 upgrade (from 2.5.4) failed, even my efforts to debug, were painful - most would have started with Quicksilver. :/  \nAnyway, after over an hour, here's what finally worked for me:  \n- revert to v2.5.4  \n- AND: delete /Library/Caches/com.blacktree.Quicksilver/\n",
 				"date_published": "2026-02-15T08:30:39-05:00",
-				"url": "https://mvr.micro.blog/2026/02/15/i-use-quicksilver-a-lot.html"
+				"url": "https://mvr.micro.blog/2026/02/15/i-use-quicksilver-a-lot.html",
+				"tags": ["Mac"]
 			},
 			{
 				"id": "http://mvr.micro.blog/2025/05/16/best-definition-ive-seen-of.html",
