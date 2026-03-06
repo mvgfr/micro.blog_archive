@@ -24,6 +24,36 @@
 	
 	  <div class="h-entry">
 		
+			<h1><a href="https://mvr.micro.blog/2026/03/06/commandline-to-show-highlights-of.html">command-line to show highlights of recent backup attempts by Time Machine</a></h1>
+		
+
+		<a href="https://mvr.micro.blog/2026/03/06/commandline-to-show-highlights-of.html" class="u-url"><time class="dt-published" datetime="2026-03-06 08:15:56 -0500">Mar 6, 2026</time></a>
+
+		<div class="e-content">
+			 <p><code>time log show --debug --info --predicate '(subsystem == &quot;com.apple.TimeMachine&quot;) AND ( (category == &quot;BackupEngine&quot;) OR (category == &quot;BackupDispatching&quot;) OR (category == &quot;Spotlight&quot;) OR ((category ==&quot;MountPointValidity&quot;) ) AND NOT (eventMessage contains[c] &quot;/Volumes/Backups of &quot;) OR (composedMessage CONTAINS[c] &quot;suppressing destination rotation&quot;) )' --last 3d</code></p>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
+
+		<a href="https://mvr.micro.blog/2026/02/28/update-on-my-quicksilver-hangs.html" class="u-url"><time class="dt-published" datetime="2026-02-28 11:27:47 -0500">Feb 28, 2026</time></a>
+
+		<div class="e-content">
+			 <p>Update, on my <a href="https://qsapp.com/">Quicksilver</a> hangs:<br>
+I was able to successfully upgrade to 2.5.6; here&rsquo;s what finally worked for me:</p>
+<ul>
+<li>quit QS</li>
+<li>delete <code>~/Library/Caches/com.blacktree.Quicksilver/</code></li>
+<li>restart QS &amp; wait (a few minutes)</li>
+</ul>
+
+		</div>
+	  </div>
+	
+	  <div class="h-entry">
+		
 
 		<a href="https://mvr.micro.blog/2026/02/16/just-heard-about-this-today.html" class="u-url"><time class="dt-published" datetime="2026-02-16 15:41:18 -0500">Feb 16, 2026</time></a>
 
